@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn-public/utilities/!svn/ver/571/font-package/trunk/templates/templates/debian-src
+END
+control
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn-public/utilities/!svn/ver/571/font-package/trunk/templates/templates/debian-src/control
+END
+dirs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn-public/utilities/!svn/ver/429/font-package/trunk/templates/templates/debian-src/dirs
+END
+compat
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn-public/utilities/!svn/ver/536/font-package/trunk/templates/templates/debian-src/compat
+END
+install
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn-public/utilities/!svn/ver/429/font-package/trunk/templates/templates/debian-src/install
+END
+changelog
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn-public/utilities/!svn/ver/571/font-package/trunk/templates/templates/debian-src/changelog
+END
+copyright
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn-public/utilities/!svn/ver/571/font-package/trunk/templates/templates/debian-src/copyright
+END
+docs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn-public/utilities/!svn/ver/429/font-package/trunk/templates/templates/debian-src/docs
+END
+rules
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn-public/utilities/!svn/ver/571/font-package/trunk/templates/templates/debian-src/rules
+END
+README.Debian
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn-public/utilities/!svn/ver/571/font-package/trunk/templates/templates/debian-src/README.Debian
+END

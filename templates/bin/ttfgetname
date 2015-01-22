@@ -1,0 +1,8 @@
+#!/usr/bin/perl
+
+use Font::TTF::Font;
+use Getopt::Std;
+
+getopts('t:');
+$f = Font::TTF::Font->open($ARGV[0]);
+print scalar $f->{'name'}->read->find_name($opt_t);

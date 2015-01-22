@@ -1,0 +1,1 @@
+@foreach f,$(unique $(MANIFEST_BASE)),$(f)@

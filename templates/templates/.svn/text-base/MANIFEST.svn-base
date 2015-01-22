@@ -1,0 +1,27 @@
+@foreach v,$(DOCS),doc/$(v)@
+@foreach v,$(dir test-suite,.txt),test-suite/$(v)@
+@foreach v,$(dir test-suite/standards),test-suite/standards/$(v)@
+@foreach v,$(FONTS),$($(v)_TARGET)@
+@foreach v,$(FONTS),$($(v)_SRC)@
+@foreach v,$(FONTS),$($(v)_GDL_SHARED)@
+@foreach v,$(FONTS),$($(v)_VTP)@
+@foreach v,$(FONTS),$($(v)_AP)@
+@foreach v,$(FONTS),$(foreach f,$($(v)_GDL_DEPENDS),$(f))@
+@foreach v,$(FONTS),$($(v)_VTP_SRC)@
+@foreach v,$(FONTS),$(foreach f,$($(v)_VTP_DEPENDS),$(f))@
+@foreach v,$(FONTS),$($(v)_AP)@
+@sub $(.TEMPLATE_DIR),templates/templates,$(foreach v,$(.TEMPLATES),$(v))@
+@foreach v,$(dir $(TEMPLATE_DIR)/nsis),templates/nsis/$(v)@
+@foreach v,$(dir $(TEMPLATE_DIR)/bin),templates/bin/$(v)@
+@foreach v,$(dir $(TEMPLATE_DIR)/lib/TeX/DVI),templates/lib/TeX/DVI/$(v)@
+@exist debian-src,$(foreach v,$(dir debian-src),debian-src/$(v))@
+@exist debian-src/bug,$(foreach v,$(dir debian-src/bug),debian-src/bug/$(v))@
+templates/autosub
+templates/system.cfg
+templates/build
+templates/build.bat
+@CONFIG_FILE@
+@exist README@
+@exist $(LICENSE)@
+@EXTRA_DIST@
+@foreach f,$(EXTRA_SRC_DIST),$(f)@

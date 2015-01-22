@@ -1,0 +1,6 @@
+Dai Banna SIL Fonts   (version 2.200)  9 Mar 2011
+Source Package
+Notes on User Guide source
+_______________________________________________________________
+
+The source file of the User Guide (DaiBannaSIL.odt) was drafted in OpenOffice.org Writer 3.2.1.  All New Tai Lue data in the Guide are stored in logical order as per the Unicode Standard with the four re-ordrant New Tai Lue vowels properly rendered using this Graphite-enabled application.

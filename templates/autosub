@@ -1,0 +1,930 @@
+#!/usr/bin/perl
+
+use Getopt::Long;
+use IO::File;
+use File::Find;
+use File::Spec;
+use Pod::Usage;
+
+use strict;
+
+my ($VERSION, $re_brack);
+
+$VERSION = 0.01;    #   MJPH    22-NOV-2007     Original
+my (@opt_c, $opt_d, $opt_h, $opt_o, @excludes, %files);
+
+GetOptions( "config|c=s" => \@opt_c,
+			"outdir|d=s" => \$opt_d,
+			"help|h" => \$opt_h,
+			"outfile|o=s" => \$opt_o,
+			"exclude|x=s" => \@excludes);
+
+$re_brack = qr{(?:(?>[^()]+)|\((??{$re_brack})\))+};
+my (%funcs) = (
+    'foreach' => 'fn_foreach',
+    'eval' => 'evalstr',
+    'include' => 'include',
+    'map' => 'mapstr',
+	'indent' => 'indent',
+	'and' => 'fnand',
+	'or' => 'fnor',
+	'osslash' => 'osslash',
+	'dir' => 'dir',
+    'env' => 'env',
+    'match' => 'match',
+    'shell' => 'fn_exec',
+    'exist' => 'fn_exist',
+    'sub' => 'fn_subst',
+    'unique' => 'fn_unique',
+    'if' => 'fn_if',
+    'which' => 'which',
+    'titlecase' => 'fn_title',
+    'index' => 'fn_index',
+    'die' => 'fn_die',
+    'error' => 'error',
+    'print' => 'fn_print'
+);
+
+my (%vars) = (
+	'.OS' => $^O,
+	'.TAB' => "\t",
+    '.NL' => $^O eq 'MSWin32' ? "\r\n" : "\n",
+    '.AT' => '@',
+    '.DP' => '$(',
+    '.SP' => " "
+);
+
+unless ($opt_c[0] || $opt_h)
+{
+    pod2usage(1);
+    exit;
+}
+
+if ($opt_h)
+{
+    pod2usage( -verbose => 2, -noperldoc => 1);
+    exit;
+}
+
+push (@excludes, '\\.svn', '\\CVS', '\\.bzr', '\\.hg', '\\.git');
+
+# just do files for now
+if ($opt_d)
+{
+    my ($vol, $dirs, $file) = File::Spec->splitpath($ARGV[0]);
+    my (@dirs) = File::Spec->splitdir($dirs);
+    pop (@dirs) unless ($dirs[-1]);
+    push(@dirs, $file);
+    find({wanted => sub {add_file(scalar @dirs, $_, \%files);}, no_chdir => 1, follow => 1}, $ARGV[0]);
+    $vars{'.TEMPLATE_DIR'} = $ARGV[0];
+}
+else
+{ $files{$ARGV[0]} = $opt_o || ''; }
+
+$vars{'.TEMPLATES'} = join(' ', sort keys %files);
+$vars{'.CONFIG'} = $opt_c[0];
+
+foreach (@opt_c)
+{ parse($_); }
+
+foreach my $f (sort keys %files)
+{
+    process($f, $files{$f});
+}
+
+sub add_file
+{
+    my ($num, $f, $files) = @_;
+	my ($x, $ldirs);
+    return unless (-f $f);
+	foreach $x (@excludes)
+	{ return if ($f =~ m/$x/); }
+    my ($vd, $dd, $fd) = File::Spec->splitpath($opt_d);
+    my ($vol, $dirs, $file) = File::Spec->splitpath($f);
+    my (@dirs) = File::Spec->splitdir($dirs);
+    my ($ofile);
+    pop(@dirs); # remove final /
+    splice(@dirs, 0, $num);
+    $ldirs = $opt_d;
+    foreach (@dirs)
+    {
+        $ldirs= File::Spec->catdir($opt_d, $ldirs, $_);
+        my ($path) = File::Spec->catpath($vd, $ldirs);
+        mkdir $path unless (-d $path);
+    }
+    $dirs = File::Spec->catdir($opt_d, @dirs);
+    $ofile = File::Spec->catpath($vd, $dirs, $file);
+    $files->{$_} = $ofile;
+}
+
+sub process
+{
+    my ($ifname, $ofname) = @_;
+    my ($ifh) = IO::File->new("< $ifname") || die "Can't open $ifname for reading";
+    my ($ofh);
+
+    $vars{'.INFILE'} = $ifname;
+    $vars{'.OUTFILE'} = $ofname;
+    if ($ofname)
+    { $ofh = IO::File->new("> $ofname") || die "Can't open $ofname for writing"; }
+    else
+    { $ofh = IO::File->new(">& STDOUT"); }
+
+#    print STDERR "$ifname\n";
+    my ($line, $error);
+    while (<$ifh>)
+    {
+        my (%context, $error);
+        $line++;
+        $error = "$ifname: line $line";
+        s/\@(.*?)\@/$1 ? expand_var($1, \%context, $error) : '@'/oge;
+        $ofh->print($_);
+    }
+    $ifh->close;
+    $ofh->close;
+    chmod((stat($ifname))[2], $ofname);
+}
+
+sub parse
+{
+    my ($fname) = @_;
+    my ($fh) = IO::File->new("< $fname") || return undef;
+    my ($line, $error);
+
+    while (<$fh>)
+    {
+        $line++;
+        $error = "$fname: line $line";
+        parse_eval($_, $fh, $error);
+    }
+    $fh->close;
+}
+
+sub parse_eval
+{
+    my ($str, $fh, $error) = @_;
+
+    $_ = $str;
+    chomp;
+    return if (m/^\s*[#]/o);     # comment
+    return if (m/^\s*$/o);
+    if (s/^\s*(\S+?)\s*(\|?)=\s*//o)  # simple assignment
+    {
+        my (%context) = ($1 => 1);
+        my ($var) = expand($1, \%context, $error);
+        my ($or) = $2;
+        my ($val);
+        if ($fh && m/^<<\s*(\S+)/o)
+        {
+            my ($delim) = $1;
+            while (<$fh>)
+            {
+                last if (m/^$delim/);
+                $val .= $_;
+            }
+            chomp $val;
+        }
+		elsif (m/^(["'])(.*?)\1/o)
+		{ $val = $2; }
+        elsif (m/^([^#]+)/o)
+        { $val = $1; }
+
+        $vars{$var} = expand_partial($val, $error) unless ($or and $vars{$var});
+    }
+	else
+	{ expand_partial($_); }
+}
+
+sub expand
+{
+    my ($str, $context, $error) = @_;
+	my ($res, $match);
+
+	while ($str =~ s/^(.*?)(\$\$\(|\$\()//os)
+	{
+		my ($end) = $2;
+		$res .= $1;
+		($str, $match) = match_parens($str);
+		if ($end eq '$$(')
+		{ $res .= '$(' . $match . ')'; }
+        elsif ($match eq '')
+        { $res .= $end; }
+		else
+		{ $res .= expand_var($match, $context, $error); }
+	}
+	$res .= $str;
+	$res;
+}
+
+sub expand_partial
+{
+    my ($str, $error) = @_;
+
+	my ($res, $match, %context);
+
+	while ($str =~ s/^(.*?)\$\(\!//os)
+	{
+		$res .= $1;
+		($str, $match) = match_parens($str);
+		$res .= expand_var($match, \%context, $error);
+	}
+	$res .= $str;
+	$res;
+}
+
+sub match_parens
+{
+	my ($str) = @_;
+	my ($res, $match);
+
+	while ($str =~ s/^([^)]*?)\(//o)
+	{
+		$res .= $1;
+		($str, $match) = match_parens($str);
+		$res .= "($match)";
+	}
+	if ($str =~ s/^([^)]*?)\)//o)
+	{
+		$res .= $1;
+		return ($str, $res);
+	}
+	return $str;
+}
+
+
+sub expand_var
+{
+    my ($var, $context, $error) = @_;
+    my (@parms);
+
+# put var functions in here
+    if ($var =~ s/^([^$()\s]+)\s+//o)
+    {
+        my ($func) = $1;
+#        my (@parms) = split(/\s*,\s*/, $var);
+        while ($var && $var !~ m/^\)/o)
+        {
+            my ($res);
+            while ($var && $var !~ m/^\)/o && $var !~ s/^\s*,\s*//o)
+            {
+                if ($var =~ s/^([^,()]+)//o)
+                { $res .= $1; }
+                elsif ($var =~ s/^\(//o)
+                {
+                    $res .= '(';
+                    my ($c) = 1;
+                    while ($c > 0)
+                    {
+                        if ($var =~ s/^([^()]+)//o)
+                        { $res .= $1; }
+                        elsif ($var =~ s/^\)//o)
+                        {
+                            $res .= ")";
+                            $c--;
+                        }
+                        elsif ($var =~ s/^\(//o)
+                        {
+                            $res .= "(";
+                            $c++;
+                        }
+                    }
+                }
+            }
+            push (@parms, $res);
+        }
+        if (defined $funcs{$func})
+        {
+            no strict "refs";
+            return &{$funcs{$func}}(@parms);
+        }
+        else
+        { error("Unknown function $func", $error); }
+    }
+    else
+    {
+        my ($key) = expand($var, $context, $error);
+        if ($context->{$key})
+        { error("Recursive expansion of $key", $error); }
+        $context->{$key}++;
+        my ($res) = expand(lookup_var($key), $context, $error);
+        $context->{$key}--;
+        return $res;
+    }
+}
+
+sub lookup_var
+{
+    my ($str) = @_;
+
+    if ($str =~ m{^ENV/(.*)$}o)
+    { return $ENV{$1}; }
+    else
+    { return $vars{$str}; }
+}
+    
+sub error
+{
+    my ($str, $error) = @_;
+
+    print STDERR "$str in $error\n";
+    exit(1);
+}
+
+# functions
+sub evalstr
+{
+    my ($s, $exp) = @_;
+    my ($fh);
+    open($fh, "<", \$s);
+    while (<$fh>)
+    {
+        parse_eval($_, $fh);
+    }
+    $fh->close;
+    return '';
+}
+
+sub fnand
+{
+	my (@parms) = @_;
+	my ($s, $p);
+
+	foreach $p (@parms)
+	{
+		$s = expand($p);
+		return '' unless ($s);
+	}
+	return $s;
+}
+
+sub fn_die
+{
+    my ($s) = @_;
+    my ($str) = expand($s);
+
+    print STDERR "$str\n";
+    exit(1);
+}
+
+sub dir
+{
+	my ($s, @includes) = @_;
+	my ($str) = expand($s);
+	my (@list, $f, @res);
+
+	opendir(DIR, $str) || return '';
+	@list = grep {-f "$str/$_"} readdir(DIR);
+    if (@includes)
+    {
+        foreach $f (@list)
+        { push (@res, $f) if (grep {$f =~ m/$_/} @includes); }
+    }
+    else
+    { @res = @list; }
+
+	return join (" ", @res);
+}
+
+sub env
+{
+    my ($s) = @_;
+    my ($str) = expand($s);
+    return $ENV{$str};
+}
+
+sub fn_exec
+{
+    my ($str) = @_;
+    my ($s) = expand($str);
+    my ($res) = scalar `$s`;
+    $res =~ s/^\s*//o;
+    $res =~ s/\s*$//o;
+    $res;
+}
+
+sub fn_exist
+{
+    my ($str, $replace) = @_;
+    my ($s) = expand($str);
+
+    if (-e $s)
+    { return $replace ? expand($replace) : $s; }
+    '';
+}
+
+
+sub fn_foreach
+{
+    my ($var, $range, $exp, $nonl) = @_;
+    my (@words) = split(' ', expand($range));
+    my ($v, $resstr, $dnonl);
+
+    $var = expand($var);
+	$dnonl = expand($nonl) if ($nonl);
+    foreach $v (@words)
+    {
+        my ($str);
+
+        $vars{$var} = $v;
+        $str = expand($exp);
+        $resstr .= ($dnonl ? " " : "\n") if ($resstr);
+        $resstr .= expand($str);
+        evalstr($str, 1);
+    }
+    delete $vars{$var};
+#    $vars{expand($res)} = $resstr if ($res);
+    $resstr;
+}
+
+sub include
+{
+    my ($file) = @_;
+    parse(expand($file));
+	return '';
+}
+
+sub indent
+{
+	my ($indent, $str) = @_;
+	my ($s) = expand($str);
+	my ($i) = expand($indent);
+
+	$s =~ s/(^|\n)(?!$)/$1$i/og;
+	$s;
+}
+
+sub fn_index
+{
+    my ($index, $str) = @_;
+    my ($s) = expand($str);
+    my ($i) = expand($index);
+    my (@res) = split(' ', $s);
+    return $res[$i];
+}
+
+sub mapstr
+{
+    my ($str, @hash) = @_;
+    my ($s) = expand($str);
+    my ($i);
+
+    for ($i = 0; $i < @hash; $i += 2)
+    {
+        my ($key) = expand($hash[$i]);
+        if ($key eq $s || $key eq '')
+        { return expand($hash[$i+1]); }
+    }
+}
+
+sub match
+{
+    my ($str, $match) = @_;
+    my ($s) = expand($str);
+    my ($m) = expand($match);
+
+    return $s if ($s =~ m/$m/);
+    return '';
+}
+
+sub fn_if
+{
+    my (@parms) = @_;
+    my ($s) = expand($parms[0]);
+    if ($s)
+    { return expand($parms[1]); }
+    else
+    { return expand($parms[2]); }
+}
+
+sub fnor
+{
+	my (@parms) = @_;
+	my ($s, $p);
+
+	foreach $p (@parms)
+	{
+		$s = expand($p);
+		return $s if ($s);
+	}
+	return '';
+}
+
+sub fn_print
+{
+    my ($s) = join(" ", map {expand($_)} @_);
+    print STDERR "$s\n";
+}
+
+sub osslash
+{
+	my ($s) = @_;
+	my ($str) = expand($s);
+
+	$str =~ s{/}{\\}og if ($^O eq 'MSWin32');
+	$str;
+}
+
+sub fn_subst
+{
+    my ($f, $r, $s) = map {expand($_)} @_;
+
+    $s =~ s/$f/$r/gm;
+    $s;
+}
+
+sub fn_title
+{
+    my ($s) = @_;
+    my ($str) = expand($s);
+    return ucfirst($str);
+}
+
+sub which
+{
+    my ($s) = @_;
+    my ($str) = expand($s);
+
+    if ($^O eq 'MSWin32')
+    {
+        my (@exts) = split(/\s*;\s*/, $ENV{'PATHEXT'});
+        my (@path) = split(/\s*;\s*/, $ENV{'PATH'});
+        my ($p, $e);
+
+        foreach $p (@path)
+        {
+            return "$p\\$str" if (-x "$p/$str");
+            foreach $e (@exts)
+            {
+                return "$p\\$str.$e" if (-x "$p/$str.$e");
+            }
+        }
+    }
+    else
+    {
+        my (@path) = split(/:/, $ENV{'PATH'});
+        my ($p);
+
+        foreach $p (@path)
+        {
+            return "$p/$str" if (-x "$p/$str");
+        }
+    }
+    return '';
+}
+
+sub fn_unique
+{
+    my ($s) = @_;
+    my (@list) = split(' ', expand($s));
+    my (%unique, $c);
+
+    foreach (@list)
+    { $unique{$_} = ++$c unless (defined $unique{$_}); }
+
+    return join (" ", sort {$unique{$a} <=> $unique{$b}} keys %unique);
+}
+
+__END__
+
+=head1 TITLE
+
+autosub - simple macro expansion utility
+
+=head1 SYNOPSIS
+
+    autosub [-c config]+ [-d dir] [-o file/dir] [-x exclude]* [infile]
+
+Using declarations in the config file does simple string macro substitution
+on the input file to create either the output file or output to stdout. If
+-d is used the iterate a templates directory of files creating corresponding
+files relative to -o dir or . Macro replacements are between @@
+
+=head1 OPTIONS
+
+  -c config     Configuration file declaring macro variables. Multiple allowed
+  -d dir        Template directory to work through
+  -h            Print out complete help
+  -o file/dir   Output to a file or directory according to -d
+  -x regexp     Files matching the regexp are not processed. Multiple allowed
+
+=head1 DESCRIPTION
+
+autosub is designed to take a configuration file containing string definitions
+of a group of variables that are then used for simple macro replacements in a
+single file or tree of files.
+
+Thus in a configuration file we might have:
+
+  PRODUCT=autosub
+  VERSION=3.1.4
+
+and in a template file:
+
+  tar cvzf @PRODUCT@-@VERSION@.tgz src
+
+Then the resulting file will contain:
+
+  tar cvzf autosub-3.1.4.tgz src
+
+Within the configuration file, access can be made to previously defined variables
+using make style $(). For example:
+
+  TARBALL=$(PRODUCT)-$(VERSION).tgz
+
+Notice that autosub does late evaluation. Thus we could define these variables
+in any order and the actual values would not be used until they were needed, i.e.
+at macro expansion time.
+
+Variables may also be used in the naming of other variables as in:
+
+  $(PRODUCT)_SRC = src
+
+which would immediately be expanded (because the name of a variable is needed
+for its declaration), to be:
+
+  autosub_SRC = src
+
+In addition to simple string replacements, multiline variables may be
+declared using hereis syntax. Thus:
+
+  DESCRIPTION = <<EOT
+  This is a long description of my wonderful program and it can go on for
+  many many lines and have blank lines, indentations, etc.
+
+  The variable will consist of everything up to a line starting with the
+  hereis delimiter. The rest of that line is ignored
+  EOT
+
+In situations where you want to set a variable only if it has not already been
+set. Then there is the syntax:
+
+  FONT_TARGET |= $(PRODUCT).ttf
+
+This allows one to write configuration files that can be overridden. And the
+overriding usually has to happen first in order that the generic configuration
+file can take action according to what the overriding configuration file enables.
+
+Comments begin with # as per make.
+
+autosub also has a small number of functional variables which contain a space
+separating the function name from the parameter list, which is comma separated.
+This follows gnumake in its syntax.
+
+The following functions are supported:
+
+=head2 Functions
+
+=over 4
+
+=item $(and str,...)
+
+The and function takes a list of one or more strings and returns empty string
+if any of them are empty, otherwise it returns the last one
+
+=item $(dir, str, [filter,...])
+
+Returns a non-recursive list of all the files in str (the first parameter).
+If there are subsequent parameters then only filenames that match one of
+those parameters will be included in the space separated final list.
+
+=item $(env str)
+
+Returns the value of the given environment string
+
+=item $(exist file, [replace])
+
+If file exists then return either the replace evaluation or file.
+
+=item $(foreach var,word list,evaluated text [, nonl])
+
+This function iterates over each word in the word list and sets the variable
+to take the word. It then evaluates the evaluated text with the variable so
+assigned. So for example it is possible to create a group of variables:
+
+  PRODUCTS = autosub m4 make
+  PRODUCT_VARS=<<EOT
+  $(v)_SRC=$(v)/src
+  $(v)_TARGET=$(v).exe
+  EOT
+
+  PRODUCTVARS=$(foreach v,$(PRODUCTS),$(PRODUCT_VARS))
+
+If we expand this using:
+
+  @PRODUCTVARS@
+  make builds as @make_TARGET@ which is good
+
+we will get
+
+  autosub_SRC=autosub/src
+  autosub_TARGET=autosub.exe
+  m4_SRC=m4/src
+  m4_TARGET=m4.exe
+  make_SRC=make/src
+  make_TARGET=make.exe
+  make builds as make.exe which is good
+
+Notice how the combined textual result of the foreach can be stored
+in a variable. This is useful so that a whole list of macro definitions
+can be inserted into a file without having to reference each one.
+
+If nonl is set then the output is a space separated rather than newline
+separated.
+
+=item $(if test,true,false)
+
+evaluates the first element, if non zero and not empty then returns the
+second expression expanded, else return the third expression evaluated.
+
+=item $(include filename)
+
+Reads in another file as a configuration file if it exists.
+
+=item $(indent indent,string)
+
+Indents each line of string by inserting the indent string at the start of
+each line.
+
+=item $(map test,key,value,key,value,...)
+
+Evaluates test and then evaluates each key in turn until it findes one that
+is equal to test. When it finds one, or finds an empty key (which is
+interpretted as being a default key) then it evaluates the following value
+and returns that.
+
+=item $(or str,...)
+
+or takes a list of 1 or more strings and returns the first one that is
+not empty.
+
+=item $(osslash str)
+
+Used to convert forward slashes to backslashes so that Windows programs
+like derived make dependencies work.
+
+=item $(shell str)
+
+Executes str as a shell command and returns the textual value. Whitespace is
+stripped from the start and end of the string.
+
+=item $(sub match,replace,str)
+
+searches for all occurrences of match string in str replacing them with the
+replace string. All strings are expanded.
+
+=item $(which str)
+
+Searches the PATH environment variable looking for str as an executable. On
+Windows will add all the possible extensions as well in the hunt. Returns
+the fully expanded executable if it exists or empty otherwise.
+
+=item $(unique str)
+
+Given a whitespace delimited list of items return a space separated list of
+them such that the list only contains one occurrence of each unique item.
+
+=back
+
+=head2 Predefined variables
+
+A number of program defined variables are available for access. They all
+begin with a .
+
+=over 4
+
+=item .AT
+
+Contains an @ character. Useful for when you want an @ in the middle of
+a macro expansion.
+
+=item .CONFIG
+
+The first config file listed by -c
+
+=item .DP
+
+Returns the string C<$(> which has the advantage, due to late evaluation
+of holding it's value such that the contents will never be interpreted.
+[Is this true? Need to test this]
+
+=item .NL
+
+Returns an operating specific newline
+
+=item .OS
+
+Returns a string containing the type of operating system (as returned by
+perl's $^O). Typical values are: MSWin32, linux
+
+=item .SP
+
+Contains a space character
+
+=item .TAB
+
+Contains a tab character
+
+=item .TEMPLATES
+
+This contains a space separated list of source files that autosub will
+have processed.
+
+=item .TEMPLATE_DIR
+
+The directory where the templates are held.
+
+=item ENV/
+
+If a variable name begins with ENV/ then the remainder of the string is
+considered as an environment variable. E.g.
+
+    ENV/USER
+
+=back
+
+=head2 Late Evaluation
+
+autosub evaluates macros as late as possible, only when the value of a
+variable is needed will it be expanded.
+
+Consider the foreach function, what if we were to use the same example as in
+the description for foreach but were to reverse the lines in the template file
+what would the output be?
+
+  make builds as @make_TARGET@ which is good
+  @PRODUCTVARS@
+
+we would get
+
+  make builds as  which is good
+  autosub_SRC=autosub/src
+  autosub_TARGET=autosub.exe
+  m4_SRC=m4/src
+  m4_TARGET=m4.exe
+  make_SRC=make/src
+  make_TARGET=make.exe
+
+which isn't what we want. The problem is that when @make_TARGET@ is used the
+foreach function hasn't been expanded yet and so the make_TARGET variable hasn't
+been created. To force immediate or early evaluation of a variable or function
+so that an assignment is flattened to a value, the variable or function should
+be prefixed with a ! as in:
+
+  PRODUCTS = autosub m4 make
+  PRODUCT_VARS=<<EOT
+  $(v)_SRC=$(v)/src
+  $(v)_TARGET=$(v).exe
+  EOT
+
+  PRODUCTVARS=$(!foreach v,$(PRODUCTS),$(PRODUCT_VARS))
+
+Now the PRODUCTVARS will cause the foreach to be evaluated creating all the other
+variables and we don't necessarily need the output of the function at all.
+
+One problem with late evaluation is recursive definitions. For example, consider
+the following definitions:
+
+  FONTS=abc.ttf
+  FONTS=$(FONTS) xyz.ttf
+
+One would expect a result of FONTS=abc.ttf xyz.ttf. But that isn't what happens.
+Due to late evaluation, we get:
+
+  FONTS=$(FONTS) xyz.ttf xyz.ttf
+
+which expands to
+
+  FONTS=$(FONTS) xyz.ttf xyz.ttf xyz.ttf
+
+and so on infinitely. Thankfully autosub catches this and will give an error
+when such a thing occurs.
+
+=head2 Early evaluation
+
+It is also possible to have a variable expanded immediately at the point it is
+encountered and not when it is used. For this we use:
+
+  $(!var)
+
+Thus the example from the previous section which would recurse, could be
+rewritten:
+
+  FONTS=abc.ttf
+  FONTS=$(!FONTS) xyz.ttf
+
+and now @FONTS@ would expand to abc.ttf xyz.ttf as expected.
+
+=head2 Miscellany
+
+=over 4
+
+=item .
+
+To output an @, use @@ in the output file
+
+=item .
+
+To store $() in a variable, use $$()
+
+=back
+

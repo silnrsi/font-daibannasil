@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn-public/utilities/!svn/ver/617/font-package/trunk/templates
+END
+build
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn-public/utilities/!svn/ver/439/font-package/trunk/templates/build
+END
+buildkbd
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn-public/utilities/!svn/ver/538/font-package/trunk/templates/buildkbd
+END
+autosub
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn-public/utilities/!svn/ver/599/font-package/trunk/templates/autosub
+END
+keyman.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn-public/utilities/!svn/ver/592/font-package/trunk/templates/keyman.cfg
+END
+system.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn-public/utilities/!svn/ver/599/font-package/trunk/templates/system.cfg
+END
+build.bat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn-public/utilities/!svn/ver/439/font-package/trunk/templates/build.bat
+END
+buildkbd.bat
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn-public/utilities/!svn/ver/538/font-package/trunk/templates/buildkbd.bat
+END

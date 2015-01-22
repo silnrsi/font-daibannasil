@@ -1,0 +1,27 @@
+/*
+    Title:      Basic Tai Lue behaviour
+    Author:     M. Hosken
+    Description:    Provide basic Graphite Tai Lue behaviour
+    Version:
+1.000   MJPH    23-MAR-2004     Original
+1.001   MJPH     6-JUL-2004     update to Unicode N2825
+1.1     AYWC    12-NOV-2007     Added re-ordering of dotted circle U+25CC;
+                                Added line-breaking rules.
+1.200   AYWC    19-FEB-2011     Updated to N3538 (added U+19AA..19AB)
+2.000	AYWC	20-JAN-2015	Changed to visual encoding per Unicode 8.0
+
+    Copyright (c) 2004-2015 SIL International.
+    Licensed under the SIL Open Font License, Version 1.1.
+*/
+
+Bidi = 0;
+
+table(glyph)
+ANY { breakweight = -30 };
+cons = unicode(0x1980..0x19AB, 0x25CC) { breakweight = -15 };
+prev = unicode(0x19B5..0x19B7, 0x19BA) { breakweight = -15 };
+endtable;
+
+table(lb)
+cons / prev _ { break = -30 };
+endtable;

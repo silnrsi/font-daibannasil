@@ -1,0 +1,278 @@
+#!/usr/bin/perl
+
+=head1 NAME
+
+File::Keyman - Parser for KMN files
+
+=cut
+
+use Parse::RecDescent;
+use Getopt::Std;
+
+$grammar =<<'EOT';
+
+kmnfile : header group(s)
+        { $return = {%{$item[1]}, map {$_->[0] => $_->[1]} @{$item[2]}}; }
+
+header : headerline(s)
+        {
+            $return = {};
+            foreach (@{$item[1]})
+            { $return->{$_->[0]}{$_->[1]} = $_->[2] if (@$_ > 1); }
+        }
+
+headerline : store
+        { $return = ['store', @{$item[1]}]; }
+    | begin
+        { $return = ['begin', @{$item[1]}]; }
+    | eol
+        { $return = []; }
+    | keyval
+        { $return = ['key', @{$item[1]}]; }
+
+store : 'store' '(' name ')' store_element(s) eol
+#        { $return = [$item[3], join("", map {$_->[1]} @{$item[5]})]; }
+        { $return = [$item[3], [grep {$_->[0] ne 'element' || $_->[1] ne ''} @{$item[5]}]]; }
+
+begin : /begin/i (/Unicode/i)(?) '>' /use/i '(' name ')' eol
+        { $return = [$item[2][0], $item[6]]; }
+
+keyval : /\S+/ string eol
+        { $return = [$item[1], [$item[2]]]; }
+
+eol : 'c' (/[^\n]*/)(?) /\n/
+        { $return = ""; }
+     | /\r?\n/
+        { $return = ""; }
+
+group : grouphdr rule(s)
+        { $return = [$item[1], {'rules' => $item[2]}]; }
+
+grouphdr : 'group' '(' name ')' ('using' 'keys')(?) eol
+        { $return = $item[3]; }
+    | eol grouphdr
+        { $return = $item[2]; }
+
+rule : cmatch(s?) '+' key(?) '>' context(s?) eol
+        {
+            my (%wk) = ('context' => 1, 'key' => 3, 'output' => 5);
+            $return = {};
+            foreach my $w (keys %wk)
+            { $return->{$w} = [grep {$_->[0] ne 'element' || $_->[1] ne ''} @{$item[$wk{$w}]}]; }    
+        }
+    | eol rule
+        { $return = $item[2]; }
+
+cmatch : element
+        { $return = ['element', $item[1]]; }
+    | any
+        { $return = $item[1]; }
+    | deadkey
+        { $return = $item[1]; }
+
+any : ('any' | 'optany') '(' name ')'
+        { $return = [$item[1]. $item[-2]]; }
+
+deadkey : 'deadkey' '(' name ')'
+        { $return = [$item[1], $item[3]]; }
+
+context : element
+        { $return = ['element', $item[1]]; }
+    | 'context'
+        { $return = [$item[1]]; }
+    | index
+        { $return = ['index', @{$item[1]}]; }
+    | 'beep'
+        { $return = [$item[1]]; }
+    | 'nul'
+        { $return = [$item[1]]; }
+    | deadkey
+        { $return = $item[1]; }
+    | 'outs' '(' name ')'
+        { $return = [$item[1], $item[3]]; }
+
+index : 'index' '(' name ',' number ')'
+        { $return = [$item[3], $item[5]]; }
+
+element : /\"([^\"]*)\"/
+        { $return = $1; }
+    | /\'([^']*)\'/
+        { $return = $1; }
+    | /U\+([0-9a-fA-F]+)/i
+        { $return = pack('U', hex($1)); }
+    | /\\(?:\r?)\n/
+        { $return = ''; }
+
+key : element
+        { $return = ['element', $item[1]]; }
+    | 'any' '(' name ')'
+        { $return = [$item[1], $item[3]]; }
+    | '[' modifier(s?) vkey ']'
+        { $return = ['vkey', @{$item[2]}, $item[3]]; }
+
+modifier : 'SHIFT' | 'ALT' | 'ALT_GR' | 'CTRL'
+
+vkey : /[A-Z0-9_]+/
+
+store_element : element
+        { $return = ['element', $item[1]]; }
+    | 'outs' '(' name ')'
+        { $return = ['outs', $item[3]]; }
+    
+
+name : /[^\s,)]+/
+        { $return = $item[1]; }
+
+number : /[0-9]+/
+        { $return = $item[1]; }
+
+string : /"([^"]*)"/
+        { $return = $1; }
+    | /'([^']*)'/
+        { $return = $1; }
+    | /\S+/
+        { $return = $item[1]; }
+
+EOT
+
+%simplecase = map {uc($_) => $_} ('a' .. 'z');
+%casemap = (
+    %simplecase,
+    '~' => '`',
+    '!' => '1',
+    '@' => '2',
+    '#' => '3',
+    '$' => '4',
+    '%' => '5',
+    '^' => '6',
+    '&' => '7',
+    '*' => '8',
+    '(' => '9',
+    ')' => '0',
+    '_' => '-',
+    '+' => '=',
+    '{' => '[',
+    '}' => ']',
+    '|' => '\\',
+    ':' => ';',
+    '"' => "'",
+    '<' => ',',
+    '>' => '.',
+    '?' => '/'
+    );
+
+%entities = (
+    '>' => '&lt;',
+    '&' => '&amp;',
+    '>' => '&gt;',
+    '"' => '&quot;',
+    "'" => '&apos;'
+);
+$entities = join("", keys %entities);
+
+getopts('df:s:');
+
+$Parse::RecDescent::skip = '[ \t]*';
+$RD_TRACE=1 if ($opt_d);
+
+# Parse::RecDescent->Precompile($grammar, 'test_grammar');
+$p = Parse::RecDescent->new($grammar);
+{
+    local ($/);
+    $text = <>;
+}
+# $RD_TRACE=1;
+$r = $p->kmnfile(" $text");
+foreach $k (keys %{$r->{'store'}})
+{ flatten_store($k, $r); }
+make_simple($r);
+$name = protect($r->{'key'}{'NAME'}[0]);
+
+print <<"EOT";
+<?xml version='1.0' encoding='UTF-8'?>
+<keyboard font='$opt_f' size='$opt_s' name='$name'>
+EOT
+
+foreach $k (sort keys %{$r->{'simple'}})
+{
+    printf("    <key id=\"%s\" unshift='%s' shift='%s'/>\n", uc($k), map {protect($_)} @{$r->{'simple'}{$k}});
+}
+
+print <<"EOT";
+</keyboard>
+EOT
+
+sub flatten_store
+{
+    my ($key, $r) = @_;
+    my ($res, $d);
+    my ($dat) = $r->{'store'}{$key};
+
+    return $dat unless (ref $dat);
+    foreach $d (@$dat)
+    {
+        if ($d->[0] eq 'element')
+        { $res .= $d->[1]; }
+        elsif ($d->[0] eq 'outs')
+        { $res .= flatten_store($d->[1], $r); }
+    }
+    $r->{'store'}{$key} = $res;
+    return $res;
+}
+
+sub make_simple
+{
+    my ($r) = @_;
+    my ($rules) = $r->{$r->{'begin'}{'Unicode'}}{'rules'};
+
+    foreach $d (@{$rules})
+    {
+        next unless (scalar @{$d->{'context'}} == 0);
+        my ($k) = $d->{'key'}[0];
+        if ($k->[0] eq 'element')
+        { assign($r, $k->[1], output($d->{'output'}, $k->[1], 0, $r)); }
+        elsif ($k->[0] eq 'any')
+        {
+            my (@keys) = split('', $r->{'store'}{$k->[1]});
+            for (my $i = 0; $i < scalar @keys; $i++)
+            { assign($r, $keys[$i], output($d->{'output'}, $keys[$i], $i, $r)); }
+        }
+        elsif ($k->[0] eq 'vkey')
+        { # not sure what to do here
+        }
+    }
+}
+
+sub output
+{
+    my ($out, $key, $index, $r) = @_;
+    my ($res);
+
+    for $d (@{$out})
+    {
+        if ($d->[0] eq 'element')
+        { $res .= $d->[1]; }
+        elsif ($d->[0] eq 'index' && $d->[2] == 1)
+        { $res .= substr($r->{'store'}{$d->[1]}, $index, 1); }
+        elsif ($d->[0] eq 'outs')
+        { $res .= $r->{'store'}{$d->[1]}; }
+    }
+    return $res;
+}
+
+sub assign
+{
+    my ($r, $key, $str) = @_;
+    if (defined $casemap{$key})
+    { $r->{'simple'}{$casemap{$key}}[1] = $str; }
+    else
+    { $r->{'simple'}{$key}[0] = $str; }
+}
+
+sub protect
+{
+    my ($s) = @_;
+    $s =~ s/([$entities])/$entities{$1}/oge;
+    $s;
+}
+

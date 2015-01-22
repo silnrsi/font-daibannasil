@@ -1,0 +1,2 @@
+*.ttf            usr/share/fonts/truetype/ttf-sil-dai-banna
+debian/bug/*     usr/share/bug/ttf-sil-dai-banna

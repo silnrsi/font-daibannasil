@@ -1,0 +1,44 @@
+﻿New Tai Lue (U+1980..19DF)
+
+Consonants
+ᦀ	ᦁ
+ᦂᦃᦄ	ᦅᦆᦇ
+ᦈᦉᦊ	ᦋᦌᦍ
+ᦎᦏᦐ	ᦑᦒᦓ
+ᦔᦕᦖ	ᦗᦘᦙ
+ᦚᦛᦜ	ᦝᦞᦟ
+ᦠᦡᦢ	ᦣᦤᦥ
+ᦦᦧ	ᦨᦩ
+
+Vowel Signs
+ᦰᦱᦲᦳᦴᦵᦶᦷᦸᦹᦺᦻᦼᦽᦾᦿᧀ
+
+Final Consonants
+ᧁᧂᧃᧄᧅᧆᧇ
+
+Tone Marks
+ᧈᧉ
+
+Digits
+᧐᧑᧒᧓᧔᧕᧖᧗᧘᧙᧚
+
+Various Signs
+᧞᧟
+
+C0 Controls and Basic Latin (U+0020..007E)
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+
+C1 Controls and Latin-1 Supplement (U+00A0, U+00A4, U+00AC, U+00AD, U+00B0, U+00B6, U+00B7)
+ ¤¬­°¶·
+
+General Punctuation (U+2009, U+200B, U+2013, U+2014, U+2018, U+2019, U+201C, U+201D, U+2020..2022, U+2026, U+2039, U+203A, U+2060)
+ ​–—‘’“”†‡•…‹›⁠
+
+Geometric Shapes (U+25CC)
+◌
+
+CJK Symbols and Punctuation (U+3000..3002, U+3008..300B)
+　、。〈〉《》
+
+Halfwidth and Fullwidth Forms (U+FF01, U+FF08, U+FF09, U+FF0C, U+FF0E, U+FF1A, U+FF1B, U+FF1F)
+！（），．：；？

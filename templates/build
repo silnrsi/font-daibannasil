@@ -1,0 +1,14 @@
+#!/bin/sh
+
+CFGFILE=$1
+if [ $CFGFILE = '-d' ] ; then
+    CFGFILE='package.cfg';
+    DEBUG='-d';
+elif [ -z $CFGFILE ] ; then
+    CFGFILE='package.cfg';
+else
+    DEBUG=$2;
+fi
+
+perl $DEBUG ${0%build}autosub -c $CFGFILE -c ${0%build}system.cfg -d . -x \~ ${0%build}templates
+
