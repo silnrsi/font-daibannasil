@@ -1,0 +1,28 @@
+﻿Pre-Vowels:
+	U+19B5	◌ᦵ	NEW TAI LUE VOWEL SIGN E
+	U+19B6	◌ᦶ	NEW TAI LUE VOWEL SIGN AE
+	U+19B7	◌ᦷ	NEW TAI LUE VOWEL SIGN O
+	U+19BA	◌ᦺ	NEW TAI LUE VOWEL SIGN AY
+
+Pre-Vowel + Consonants:
+ᦵᦂ
+ᦵᦃ			ᦺᦃ
+ᦵᦉ	ᦶᦉ		ᦺᦉ
+			ᦺᦊ
+			ᦺᦋ
+		ᦷᦌ
+ᦵᦏ
+	ᦶᦐ
+ᦵᦑ
+ᦵᦓ	ᦶᦓ
+ᦵᦖ
+ᦵᦗ
+ᦵᦙ	ᦶᦙ		ᦺᦙ
+		ᦷᦜ	ᦺᦜ
+			ᦺᦞ
+ᦵᦟ
+ᦵᦡ
+ᦵᦣ
+
+Copy and Paste Test:
+ᦵᦑᦲᧈᦶᦐᦏᦲᧈᦺᦞᧉᦺᦃᦂᦱᧇᦵᦂᧂ
