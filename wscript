@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# this is a smith configuration file 
+# this is a smith configuration file
 
 # set the default output folders
 out="results"
@@ -21,7 +21,7 @@ DESC_SHORT = "Unicode font for New Tai Lue"
 DESC_LONG = """
 Dai Banna SIL is a Unicode font package for the New Tai Lue script used by the Xishuangbanna Dai people.  It includes two font families which differ only in weight.  It has complete coverage of the Unicode 8.0 New Tai Lue block and smart code in Graphite.
 """
-DESC_NAME = "Dai Banna SIL"
+DESC_NAME = "DaiBannaSIL"
 DEBPKG = 'fonts-sil-daibannasil'
 
 # font source directory
@@ -49,4 +49,3 @@ for fontface in ('B','L') :
             woff = woff(),
             tests = mytest
         )
-
