@@ -33,11 +33,6 @@ fontbasename = "DBSIL"
 # os/2 bits for the font, needed 'cos FL5.0.4 doesn't list NTL bit
 os2bits = "800000100001200080000003"
 
-# set the build and test parameters
-mytest = fonttest(targets = {
-        'pdfs' : tex(),
-    })
-
 for fontface in ('B','L') :
     for fontstyle in ('B','C','O','R') :
         font(target = process(fontbasename + fontface + fontstyle + '.ttf', cmd('hackos2 -q -u ' + os2bits + ' ${DEP} ${TGT}')),
@@ -46,6 +41,5 @@ for fontface in ('B','L') :
             version = VERSION,
             license = ofl('SIL'),
             fret = fret(params = '-r'),
-            woff = woff(),
-            tests = mytest
+            woff = woff()
         )
