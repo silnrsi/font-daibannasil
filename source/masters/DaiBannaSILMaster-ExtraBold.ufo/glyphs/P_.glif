@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="P" format="2">
+  <advance width="1245"/>
+  <unicode hex="0050"/>
+  <outline>
+    <contour>
+      <point x="1184" y="987" type="line" smooth="yes"/>
+      <point x="1184" y="779"/>
+      <point x="1030" y="615"/>
+      <point x="638" y="615" type="curve" smooth="yes"/>
+      <point x="548" y="615" type="line"/>
+      <point x="548" y="203" type="line" smooth="yes"/>
+      <point x="548" y="73"/>
+      <point x="577" y="37"/>
+      <point x="735" y="37" type="curve"/>
+      <point x="735" y="0" type="line"/>
+      <point x="47" y="0" type="line"/>
+      <point x="47" y="37" type="line"/>
+      <point x="211" y="37"/>
+      <point x="232" y="73"/>
+      <point x="232" y="213" type="curve" smooth="yes"/>
+      <point x="232" y="1143" type="line" smooth="yes"/>
+      <point x="232" y="1283"/>
+      <point x="211" y="1318"/>
+      <point x="47" y="1318" type="curve"/>
+      <point x="47" y="1355" type="line"/>
+      <point x="695" y="1355" type="line" smooth="yes"/>
+      <point x="1003" y="1355"/>
+      <point x="1184" y="1210"/>
+      <point x="1184" y="987" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="851" y="987" type="line" smooth="yes"/>
+      <point x="851" y="1137"/>
+      <point x="798" y="1281"/>
+      <point x="593" y="1281" type="curve" smooth="yes"/>
+      <point x="548" y="1281" type="line"/>
+      <point x="548" y="690" type="line"/>
+      <point x="593" y="690" type="line" smooth="yes"/>
+      <point x="796" y="690"/>
+      <point x="851" y="833"/>
+      <point x="851" y="987" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="">
+            <hstem pos="0" width="37"/>
+            <hstem pos="615" width="75"/>
+            <hstem pos="1355" width="-74"/>
+            <vstem pos="232" width="316"/>
+            <vstem pos="1184" width="-333"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
+  </lib>
+</glyph>

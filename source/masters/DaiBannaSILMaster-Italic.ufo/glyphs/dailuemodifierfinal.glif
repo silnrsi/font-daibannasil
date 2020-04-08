@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dailuemodifierfinal" format="2">
+  <advance width="1"/>
+  <outline>
+    <contour>
+      <point x="-99" y="550" type="line"/>
+      <point x="-99" y="550"/>
+      <point x="-132" y="350"/>
+      <point x="-167" y="167" type="curve" smooth="yes"/>
+      <point x="-285" y="-452"/>
+      <point x="-482" y="-610"/>
+      <point x="-605" y="-610" type="curve" smooth="yes"/>
+      <point x="-691" y="-610"/>
+      <point x="-747" y="-551"/>
+      <point x="-749" y="-473" type="curve" smooth="yes"/>
+      <point x="-751" y="-377"/>
+      <point x="-673" y="-302"/>
+      <point x="-577" y="-302" type="curve" smooth="yes"/>
+      <point x="-506" y="-302"/>
+      <point x="-446" y="-349"/>
+      <point x="-448" y="-408" type="curve"/>
+      <point x="-397" y="-307"/>
+      <point x="-314" y="-16"/>
+      <point x="-258" y="356" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-503" y="-435" type="line" smooth="yes"/>
+      <point x="-504" y="-388"/>
+      <point x="-544" y="-363"/>
+      <point x="-583" y="-363" type="curve" smooth="yes"/>
+      <point x="-638" y="-363"/>
+      <point x="-684" y="-408"/>
+      <point x="-681" y="-464" type="curve" smooth="yes"/>
+      <point x="-679" y="-502"/>
+      <point x="-642" y="-537"/>
+      <point x="-606" y="-537" type="curve" smooth="yes"/>
+      <point x="-547" y="-537"/>
+      <point x="-502" y="-495"/>
+      <point x="-503" y="-435" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="">
+            <hstem pos="-610" width="72"/>
+            <hstem pos="-363" width="61"/>
+            <vstem pos="-748" width="68"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
+  </lib>
+</glyph>

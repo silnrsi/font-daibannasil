@@ -1,0 +1,26 @@
+2020-04-08 14:39:36 Progress: Reading UFO: source/masters/DaiBannaSILMaster-ExtraBold.ufo
+2020-04-08 14:39:36 Error:    Glyph asterisk contains a single-point contour with no anchor name
+2020-04-08 14:39:36 Error:    Glyph asterisk contains a single-point contour with no anchor name
+2020-04-08 14:39:36 Error:    Glyph asterisk contains a single-point contour with no anchor name
+2020-04-08 14:39:36 Error:    Glyph uni1981 contains a single-point contour with no anchor name
+2020-04-08 14:39:36 Error:    Glyph uni19A5 contains a single-point contour with no anchor name
+2020-04-08 14:39:36 Progress: Checking fontinfo.plist metadata
+2020-04-08 14:39:36 Warning:  openTypeNameSampleText is missing from fontinfo.plist
+2020-04-08 14:39:36 Warning:  macintoshFONDFamilyID removed from fontinfo.  Old value: 128
+2020-04-08 14:39:36 Warning:  macintoshFONDName removed from fontinfo.  Old value: Dai Banna SIL Master...
+2020-04-08 14:39:36 Warning:  postscriptWeightName removed from fontinfo.  Old value: Bold
+2020-04-08 14:39:36 Warning:  openTypeOS2FamilyClass removed from fontinfo.  Old value: [0, 0]
+2020-04-08 14:39:36 Warning:  year removed from fontinfo.  Old value: 2011
+2020-04-08 14:39:36 Warning:  openTypeNameUniqueID updated  Old value: SILInternational: Da..., new value: SIL International: D...
+2020-04-08 14:39:36 Warning:  italicAngle removed since it is 0  Old value: 0
+2020-04-08 14:39:36 Progress: Checking lib.plist metadata
+2020-04-08 14:39:36 Warning:  com.schriftgestaltung.disablesAutomaticAlignment should normally be True; currently missing
+2020-04-08 14:39:36 Warning:  com.schriftgestaltung.disablesLastChange should normally be True; currently missing
+2020-04-08 14:39:36 Warning:  com.schriftgestaltung.customParameter.GSFont.useNiceNames should normally be False; currently missing
+2020-04-08 14:39:36 Progress: Check & fix results:- Errors: 0, Changes made: 7, Other warnings: 4
+2020-04-08 14:39:36 Progress: See log file for details
+2020-04-08 14:39:36 Progress: Backing up input font to source/masters/backups/DaiBannaSILMaster-ExtraBold.ufo.1~
+2020-04-08 14:39:36 Progress: Processing font for output
+2020-04-08 14:39:37 Progress: Writing font to source/masters/DaiBannaSILMaster-ExtraBold.ufo
+2020-04-08 14:39:37 Error:    Command completed with 5 errors and 11 warnings
+2020-04-08 14:39:37 Progress: See log file for warning messages or rerun with '-p scrlevel=w'

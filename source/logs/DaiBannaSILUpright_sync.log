@@ -1,0 +1,14 @@
+2020-04-08 14:39:37 Warning:  lib.plist field public.postscriptNames missing from masters/DaiBannaSILMaster-Regular.ufo
+2020-04-08 14:39:37 Warning:  masters/DaiBannaSILMaster-ExtraBold.ufo openTypeOS2WeightClass updated:  Old value: 700, new value: 800
+2020-04-08 14:39:37 Warning:  masters/DaiBannaSILMaster-ExtraBold.ufo styleName updated:  Old value: Bold, new value: Extra Bold
+2020-04-08 14:39:37 Progress: Writing updated fontinfo.plist to fontinfo.plist
+2020-04-08 14:39:37 Warning:  masters/DaiBannaSILMaster-Italic.ufo public.glyphOrder updated:  Old value: ['.notdef', 'NULL', ..., new value: ['.notdef', 'NULL', ...
+2020-04-08 14:39:37 Progress: Writing updated lib.plist to lib.plist
+2020-04-08 14:39:37 Progress: Writing updated fontinfo.plist to fontinfo.plist
+2020-04-08 14:39:37 Warning:  masters/DaiBannaSILMaster-ExtraBoldItalic.ufo openTypeOS2WeightClass updated:  Old value: 700, new value: 800
+2020-04-08 14:39:37 Warning:  masters/DaiBannaSILMaster-ExtraBoldItalic.ufo styleName updated:  Old value: Bold Italic, new value: Extra Bold Italic
+2020-04-08 14:39:37 Warning:  masters/DaiBannaSILMaster-ExtraBoldItalic.ufo public.glyphOrder updated:  Old value: ['.notdef', 'NULL', ..., new value: ['.notdef', 'NULL', ...
+2020-04-08 14:39:37 Progress: Writing updated lib.plist to lib.plist
+2020-04-08 14:39:37 Progress: Writing updated fontinfo.plist to fontinfo.plist
+2020-04-08 14:39:37 Progress: psfsyncmasters completed
+2020-04-08 14:39:37 Progress: Command completed with 0 errors and 7 warnings - see /Users/victor/Work/Non-Roman/SEAsia/Dai/font-daibannasil/source/logs/DaiBannaSILUpright_sync.log

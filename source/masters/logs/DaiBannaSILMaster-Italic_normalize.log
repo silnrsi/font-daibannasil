@@ -1,0 +1,15 @@
+2020-04-08 14:39:36 Progress: Reading UFO: source/masters/DaiBannaSILMaster-Italic.ufo
+2020-04-08 14:39:36 Error:    Glyph asterisk contains a single-point contour with no anchor name
+2020-04-08 14:39:36 Progress: Checking fontinfo.plist metadata
+2020-04-08 14:39:36 Warning:  openTypeNameSampleText is missing from fontinfo.plist
+2020-04-08 14:39:36 Progress: Checking lib.plist metadata
+2020-04-08 14:39:36 Warning:  com.schriftgestaltung.disablesAutomaticAlignment should normally be True; currently missing
+2020-04-08 14:39:36 Warning:  com.schriftgestaltung.disablesLastChange should normally be True; currently missing
+2020-04-08 14:39:36 Warning:  com.schriftgestaltung.customParameter.GSFont.useNiceNames should normally be False; currently missing
+2020-04-08 14:39:36 Progress: Check & fix results:- Errors: 0, Changes made: 0, Other warnings: 4
+2020-04-08 14:39:36 Progress: See log file for details
+2020-04-08 14:39:36 Progress: Backing up input font to source/masters/backups/DaiBannaSILMaster-Italic.ufo.2~
+2020-04-08 14:39:36 Progress: Processing font for output
+2020-04-08 14:39:36 Progress: Writing font to source/masters/DaiBannaSILMaster-Italic.ufo
+2020-04-08 14:39:37 Error:    Command completed with 1 errors and 4 warnings
+2020-04-08 14:39:37 Progress: See log file for warning messages or rerun with '-p scrlevel=w'

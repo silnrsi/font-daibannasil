@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="colon" format="2">
+  <advance width="422"/>
+  <unicode hex="003A"/>
+  <outline>
+    <contour>
+      <point x="367" y="709" type="line" smooth="yes"/>
+      <point x="367" y="628"/>
+      <point x="306" y="523"/>
+      <point x="213" y="523" type="curve" smooth="yes"/>
+      <point x="162" y="523"/>
+      <point x="119" y="564"/>
+      <point x="119" y="653" type="curve" smooth="yes"/>
+      <point x="119" y="732"/>
+      <point x="181" y="835"/>
+      <point x="273" y="835" type="curve" smooth="yes"/>
+      <point x="327" y="835"/>
+      <point x="367" y="786"/>
+      <point x="367" y="709" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="262" y="169" type="line" smooth="yes" name="hr01"/>
+      <point x="262" y="88"/>
+      <point x="201" y="-17"/>
+      <point x="108" y="-17" type="curve" smooth="yes"/>
+      <point x="57" y="-17"/>
+      <point x="14" y="24"/>
+      <point x="14" y="113" type="curve" smooth="yes"/>
+      <point x="14" y="192"/>
+      <point x="76" y="295"/>
+      <point x="168" y="295" type="curve" smooth="yes"/>
+      <point x="222" y="295"/>
+      <point x="262" y="246"/>
+      <point x="262" y="169" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr01">
+            <hstem pos="-17" width="312"/>
+            <hstem pos="835" width="-312"/>
+            <vstem pos="14" width="248"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
+  </lib>
+</glyph>

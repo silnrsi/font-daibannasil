@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ellipsis" format="2">
+  <advance width="1519"/>
+  <unicode hex="2026"/>
+  <outline>
+    <contour>
+      <point x="1352" y="135" type="line" smooth="yes"/>
+      <point x="1352" y="68"/>
+      <point x="1305" y="-18"/>
+      <point x="1227" y="-18" type="curve" smooth="yes"/>
+      <point x="1183" y="-18"/>
+      <point x="1150" y="26"/>
+      <point x="1150" y="84" type="curve" smooth="yes"/>
+      <point x="1150" y="153"/>
+      <point x="1197" y="230"/>
+      <point x="1275" y="230" type="curve" smooth="yes"/>
+      <point x="1312" y="230"/>
+      <point x="1352" y="191"/>
+      <point x="1352" y="135" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="779" y="135" type="line" smooth="yes"/>
+      <point x="779" y="68"/>
+      <point x="732" y="-18"/>
+      <point x="654" y="-18" type="curve" smooth="yes"/>
+      <point x="610" y="-18"/>
+      <point x="577" y="26"/>
+      <point x="577" y="84" type="curve" smooth="yes"/>
+      <point x="577" y="153"/>
+      <point x="624" y="230"/>
+      <point x="702" y="230" type="curve" smooth="yes"/>
+      <point x="739" y="230"/>
+      <point x="779" y="191"/>
+      <point x="779" y="135" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="210" y="135" type="line" smooth="yes"/>
+      <point x="210" y="68"/>
+      <point x="163" y="-18"/>
+      <point x="85" y="-18" type="curve" smooth="yes"/>
+      <point x="41" y="-18"/>
+      <point x="8" y="26"/>
+      <point x="8" y="84" type="curve" smooth="yes"/>
+      <point x="8" y="153"/>
+      <point x="55" y="230"/>
+      <point x="133" y="230" type="curve" smooth="yes"/>
+      <point x="170" y="230"/>
+      <point x="210" y="191"/>
+      <point x="210" y="135" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="">
+            <hstem pos="-29" width="248"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
+  </lib>
+</glyph>
