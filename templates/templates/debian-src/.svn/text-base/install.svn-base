@@ -1,2 +1,0 @@
-*.ttf            usr/share/fonts/truetype/@TARNAME@
-debian/bug/*     usr/share/bug/@TARNAME@
