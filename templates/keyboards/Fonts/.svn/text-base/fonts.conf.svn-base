@@ -1,7 +1,0 @@
-<fontconfig>
-
-    <include ignore_missing="yes">/etc/fonts/fonts.conf</include>
-    <dir>@ENV/PWD@/@sub /.*?$,,$(.OUTFILE)@</dir>
-    <cachedir>@ENV/PWD@/@sub /.*?$,,$(.OUTFILE)@</cachedir>
-
-</fontconfig>

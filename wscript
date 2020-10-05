@@ -1,14 +1,10 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # this is a smith configuration file
 
 # set the default output folders
-out="results"
-DOCDIR="documentation"
-OUTDIR="installers"
-ZIPDIR="releases"
+DOCDIR="doc"
 TESTDIR='test-suite'
 TESTRESULTSDIR = 'test-results'
-STANDARDS = 'standards'
 
 # set the font name, version, licensing and description
 APPNAME="DaiBannaSIL"
@@ -22,7 +18,9 @@ DESC_LONG = """
 Dai Banna SIL is a Unicode font package for the New Tai Lue script used by the Xishuangbanna Dai people.  It includes two font families which differ only in weight.  It has complete coverage of the Unicode 8.0 New Tai Lue block and smart code in Graphite.
 """
 DESC_NAME = "DaiBannaSIL"
-DEBPKG = 'fonts-sil-daibannasil'
+
+# Set up the FTML tests
+ftmlTest('tools/ftml-smith.xsl')
 
 # font source directory
 fontsrcdir = "font-source/"
@@ -40,6 +38,6 @@ for fontface in ('B','L') :
             graphite = gdl(fontsrcdir + 'tlue.gdl', no_make=1),
             version = VERSION,
             license = ofl('SIL'),
-            fret = fret(params = '-r'),
+            pdf = fret(params = '-r'),
             woff = woff()
         )
