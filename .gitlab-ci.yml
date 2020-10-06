@@ -1,0 +1,38 @@
+image: "ubuntu:bionic"
+
+build:
+  stage: build
+  before_script:
+    - export DEBIAN_FRONTEND=noninteractive
+    - apt-get update -q -y
+    - apt-get install -q -y software-properties-common # python3-pip
+    - add-apt-repository -y ppa:silnrsi/smith-py3
+    # - add-apt-repository -y ppa:sile-typesetter/sile
+    # - add-apt-repository -y ppa:jonathonf/texlive-2019
+    # - add-apt-repository -y ppa:git-core/ppa
+    - apt-get update -q -y
+    - apt-get install smith-font -y --no-install-recommends
+    # - pip3 install fonttools==4.14.0
+
+  script:
+    - export LC_CTYPE=C.UTF-8
+    - export PYTHONUTF8=1
+    - export PYTHONIOENCODING=utf-8:surrogateescape
+    - smith configure
+    - smith build
+    # - smith alltests
+    # - smith pyfontaine
+    # - smith fontlint
+    - smith zip
+    # - smith tarball
+    # - smith release
+
+  artifacts:
+    name: "${CI_PROJECT_NAME}-${CI_COMMIT_TAG}-dev-${CI_COMMIT_SHA:0:6}-build-${CI_JOB_ID}"
+    paths:
+    - results/releases/*
+    - results/*.html
+    - results/*.pdf
+    - results/*.txt
+    - results/*err*
+    - results/tests/*

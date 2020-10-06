@@ -1,7 +1,6 @@
 FONTLOG
 Dai Banna SIL Fonts
-========================
-
+===================
 
 This file provides detailed information on the Dai Banna SIL fonts.
 This information should be distributed along with the Dai Banna SIL fonts and any derivative works.
@@ -12,7 +11,7 @@ Basic Font Information
 
 Dai Banna SIL is a Unicode font package that supports the New Tai Lue script.  The New Tai Lue script is used by approximately 300,000 people who speak the Xishuangbanna Dai language in Yunnan, China.  It is a simplification of the Tai Tham (Old Tai Lue) script as used for this language for hundreds of years.
 
-Version 2.200 is the latest Unicode release.  It has complete coverage of the NEW TAI LUE Unicode block (U+1980..19DF) as per Unicode 6.0.  It uses Graphite technology to support complex script behaviours like vowel reordering and intersyllabic line breaking in spaceless text.  (NB: Only basic break opportunities are accounted for in the current release.  Breaking behaviours for numbers and special CCV structures have yet to be added.)  The source package includes the source Graphite code.
+It has complete coverage of the NEW TAI LUE Unicode block (U+1980..19DF) as per Unicode 6.0.  It uses Graphite technology to support complex script behaviours like intersyllabic line breaking in spaceless text.  (NB: Only basic break opportunities are accounted for in the current release.  Breaking behaviours for numbers and special CCV structures have yet to be added.)
 
 Eight fonts from two typeface families are included in this release:
 
@@ -29,6 +28,10 @@ Eight fonts from two typeface families are included in this release:
 ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
+
+dd Oct 2020 (SIL) Dai Banna SIL version 3.000
+- Use visual instead of logical order for left vowels.
+  This encoding was changed in Unicode 8.0
 
 21 Feb 2011 (AYWC) Dai Banna SIL version 2.200
 - Added support for Unicode 5.2 additions
@@ -60,7 +63,7 @@ Acknowledgements
 ----------------
 (Here is where contributors can be acknowledged.  If you make modifications be sure to add your name (N), email (E), web-address (W) and description (D).  This list is sorted by last name in alphabetical order.)
 
-N: Adrian Cheuk, Victor Gaultney, Martin Hosken, Julie Remington
+N: Adrian Cheuk, Victor Gaultney, Martin Hosken, Julie Remington, Bobby de Vos
 E: fonts@sil.org
 W: http://scripts.sil.org/
 D: SIL designers and font engineers
@@ -71,7 +74,5 @@ Subsequent, Unicode releases (Dai Banna SIL) were developed with valuable input 
 
 The Dai Banna SIL project is maintained by SIL International.
 
-For more information, please visit the Dai Banna SIL page on SIL International's Computers and Writing Systems website:
-http://scripts.sil.org/DaiBannaSIL
-
-Or send an email to <fonts AT sil DOT org>
+For more information, please visit the Dai Banna SIL font page:
+http://software.sil.org/daibanna
