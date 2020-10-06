@@ -1,7 +1,6 @@
 README
-Dai Banna SIL Release 2.200
-9 March 2011
-===========================
+Dai Banna SIL
+=============
 
 Thank you for your interest in the Dai Banna SIL fonts.  We hope you will find them useful!
 
@@ -13,8 +12,8 @@ Dai Banna SIL is a trademark of SIL International.
 
 You may (and are encouraged to) freely share these fonts with your friends and co-workers, but must comply with the terms set forth in the SIL Open Font License.
 
-See OFL.txt and OFL-FAQ.txt for details of the SIL Open Font License.
-See FONTLOG.txt for information on this and previous releases.
+See OFL and OFL-FAQ for details of the SIL Open Font License.
+For more details about this project, including changelog, making contributions, and acknowledgements see FONTLOG.
 See DaiBannaSIL.pdf for installation instructions and known issues.
 
 TIPS
