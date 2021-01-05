@@ -10,7 +10,7 @@ TESTRESULTSDIR = 'test-results'
 APPNAME="DaiBannaSIL"
 VERSION="3.000"
 TTF_VERSION="3.000"
-COPYRIGHT="Copyright (c) 2008-2015, SIL International (http://www.sil.org)"
+COPYRIGHT="Copyright (c) 2008-2021, SIL International (http://www.sil.org)"
 LICENSE='OFL.txt'
 
 DESC_SHORT = "Unicode font for New Tai Lue"
