@@ -8,8 +8,8 @@ TESTRESULTSDIR = 'test-results'
 
 # set the font name, version, licensing and description
 APPNAME="DaiBannaSIL"
-VERSION="3.000"
-TTF_VERSION="3.000"
+VERSION="3.001"
+TTF_VERSION="3.001"
 COPYRIGHT="Copyright (c) 1998-2021, SIL International (http://www.sil.org)"
 LICENSE='OFL.txt'
 
