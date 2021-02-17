@@ -10,7 +10,7 @@ TESTRESULTSDIR = 'test-results'
 APPNAME="DaiBannaSIL"
 VERSION="3.000"
 TTF_VERSION="3.000"
-COPYRIGHT="Copyright (c) 2008-2021, SIL International (http://www.sil.org)"
+COPYRIGHT="Copyright (c) 1998-2021, SIL International (http://www.sil.org)"
 LICENSE='OFL.txt'
 
 DESC_SHORT = "Unicode font for New Tai Lue"
@@ -50,12 +50,14 @@ for fontface in ('B','L') :
         unique_id = f'SILInternational: Dai Banna SIL {face_style}: 2021'
         font(target = process(fontbasename + fontface + fontstyle + '.ttf',
             cmd('hackos2 -q -u ' + os2bits + ' ${DEP} ${TGT}'),
+            cmd('ttfname -t 10 -n "A New Tai Lue script font used by the Xishuangbanna Dai people" ${DEP} ${TGT}'),
             cmd('ttfname -t 3 -n "' + unique_id + '" ${DEP} ${TGT}')
             ),
             source = fontsrcdir + fontbasename + fontface + fontstyle + '_src.ttf',
             graphite = gdl(fontsrcdir + 'tlue.gdl', no_make=1),
             version = VERSION,
             license = ofl('SIL'),
+            copyright = COPYRIGHT,
             pdf = fret(params = '-r'),
             woff = woff()
         )

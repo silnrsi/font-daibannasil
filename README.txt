@@ -4,8 +4,7 @@ Dai Banna SIL
 
 Thank you for your interest in the Dai Banna SIL fonts.  We hope you will find them useful!
 
-Dai Banna SIL is a Unicode Truetype font package containing two font families that provide glyphs for all characters in the New Tai Lue script as used by the Xishuangbanna Dai people in Yunnan, China.  Please read the documentation (DaiBannaSIL.pdf) to see what specific characters are supported.  You will need Adobe Reader version 4 or later to view the documentation.  The reader is available at no cost at
-http://www.adobe.com/products/acrobat/readstep2.html
+Dai Banna SIL is a Unicode Truetype font package containing two font families that provide glyphs for all characters in the New Tai Lue script as used by the Xishuangbanna Dai people in Yunnan, China.  Please read the documentation (DaiBannaSIL.pdf) to see what specific characters are supported.
 
 Dai Banna SIL is released under the SIL Open Font License.
 Dai Banna SIL is a trademark of SIL International.
@@ -19,7 +18,7 @@ See DaiBannaSIL.pdf for installation instructions and known issues.
 TIPS
 ====
 
-We cannot afford to offer free technical support.  The font has, however, been through some testing on various platforms to be sure it works in most situations.  In particular, it has been tested and shown to work on Windows XP, Windows 7, and Ubuntu Linux 10.10.  Graphite capabilities have been tested on Graphite-supported platforms.
+We cannot afford to offer free technical support.  The font has, however, been through some testing on various platforms to be sure it works in most situations.  In particular, it has been tested and shown to work on Windows and Ubuntu Linux.  Graphite capabilities have been tested on Graphite-supported platforms.
 
 If you do find a problem, please do report it to <fonts AT sil DOT org>.  We can't guarantee any direct response, but will try to fix reported bugs in future versions.  Make sure you read through the "Known Issues" section in the Dai Banna SIL User Guide (DaiBannaSIL.pdf).
 

@@ -29,7 +29,7 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-dd Oct 2020 (SIL) Dai Banna SIL version 3.000
+17 Feb 2021 (SIL) Dai Banna SIL version 3.000
 - Use visual instead of logical order for left vowels.
   This encoding was changed in Unicode 8.0
 
