@@ -1,4 +1,4 @@
-Copyright (c) 1998-2011 SIL International (http://www.sil.org/), with Reserved Font Name "SIL".
+Copyright (c) 1998-2021 SIL International (http://www.sil.org/), with Reserved Font Name "SIL".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL

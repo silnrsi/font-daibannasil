@@ -38,6 +38,7 @@ for fontface in ('B','L') :
             graphite = gdl(fontsrcdir + 'tlue.gdl', no_make=1),
             version = VERSION,
             license = ofl('SIL'),
-            pdf = fret(params = '-r'),
-            woff = woff()
+            woff = woff(f'woff/{APPNAME}',
+                metadata = f'../source/{APPNAME}-WOFF-metadata.xml'),
+            pdf = fret(params = '-r')
         )

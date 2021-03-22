@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata version="1.0">
+  <uniqueid id="org.sil.fonts.DaiBannaSIL.2.200" />
+  <vendor name="SIL International" url="http://scripts.sil.org" />
+  <credits>
+    <credit
+      name="Adrian Cheuk, Victor Gaultney, Martin Hosken, Julie Remington"
+      url="http://scripts.sil.org/"
+      role="SIL designers and font engineers"
+    />
+  </credits>
+  <description>
+    <text lang="en">
+      Dai Banna SIL is a Unicode font package that supports the New Tai Lue script.  The New Tai Lue script is used by approximately 300,000 people who speak the Xishuangbanna Dai language in Yunnan, China.  It is a simplification of the Tai Tham (Old Tai Lue) script as used for this language for hundreds of years.
+      
+      Version 2.200 is the latest Unicode release.  It has complete coverage of the NEW TAI LUE Unicode block (U+1980..19DF) as per Unicode 6.0.  It uses Graphite technology to support complex script behaviours like vowel reordering and intersyllabic line breaking in spaceless text.  (NB: Only basic break opportunities are accounted for in the current release.  Breaking behaviours for numbers and special CCV structures have yet to be added.)  The source package includes the source Graphite code.
+      
+      Eight fonts from two typeface families are included in this release:
+      
+      DBSILLR.ttf	- Dai Banna SIL Light
+      DBSILLO.ttf	- Dai Banna SIL Light Italic
+      DBSILLB.ttf	- Dai Banna SIL Light Bold
+      DBSILLC.ttf	- Dai Banna SIL Light Bold Italic
+      DBSILBR.ttf	- Dai Banna SIL Book
+      DBSILBO.ttf	- Dai Banna SIL Book Italic
+      DBSILBB.ttf	- Dai Banna SIL Book Bold
+      DBSILBC.ttf	- Dai Banna SIL Book Bold Italic
+      
+      
+      ChangeLog
+      ---------
+      (This should list both major and minor changes, most recent first.)
+      
+      21 Feb 2011 (AYWC) Dai Banna SIL version 2.200
+      - Added support for Unicode 5.2 additions
+      - Renamed 'Oblique' fonts to 'Italic' (for user-friendliness)
+      - Added .notdef, NULL, and CR to masters
+      - Fixed open contours: 0020, 005F, 00A0, 2009, 200B, 2060
+      - Corrected connection types of CJK punctuation
+      - Design changes: 19D2, 19D4
+      - Added 19AA, 19AB
+      
+      5 Jun 2008 (AYWC) Dai Banna SIL version 2.1
+      - Moved E380 to 19D1 NEW TAI LUE DIGIT ONE as per FPDAM5
+      - Moved 19D1 to 19DA NEW TAI LUE THAM DIGIT ONE as per PDAM6.2
+      
+      16 Nov 2007 (AYWC) Dai Banna SIL version 2.0b
+      - OFL 1.1
+      - Added line-breaking rules
+      - Added CJK punctuation: 3000..3002, 3008..300B
+      - Added full-width forms: FF01, FF08, FF09, FF0C, FF0E, FF1A, FF1B, FF1F
+      - Added alternate digit one at E380 (PUA)
+      - Added 25CC and support for reordrant vowels
+      - Updated to Unicode 5.0
+      
+      17 Mar 2000 (SIL) SIL Dai Banna version 1.000
+      - Initial freeware release
+    </text>
+  </description>
+  <license url="http://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
+    <text lang="en">
+      Copyright (c) 1998-2011 SIL International (http://www.sil.org/), with Reserved Font Name "SIL".
+      
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+      This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+      
+      
+      -----------------------------------------------------------
+      SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+      -----------------------------------------------------------
+      
+      PREAMBLE
+      The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font projects, to support the font creation efforts of academic and linguistic communities, and to provide a free and open framework in which fonts may be shared and improved in partnership with others.
+      
+      The OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded, redistributed and/or sold with any software provided that any reserved names are not used by derivative works. The fonts and derivatives, however, cannot be released under any other type of license. The requirement for fonts to remain under this license does not apply to any document created using the fonts or their derivatives.
+      
+      DEFINITIONS
+      "Font Software" refers to the set of files released by the Copyright Holder(s) under this license and clearly marked as such. This may include source files, build scripts and documentation.
+      
+      "Reserved Font Name" refers to any names specified as such after the copyright statement(s).
+      
+      "Original Version" refers to the collection of Font Software components as distributed by the Copyright Holder(s).
+      
+      "Modified Version" refers to any derivative made by adding to, deleting, or substituting -- in part or in whole -- any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.
+      
+      "Author" refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.
+      
+      PERMISSION &amp; CONDITIONS
+      Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions:
+      
+      1) Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.
+      
+      2) Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.
+      
+      3) No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted by the corresponding Copyright Holder. This restriction only applies to the primary font name as presented to the users.
+      
+      4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the Copyright Holder(s) and the Author(s) or with their explicit written permission.
+      
+      5) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license. The requirement for fonts to remain under this license does not apply to any document created using the Font Software.
+      
+      TERMINATION
+      This license becomes null and void if any of the above conditions are not met.
+      
+      DISCLAIMER
+      THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+    </text>
+  </license>
+  <copyright>
+    <text lang="en">
+      Copyright (c) 1998-2011 SIL International
+    </text>
+  </copyright>
+  <trademark>
+    <text lang="en">Dai Banna SIL is a trademark of SIL International.</text>
+  </trademark>
+</metadata>
