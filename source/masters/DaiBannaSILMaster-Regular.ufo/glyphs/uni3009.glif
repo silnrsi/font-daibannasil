@@ -8,7 +8,9 @@
       <point x="501" y="677" type="line"/>
       <point x="154" y="1368" type="line"/>
       <point x="100" y="1342" type="line"/>
-      <point x="433" y="677" type="line"/>
+      <point x="211" y="1120"/>
+      <point x="322" y="899"/>
+      <point x="433" y="677" type="curve"/>
       <point x="100" y="13" type="line"/>
     </contour>
   </outline>

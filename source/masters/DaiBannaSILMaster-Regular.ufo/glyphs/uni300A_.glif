@@ -6,7 +6,9 @@
     <contour>
       <point x="946" y="-13" type="line"/>
       <point x="999" y="13" type="line"/>
-      <point x="666" y="677" type="line"/>
+      <point x="888" y="234"/>
+      <point x="777" y="456"/>
+      <point x="666" y="677" type="curve"/>
       <point x="999" y="1342" type="line"/>
       <point x="946" y="1368" type="line"/>
       <point x="599" y="677" type="line"/>
@@ -14,7 +16,9 @@
     <contour>
       <point x="646" y="-13" type="line"/>
       <point x="699" y="13" type="line"/>
-      <point x="366" y="677" type="line"/>
+      <point x="588" y="234"/>
+      <point x="477" y="456"/>
+      <point x="366" y="677" type="curve"/>
       <point x="699" y="1342" type="line"/>
       <point x="646" y="1368" type="line"/>
       <point x="299" y="677" type="line"/>

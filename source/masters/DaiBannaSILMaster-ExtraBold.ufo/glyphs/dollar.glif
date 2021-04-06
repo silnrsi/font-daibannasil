@@ -73,7 +73,9 @@
     </contour>
     <contour>
       <point x="573" y="54" type="curve" name="hr04"/>
-      <point x="566" y="565" type="line"/>
+      <point x="571" y="224"/>
+      <point x="568" y="395"/>
+      <point x="566" y="565" type="curve"/>
       <point x="720" y="444"/>
       <point x="777" y="384"/>
       <point x="777" y="281" type="curve" smooth="yes"/>
