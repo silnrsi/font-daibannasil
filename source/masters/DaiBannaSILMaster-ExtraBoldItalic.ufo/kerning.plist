@@ -16,6 +16,8 @@
     <integer>200</integer>
     <key>uni19A4</key>
     <integer>130</integer>
+    <key>uni19A5</key>
+    <integer>100</integer>
     <key>uni19A9</key>
     <integer>200</integer>
     <key>uni19B2</key>
@@ -41,6 +43,8 @@
     <integer>200</integer>
     <key>uni19A4</key>
     <integer>130</integer>
+    <key>uni19A5</key>
+    <integer>100</integer>
     <key>uni19A9</key>
     <integer>200</integer>
     <key>uni19B2</key>
@@ -101,6 +105,8 @@
     <integer>200</integer>
     <key>uni19A4</key>
     <integer>130</integer>
+    <key>uni19A5</key>
+    <integer>100</integer>
     <key>uni19A9</key>
     <integer>200</integer>
     <key>uni19B2</key>
@@ -128,6 +134,8 @@
     <integer>200</integer>
     <key>uni19A4</key>
     <integer>130</integer>
+    <key>uni19A5</key>
+    <integer>100</integer>
     <key>uni19A9</key>
     <integer>200</integer>
     <key>uni19B2</key>
@@ -155,6 +163,8 @@
     <integer>200</integer>
     <key>uni19A4</key>
     <integer>130</integer>
+    <key>uni19A5</key>
+    <integer>100</integer>
     <key>uni19A9</key>
     <integer>200</integer>
     <key>uni19B2</key>
