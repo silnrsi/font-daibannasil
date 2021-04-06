@@ -71,7 +71,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2020/04/08 14:39:37</string>
+  <string>2021/04/06 17:29:43</string>
   <key>openTypeHeadFlags</key>
   <array/>
   <key>openTypeHheaAscender</key>
@@ -142,7 +142,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Italic</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Dai Banna SIL Master Italic: 2020</string>
+  <string>SIL International: Dai Banna SIL Master Italic: 2021</string>
   <key>openTypeNameVersion</key>
   <string>Version 2.200</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -214,15 +214,11 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>postscriptBlueFuzz</key>
   <integer>1</integer>
   <key>postscriptBlueScale</key>
-  <real>0.039625</real>
+  <real>0.03963</real>
   <key>postscriptBlueShift</key>
   <integer>7</integer>
   <key>postscriptBlueValues</key>
   <array>
-    <integer>-33</integer>
-    <integer>0</integer>
-    <integer>0</integer>
-    <integer>0</integer>
     <integer>952</integer>
     <integer>981</integer>
     <integer>1409</integer>

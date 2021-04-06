@@ -9,7 +9,7 @@
       <key>X: 174</key>
       <dict>
         <key>horizontal</key>
-        <false/>
+        <integer>0</integer>
         <key>round</key>
         <dict>
           <key>0</key>
@@ -31,7 +31,7 @@
       <key>X: 199</key>
       <dict>
         <key>horizontal</key>
-        <false/>
+        <integer>0</integer>
         <key>round</key>
         <dict>
           <key>0</key>
@@ -53,7 +53,7 @@
       <key>Y: 106</key>
       <dict>
         <key>horizontal</key>
-        <true/>
+        <integer>1</integer>
         <key>round</key>
         <dict>
           <key>0</key>
@@ -75,7 +75,7 @@
       <key>Y: 76</key>
       <dict>
         <key>horizontal</key>
-        <true/>
+        <integer>1</integer>
         <key>round</key>
         <dict>
           <key>0</key>
@@ -102,7 +102,7 @@
         <key>position</key>
         <integer>0</integer>
         <key>top</key>
-        <false/>
+        <integer>0</integer>
         <key>width</key>
         <integer>33</integer>
       </dict>
@@ -111,7 +111,7 @@
         <key>position</key>
         <integer>0</integer>
         <key>top</key>
-        <false/>
+        <integer>0</integer>
         <key>width</key>
         <integer>0</integer>
       </dict>
@@ -120,7 +120,7 @@
         <key>position</key>
         <integer>952</integer>
         <key>top</key>
-        <true/>
+        <integer>1</integer>
         <key>width</key>
         <integer>29</integer>
       </dict>
@@ -129,7 +129,7 @@
         <key>position</key>
         <integer>1409</integer>
         <key>top</key>
-        <true/>
+        <integer>1</integer>
         <key>width</key>
         <integer>35</integer>
       </dict>
@@ -138,12 +138,103 @@
         <key>position</key>
         <integer>1479</integer>
         <key>top</key>
-        <true/>
+        <integer>1</integer>
         <key>width</key>
         <integer>10</integer>
       </dict>
     </dict>
   </dict>
+  <key>com.schriftgestaltung.Glyphs.fontUserData</key>
+  <dict>
+    <key>com.schriftgestaltung.Glyphs.groupsNotInFeature</key>
+    <array/>
+    <key>com.schriftgestaltung.Glyphs.layerLib.public.background</key>
+    <dict>
+      <key>com.fontlab.layer.locked</key>
+      <integer>0</integer>
+      <key>com.fontlab.layer.name</key>
+      <string>public.background</string>
+      <key>com.fontlab.layer.opacity</key>
+      <integer>1</integer>
+      <key>com.fontlab.layer.service</key>
+      <integer>1</integer>
+      <key>com.fontlab.layer.visible</key>
+      <integer>1</integer>
+      <key>com.fontlab.layer.wireframe</key>
+      <integer>1</integer>
+    </dict>
+    <key>com.schriftgestaltung.Glyphs.layerLib.public.default</key>
+    <dict>
+      <key>com.fontlab.layer.locked</key>
+      <integer>0</integer>
+      <key>com.fontlab.layer.name</key>
+      <string>BoldItalic</string>
+      <key>com.fontlab.layer.opacity</key>
+      <integer>1</integer>
+      <key>com.fontlab.layer.service</key>
+      <integer>0</integer>
+      <key>com.fontlab.layer.visible</key>
+      <integer>1</integer>
+      <key>com.fontlab.layer.wireframe</key>
+      <integer>0</integer>
+    </dict>
+  </dict>
+  <key>com.schriftgestaltung.appVersion</key>
+  <string>3075</string>
+  <key>com.schriftgestaltung.customParameter.GSFont.Axis Mappings</key>
+  <dict>
+    <key>XXXX</key>
+    <dict>
+      <key>0</key>
+      <integer>0</integer>
+    </dict>
+    <key>wdth</key>
+    <dict>
+      <key>100</key>
+      <integer>100</integer>
+    </dict>
+    <key>wght</key>
+    <dict>
+      <key>400</key>
+      <integer>400</integer>
+      <key>800</key>
+      <integer>800</integer>
+    </dict>
+  </dict>
+  <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
+  <true/>
+  <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
+  <true/>
+  <key>com.schriftgestaltung.customParameter.GSFont.uniqueID</key>
+  <string>SIL International: Dai Banna SIL Master Italic: 2020</string>
+  <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
+  <integer>1</integer>
+  <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
+  <integer>0</integer>
+  <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue1</key>
+  <integer>0</integer>
+  <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue2</key>
+  <integer>0</integer>
+  <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue3</key>
+  <integer>0</integer>
+  <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
+  <string/>
+  <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
+  <integer>400</integer>
+  <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
+  <integer>100</integer>
+  <key>com.schriftgestaltung.fontMasterOrder</key>
+  <integer>0</integer>
+  <key>com.schriftgestaltung.keyboardIncrement</key>
+  <integer>1</integer>
+  <key>com.schriftgestaltung.weight</key>
+  <string>Regular</string>
+  <key>com.schriftgestaltung.weightValue</key>
+  <integer>400</integer>
+  <key>com.schriftgestaltung.width</key>
+  <string>Regular</string>
+  <key>com.schriftgestaltung.widthValue</key>
+  <integer>100</integer>
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>
@@ -368,5 +459,16 @@
     <string>dailuemodifierw</string>
     <string>dailuemodifierfinal</string>
   </array>
+  <key>public.postscriptNames</key>
+  <dict>
+    <key>nbspace</key>
+    <string>uni00A0</string>
+    <key>sfthyphen</key>
+    <string>uni00AD</string>
+    <key>thinspace</key>
+    <string>uni2009</string>
+    <key>zerowidthspace</key>
+    <string>uni200B</string>
+  </dict>
 </dict>
 </plist>

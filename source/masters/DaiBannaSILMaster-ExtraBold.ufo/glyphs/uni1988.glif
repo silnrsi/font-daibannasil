@@ -4,73 +4,56 @@
   <unicode hex="1988"/>
   <outline>
     <contour>
-      <point x="951" y="473" type="line" smooth="yes"/>
-      <point x="951" y="189"/>
-      <point x="797" y="-17"/>
       <point x="489" y="-17" type="curve" smooth="yes"/>
-      <point x="198" y="-17"/>
-      <point x="91" y="121"/>
-      <point x="91" y="238" type="curve" smooth="yes"/>
-      <point x="91" y="330"/>
-      <point x="165" y="435"/>
-      <point x="244" y="484" type="curve"/>
-      <point x="151" y="513"/>
-      <point x="96" y="601"/>
-      <point x="96" y="706" type="curve" smooth="yes" name="hr01"/>
-      <point x="96" y="823"/>
-      <point x="225" y="968"/>
-      <point x="489" y="968" type="curve" smooth="yes"/>
-      <point x="781" y="968"/>
-      <point x="951" y="785"/>
+      <point x="797" y="-17"/>
+      <point x="951" y="189"/>
       <point x="951" y="473" type="curve" smooth="yes"/>
+      <point x="951" y="785"/>
+      <point x="781" y="968"/>
+      <point x="489" y="968" type="curve" smooth="yes"/>
+      <point x="225" y="968"/>
+      <point x="96" y="823"/>
+      <point x="96" y="706" type="curve" smooth="yes" name="hr01"/>
+      <point x="96" y="601"/>
+      <point x="151" y="513"/>
+      <point x="244" y="484" type="curve"/>
+      <point x="165" y="435"/>
+      <point x="91" y="330"/>
+      <point x="91" y="238" type="curve" smooth="yes"/>
+      <point x="91" y="121"/>
+      <point x="198" y="-17"/>
     </contour>
     <contour>
-      <point x="689" y="473" type="line" smooth="yes"/>
-      <point x="689" y="744"/>
-      <point x="592" y="908"/>
-      <point x="489" y="908" type="curve" smooth="yes"/>
-      <point x="398" y="908"/>
-      <point x="326" y="814"/>
-      <point x="326" y="709" type="curve" smooth="yes"/>
-      <point x="326" y="574"/>
-      <point x="400" y="555"/>
-      <point x="480" y="550" type="curve" smooth="yes"/>
-      <point x="490" y="549"/>
-      <point x="498" y="535"/>
-      <point x="498" y="486" type="curve" smooth="yes"/>
-      <point x="498" y="435"/>
-      <point x="492" y="422"/>
-      <point x="480" y="419" type="curve" smooth="yes"/>
-      <point x="392" y="394"/>
-      <point x="321" y="351"/>
-      <point x="321" y="245" type="curve" smooth="yes" name="hr02"/>
-      <point x="321" y="138"/>
-      <point x="398" y="43"/>
       <point x="489" y="43" type="curve" smooth="yes"/>
-      <point x="606" y="43"/>
-      <point x="689" y="207"/>
+      <point x="398" y="43"/>
+      <point x="321" y="138"/>
+      <point x="321" y="245" type="curve" smooth="yes" name="hr02"/>
+      <point x="321" y="351"/>
+      <point x="392" y="394"/>
+      <point x="480" y="419" type="curve" smooth="yes"/>
+      <point x="492" y="422"/>
+      <point x="498" y="435"/>
+      <point x="498" y="486" type="curve" smooth="yes"/>
+      <point x="498" y="535"/>
+      <point x="490" y="549"/>
+      <point x="480" y="550" type="curve" smooth="yes"/>
+      <point x="400" y="555"/>
+      <point x="326" y="574"/>
+      <point x="326" y="709" type="curve" smooth="yes"/>
+      <point x="326" y="814"/>
+      <point x="398" y="908"/>
+      <point x="489" y="908" type="curve" smooth="yes"/>
+      <point x="592" y="908"/>
+      <point x="689" y="744"/>
       <point x="689" y="473" type="curve" smooth="yes"/>
+      <point x="689" y="207"/>
+      <point x="606" y="43"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr01">
-            <hstem pos="-17" width="567"/>
-            <hstem pos="968" width="-60"/>
-            <vstem pos="96" width="230"/>
-            <vstem pos="951" width="-262"/>
-          </hintset>
-          <hintset pointTag="hr02">
-            <hstem pos="-17" width="60"/>
-            <hstem pos="968" width="-60"/>
-            <vstem pos="91" width="230"/>
-            <vstem pos="951" width="-262"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <string>b''</string>
     </dict>
   </lib>
 </glyph>

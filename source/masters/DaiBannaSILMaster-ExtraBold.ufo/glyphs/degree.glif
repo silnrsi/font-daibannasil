@@ -4,49 +4,38 @@
   <unicode hex="00B0"/>
   <outline>
     <contour>
-      <point x="532" y="1202" type="line" smooth="yes"/>
-      <point x="532" y="1082"/>
-      <point x="435" y="985"/>
       <point x="315" y="985" type="curve" smooth="yes"/>
-      <point x="195" y="985"/>
-      <point x="99" y="1082"/>
-      <point x="99" y="1202" type="curve" smooth="yes"/>
-      <point x="99" y="1322"/>
-      <point x="195" y="1419"/>
-      <point x="315" y="1419" type="curve" smooth="yes"/>
-      <point x="435" y="1419"/>
-      <point x="532" y="1322"/>
+      <point x="435" y="985"/>
+      <point x="532" y="1082"/>
       <point x="532" y="1202" type="curve" smooth="yes"/>
+      <point x="532" y="1322"/>
+      <point x="435" y="1419"/>
+      <point x="315" y="1419" type="curve" smooth="yes"/>
+      <point x="195" y="1419"/>
+      <point x="99" y="1322"/>
+      <point x="99" y="1202" type="curve" smooth="yes"/>
+      <point x="99" y="1082"/>
+      <point x="195" y="985"/>
     </contour>
     <contour>
-      <point x="453" y="1202" type="line" smooth="yes"/>
-      <point x="453" y="1279"/>
-      <point x="392" y="1340"/>
-      <point x="315" y="1340" type="curve" smooth="yes"/>
-      <point x="238" y="1340"/>
-      <point x="177" y="1279"/>
-      <point x="177" y="1202" type="curve" smooth="yes"/>
-      <point x="177" y="1125"/>
-      <point x="238" y="1064"/>
       <point x="315" y="1064" type="curve" smooth="yes"/>
-      <point x="392" y="1064"/>
-      <point x="453" y="1125"/>
+      <point x="238" y="1064"/>
+      <point x="177" y="1125"/>
+      <point x="177" y="1202" type="curve" smooth="yes"/>
+      <point x="177" y="1279"/>
+      <point x="238" y="1340"/>
+      <point x="315" y="1340" type="curve" smooth="yes"/>
+      <point x="392" y="1340"/>
+      <point x="453" y="1279"/>
       <point x="453" y="1202" type="curve" smooth="yes"/>
+      <point x="453" y="1125"/>
+      <point x="392" y="1064"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="">
-            <hstem pos="985" width="79"/>
-            <hstem pos="1419" width="-79"/>
-            <vstem pos="99" width="78"/>
-            <vstem pos="532" width="-79"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <string>b''</string>
     </dict>
   </lib>
 </glyph>

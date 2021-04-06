@@ -4,33 +4,20 @@
   <unicode hex="005D"/>
   <outline>
     <contour>
-      <point x="527" y="-444" type="line"/>
       <point x="66" y="-444" type="line"/>
-      <point x="66" y="-354" type="line"/>
-      <point x="308" y="-354" type="line" name="hr01"/>
-      <point x="308" y="1448" type="line"/>
-      <point x="66" y="1448" type="line" name="hr02"/>
-      <point x="66" y="1532" type="line"/>
+      <point x="527" y="-444" type="line"/>
       <point x="527" y="1532" type="line"/>
+      <point x="66" y="1532" type="line"/>
+      <point x="66" y="1448" type="line" name="hr02"/>
+      <point x="308" y="1448" type="line"/>
+      <point x="308" y="-354" type="line" name="hr01"/>
+      <point x="66" y="-354" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr01">
-            <hstem pos="-444" width="90"/>
-            <hstem pos="1532" width="-84"/>
-            <vstem pos="527" width="-219"/>
-          </hintset>
-          <hintset pointTag="hr02">
-            <hstem pos="-444" width="90"/>
-            <hstem pos="1532" width="-84"/>
-            <vstem pos="66" width="461"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <string>b''</string>
     </dict>
   </lib>
 </glyph>

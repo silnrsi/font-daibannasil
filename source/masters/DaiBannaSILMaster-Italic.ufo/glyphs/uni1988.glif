@@ -4,73 +4,56 @@
   <unicode hex="1988"/>
   <outline>
     <contour>
-      <point x="893" y="599" type="line" smooth="yes"/>
-      <point x="893" y="293"/>
-      <point x="716" y="-17"/>
       <point x="375" y="-17" type="curve" smooth="yes"/>
-      <point x="119" y="-17"/>
-      <point x="32" y="76"/>
-      <point x="32" y="191" type="curve" smooth="yes"/>
-      <point x="32" y="343"/>
-      <point x="147" y="437"/>
-      <point x="281" y="484" type="curve"/>
-      <point x="163" y="506"/>
-      <point x="127" y="572"/>
-      <point x="127" y="653" type="curve" smooth="yes" name="hr01"/>
-      <point x="127" y="872"/>
-      <point x="339" y="968"/>
-      <point x="536" y="968" type="curve" smooth="yes"/>
-      <point x="774" y="968"/>
-      <point x="893" y="812"/>
+      <point x="716" y="-17"/>
+      <point x="893" y="293"/>
       <point x="893" y="599" type="curve" smooth="yes"/>
+      <point x="893" y="812"/>
+      <point x="774" y="968"/>
+      <point x="536" y="968" type="curve" smooth="yes"/>
+      <point x="339" y="968"/>
+      <point x="127" y="872"/>
+      <point x="127" y="653" type="curve" smooth="yes" name="hr01"/>
+      <point x="127" y="572"/>
+      <point x="163" y="506"/>
+      <point x="281" y="484" type="curve"/>
+      <point x="147" y="437"/>
+      <point x="32" y="343"/>
+      <point x="32" y="191" type="curve" smooth="yes"/>
+      <point x="32" y="76"/>
+      <point x="119" y="-17"/>
     </contour>
     <contour>
-      <point x="760" y="602" type="line" smooth="yes"/>
-      <point x="760" y="783"/>
-      <point x="672" y="887"/>
-      <point x="540" y="887" type="curve" smooth="yes"/>
-      <point x="392" y="887"/>
-      <point x="262" y="829"/>
-      <point x="262" y="663" type="curve" smooth="yes"/>
-      <point x="262" y="577"/>
-      <point x="322" y="523"/>
-      <point x="407" y="518" type="curve" smooth="yes"/>
-      <point x="416" y="517"/>
-      <point x="418" y="508"/>
-      <point x="417" y="486" type="curve" smooth="yes"/>
-      <point x="416" y="464"/>
-      <point x="413" y="456"/>
-      <point x="400" y="452" type="curve" smooth="yes"/>
-      <point x="291" y="415"/>
-      <point x="171" y="355"/>
-      <point x="171" y="224" type="curve" smooth="yes" name="hr02"/>
-      <point x="171" y="134"/>
-      <point x="239" y="64"/>
       <point x="380" y="64" type="curve" smooth="yes"/>
-      <point x="652" y="64"/>
-      <point x="760" y="372"/>
+      <point x="239" y="64"/>
+      <point x="171" y="134"/>
+      <point x="171" y="224" type="curve" smooth="yes" name="hr02"/>
+      <point x="171" y="355"/>
+      <point x="291" y="415"/>
+      <point x="400" y="452" type="curve" smooth="yes"/>
+      <point x="413" y="456"/>
+      <point x="416" y="464"/>
+      <point x="417" y="486" type="curve" smooth="yes"/>
+      <point x="418" y="508"/>
+      <point x="416" y="517"/>
+      <point x="407" y="518" type="curve" smooth="yes"/>
+      <point x="322" y="523"/>
+      <point x="262" y="577"/>
+      <point x="262" y="663" type="curve" smooth="yes"/>
+      <point x="262" y="829"/>
+      <point x="392" y="887"/>
+      <point x="540" y="887" type="curve" smooth="yes"/>
+      <point x="672" y="887"/>
+      <point x="760" y="783"/>
       <point x="760" y="602" type="curve" smooth="yes"/>
+      <point x="760" y="372"/>
+      <point x="652" y="64"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr01">
-            <hstem pos="-17" width="535"/>
-            <hstem pos="968" width="-81"/>
-            <vstem pos="127" width="135"/>
-            <vstem pos="893" width="-133"/>
-          </hintset>
-          <hintset pointTag="hr02">
-            <hstem pos="-17" width="81"/>
-            <hstem pos="968" width="-81"/>
-            <vstem pos="32" width="139"/>
-            <vstem pos="893" width="-133"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <string>b''</string>
     </dict>
   </lib>
 </glyph>

@@ -4,32 +4,24 @@
   <unicode hex="002B"/>
   <outline>
     <contour>
-      <point x="1576" y="530" type="line"/>
-      <point x="1046" y="530" type="line"/>
-      <point x="1046" y="0" type="line"/>
       <point x="924" y="0" type="line"/>
-      <point x="924" y="530" type="line"/>
-      <point x="394" y="530" type="line"/>
-      <point x="394" y="652" type="line"/>
-      <point x="924" y="652" type="line"/>
-      <point x="924" y="1182" type="line"/>
-      <point x="1046" y="1182" type="line"/>
-      <point x="1046" y="652" type="line"/>
+      <point x="1046" y="0" type="line"/>
+      <point x="1046" y="530" type="line"/>
+      <point x="1576" y="530" type="line"/>
       <point x="1576" y="652" type="line"/>
+      <point x="1046" y="652" type="line"/>
+      <point x="1046" y="1182" type="line"/>
+      <point x="924" y="1182" type="line"/>
+      <point x="924" y="652" type="line"/>
+      <point x="394" y="652" type="line"/>
+      <point x="394" y="530" type="line"/>
+      <point x="924" y="530" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="">
-            <hstem pos="0" width="41"/>
-            <hstem pos="530" width="122"/>
-            <vstem pos="924" width="122"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <string>b''</string>
     </dict>
   </lib>
 </glyph>

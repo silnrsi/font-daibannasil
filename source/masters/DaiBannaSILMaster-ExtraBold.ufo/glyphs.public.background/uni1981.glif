@@ -266,7 +266,7 @@
       <point x="511" y="489" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="366" y="442" type="move" smooth="yes"/>
+      <point x="366" y="442" type="move"/>
     </contour>
   </outline>
 </glyph>

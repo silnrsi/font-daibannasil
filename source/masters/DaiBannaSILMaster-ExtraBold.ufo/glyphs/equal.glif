@@ -4,29 +4,22 @@
   <unicode hex="003D"/>
   <outline>
     <contour>
-      <point x="1576" y="709" type="line"/>
       <point x="394" y="709" type="line"/>
-      <point x="394" y="831" type="line"/>
+      <point x="1576" y="709" type="line"/>
       <point x="1576" y="831" type="line"/>
+      <point x="394" y="831" type="line"/>
     </contour>
     <contour>
-      <point x="1576" y="351" type="line"/>
       <point x="394" y="351" type="line"/>
-      <point x="394" y="473" type="line"/>
+      <point x="1576" y="351" type="line"/>
       <point x="1576" y="473" type="line"/>
+      <point x="394" y="473" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="">
-            <hstem pos="351" width="122"/>
-            <hstem pos="831" width="-122"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <string>b''</string>
     </dict>
   </lib>
 </glyph>

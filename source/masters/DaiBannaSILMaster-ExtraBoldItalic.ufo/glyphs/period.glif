@@ -4,32 +4,24 @@
   <unicode hex="002E"/>
   <outline>
     <contour>
-      <point x="262" y="169" type="line" smooth="yes"/>
-      <point x="262" y="88"/>
-      <point x="201" y="-17"/>
       <point x="108" y="-17" type="curve" smooth="yes"/>
-      <point x="57" y="-17"/>
-      <point x="14" y="24"/>
-      <point x="14" y="113" type="curve" smooth="yes"/>
-      <point x="14" y="192"/>
-      <point x="76" y="295"/>
-      <point x="168" y="295" type="curve" smooth="yes"/>
-      <point x="222" y="295"/>
-      <point x="262" y="246"/>
+      <point x="201" y="-17"/>
+      <point x="262" y="88"/>
       <point x="262" y="169" type="curve" smooth="yes"/>
+      <point x="262" y="246"/>
+      <point x="222" y="295"/>
+      <point x="168" y="295" type="curve" smooth="yes"/>
+      <point x="76" y="295"/>
+      <point x="14" y="192"/>
+      <point x="14" y="113" type="curve" smooth="yes"/>
+      <point x="14" y="24"/>
+      <point x="57" y="-17"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="">
-            <hstem pos="-17" width="312"/>
-            <vstem pos="14" width="248"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <string>b''</string>
     </dict>
   </lib>
 </glyph>
