@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quoteleft" format="2">
+  <advance width="455"/>
+  <unicode hex="2018"/>
+  <outline>
+    <contour>
+      <point x="227" y="733" type="curve" smooth="yes"/>
+      <point x="290" y="733"/>
+      <point x="342" y="791"/>
+      <point x="342" y="891" type="curve" smooth="yes"/>
+      <point x="342" y="992"/>
+      <point x="280" y="1046"/>
+      <point x="227" y="1046" type="curve" smooth="yes"/>
+      <point x="197" y="1046"/>
+      <point x="189" y="1020"/>
+      <point x="179" y="1020" type="curve" smooth="yes"/>
+      <point x="171" y="1020"/>
+      <point x="166" y="1050"/>
+      <point x="166" y="1085" type="curve" smooth="yes"/>
+      <point x="166" y="1256"/>
+      <point x="322" y="1407"/>
+      <point x="316" y="1426" type="curve" smooth="yes"/>
+      <point x="309" y="1452"/>
+      <point x="80" y="1316"/>
+      <point x="80" y="974" type="curve" smooth="yes"/>
+      <point x="80" y="845"/>
+      <point x="131" y="733"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <string>b''</string>
+    </dict>
+  </lib>
+</glyph>

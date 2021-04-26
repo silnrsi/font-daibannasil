@@ -52,8 +52,7 @@ current.fpr
 *.bak
 *.vfbak
 *.~tt
-+.idea/*
-
+.idea/*
 
 # Shares
 .AppleDB
@@ -102,3 +101,6 @@ $RECYCLE.BIN/
 *.py[co]
 *$py.class
 __pycache__/
+settings.json
+DaiBannaSILItalic.glyphs
+DaiBannaSILUpright.glyphs

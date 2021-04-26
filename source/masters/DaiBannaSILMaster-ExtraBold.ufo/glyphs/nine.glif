@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nine" format="2">
+  <advance width="956"/>
+  <unicode hex="0039"/>
+  <outline>
+    <contour>
+      <point x="456" y="-17" type="curve" smooth="yes"/>
+      <point x="720" y="-17"/>
+      <point x="896" y="316"/>
+      <point x="896" y="808" type="curve" smooth="yes"/>
+      <point x="896" y="1267"/>
+      <point x="723" y="1499"/>
+      <point x="478" y="1499" type="curve" smooth="yes"/>
+      <point x="236" y="1499"/>
+      <point x="60" y="1292"/>
+      <point x="60" y="1026" type="curve" smooth="yes"/>
+      <point x="60" y="745"/>
+      <point x="224" y="574"/>
+      <point x="488" y="574" type="curve" smooth="yes"/>
+      <point x="543" y="574"/>
+      <point x="590" y="589"/>
+      <point x="630" y="611" type="curve"/>
+      <point x="623" y="261"/>
+      <point x="585" y="43"/>
+      <point x="444" y="43" type="curve" smooth="yes"/>
+      <point x="330" y="43"/>
+      <point x="325" y="238"/>
+      <point x="308" y="284" type="curve" smooth="yes"/>
+      <point x="297" y="314"/>
+      <point x="273" y="314"/>
+      <point x="175" y="259" type="curve" smooth="yes"/>
+      <point x="102" y="218"/>
+      <point x="79" y="196"/>
+      <point x="100" y="164" type="curve" smooth="yes"/>
+      <point x="166" y="63"/>
+      <point x="275" y="-17"/>
+    </contour>
+    <contour>
+      <point x="478" y="655" type="curve" smooth="yes"/>
+      <point x="349" y="655"/>
+      <point x="322" y="799"/>
+      <point x="322" y="1026" type="curve" smooth="yes"/>
+      <point x="322" y="1245"/>
+      <point x="363" y="1439"/>
+      <point x="478" y="1439" type="curve" smooth="yes"/>
+      <point x="592" y="1439"/>
+      <point x="624" y="1262"/>
+      <point x="631" y="934" type="curve"/>
+      <point x="619" y="771"/>
+      <point x="576" y="655"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <string>b''</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="colon" format="2">
+  <advance width="379"/>
+  <unicode hex="003A"/>
+  <outline>
+    <contour>
+      <point x="205" y="582" type="curve" smooth="yes"/>
+      <point x="283" y="582"/>
+      <point x="330" y="668"/>
+      <point x="330" y="735" type="curve" smooth="yes"/>
+      <point x="330" y="791"/>
+      <point x="290" y="830"/>
+      <point x="253" y="830" type="curve" smooth="yes"/>
+      <point x="175" y="830"/>
+      <point x="128" y="753"/>
+      <point x="128" y="684" type="curve" smooth="yes"/>
+      <point x="128" y="626"/>
+      <point x="161" y="582"/>
+    </contour>
+    <contour>
+      <point x="85" y="-18" type="curve" smooth="yes"/>
+      <point x="163" y="-18"/>
+      <point x="210" y="68"/>
+      <point x="210" y="135" type="curve" smooth="yes"/>
+      <point x="210" y="191"/>
+      <point x="170" y="230"/>
+      <point x="133" y="230" type="curve" smooth="yes"/>
+      <point x="55" y="230"/>
+      <point x="8" y="153"/>
+      <point x="8" y="84" type="curve" smooth="yes"/>
+      <point x="8" y="26"/>
+      <point x="41" y="-18"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <string>b''</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+psfufo2glyphs source/DaiBannaSILUpright.designspace source/masters/DaiBannaSILUpright.glyphs
+psfufo2glyphs source/DaiBannaSILItalic.designspace source/masters/DaiBannaSILItalic.glyphs

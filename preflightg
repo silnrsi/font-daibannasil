@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo "-----Updating UFOs from Glyphs files..."
+psfglyphs2ufo source/masters/DaiBannaSILUpright.glyphs source/masters
+psfglyphs2ufo source/masters/DaiBannaSILItalic.glyphs source/masters
+
+# Continue with normal preflight
+./preflight

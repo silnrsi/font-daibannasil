@@ -29,10 +29,13 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+unreleased (SIL WSTech team) Dai Banna SIL version 3.xxx
+- Replaced many Latin glyphs with Gentium Plus at 92%
+  The Latin glyphs that were kept were designed especially
+  for the Dai Banna characters.
 17 Feb 2021 (SIL) Dai Banna SIL version 3.000
 - Use visual instead of logical order for left vowels.
   This encoding was changed in Unicode 8.0
-
 21 Feb 2011 (AYWC) Dai Banna SIL version 2.200
 - Added support for Unicode 5.2 additions
 - Renamed 'Oblique' fonts to 'Italic' (for user-friendliness)

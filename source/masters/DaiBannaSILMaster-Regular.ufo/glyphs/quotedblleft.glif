@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedblleft" format="2">
+  <advance width="760"/>
+  <unicode hex="201C"/>
+  <outline>
+    <contour>
+      <point x="567" y="805" type="curve" smooth="yes"/>
+      <point x="609" y="805"/>
+      <point x="663" y="846"/>
+      <point x="663" y="922" type="curve" smooth="yes"/>
+      <point x="663" y="988"/>
+      <point x="623" y="1046"/>
+      <point x="578" y="1046" type="curve" smooth="yes"/>
+      <point x="553" y="1046"/>
+      <point x="530" y="1018"/>
+      <point x="520" y="1018" type="curve" smooth="yes"/>
+      <point x="512" y="1018"/>
+      <point x="500" y="1042"/>
+      <point x="500" y="1065" type="curve" smooth="yes" name="hr02"/>
+      <point x="500" y="1274"/>
+      <point x="663" y="1407"/>
+      <point x="657" y="1426" type="curve" smooth="yes"/>
+      <point x="650" y="1452"/>
+      <point x="443" y="1279"/>
+      <point x="443" y="1026" type="curve" smooth="yes"/>
+      <point x="443" y="914"/>
+      <point x="477" y="805"/>
+    </contour>
+    <contour>
+      <point x="221" y="805" type="curve" smooth="yes"/>
+      <point x="263" y="805"/>
+      <point x="316" y="846"/>
+      <point x="316" y="922" type="curve" smooth="yes"/>
+      <point x="316" y="988"/>
+      <point x="277" y="1046"/>
+      <point x="232" y="1046" type="curve" smooth="yes"/>
+      <point x="207" y="1046"/>
+      <point x="184" y="1018"/>
+      <point x="174" y="1018" type="curve" smooth="yes"/>
+      <point x="166" y="1018"/>
+      <point x="154" y="1042"/>
+      <point x="154" y="1065" type="curve" smooth="yes"/>
+      <point x="154" y="1274"/>
+      <point x="317" y="1407"/>
+      <point x="311" y="1426" type="curve" smooth="yes"/>
+      <point x="304" y="1452"/>
+      <point x="97" y="1279"/>
+      <point x="97" y="1026" type="curve" smooth="yes"/>
+      <point x="97" y="914"/>
+      <point x="131" y="805"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <string>b''</string>
+    </dict>
+  </lib>
+</glyph>

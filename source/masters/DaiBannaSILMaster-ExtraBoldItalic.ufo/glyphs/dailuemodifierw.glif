@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dailuemodifierw" format="2">
+  <advance width="1750"/>
+  <outline>
+    <contour>
+      <point x="-748" y="-610" type="curve" smooth="yes"/>
+      <point x="-619" y="-610"/>
+      <point x="-292" y="-563"/>
+      <point x="-292" y="-377" type="curve" smooth="yes"/>
+      <point x="-292" y="-276"/>
+      <point x="-425" y="-180"/>
+      <point x="-684" y="-180" type="curve" smooth="yes"/>
+      <point x="-811" y="-180"/>
+      <point x="-1139" y="-216"/>
+      <point x="-1139" y="-410" type="curve" smooth="yes"/>
+      <point x="-1139" y="-514"/>
+      <point x="-961" y="-610"/>
+    </contour>
+    <contour>
+      <point x="-743" y="-535" type="curve" smooth="yes"/>
+      <point x="-847" y="-535"/>
+      <point x="-925" y="-480"/>
+      <point x="-925" y="-408" type="curve" smooth="yes"/>
+      <point x="-925" y="-297"/>
+      <point x="-778" y="-255"/>
+      <point x="-689" y="-255" type="curve" smooth="yes"/>
+      <point x="-583" y="-255"/>
+      <point x="-506" y="-311"/>
+      <point x="-506" y="-383" type="curve" smooth="yes"/>
+      <point x="-506" y="-494"/>
+      <point x="-649" y="-535"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <string>b''</string>
+    </dict>
+  </lib>
+</glyph>
