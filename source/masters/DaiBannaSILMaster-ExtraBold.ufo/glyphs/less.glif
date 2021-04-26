@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="less" format="2">
-  <advance width="1970"/>
+  <advance width="864"/>
   <unicode hex="003C"/>
   <outline>
     <contour>
-      <point x="1576" y="77" type="line"/>
-      <point x="1576" y="199" type="line"/>
-      <point x="520" y="591" type="line"/>
-      <point x="1576" y="983" type="line"/>
-      <point x="1576" y="1105" type="line"/>
-      <point x="394" y="652" type="line"/>
-      <point x="394" y="530" type="line"/>
+      <point x="812" y="794"/>
+      <point x="818" y="820" type="curve"/>
+      <point x="786" y="852" type="line"/>
+      <point x="83" y="601" type="line"/>
+      <point x="72" y="576"/>
+      <point x="52" y="507"/>
+      <point x="46" y="483" type="curve"/>
+      <point x="78" y="441" type="line"/>
+      <point x="782" y="693" type="line"/>
+      <point x="790" y="716"/>
+    </contour>
+    <contour>
+      <point x="792" y="284"/>
+      <point x="818" y="309" type="curve"/>
+      <point x="793" y="351" type="line"/>
+      <point x="83" y="601" type="line"/>
+      <point x="72" y="576"/>
+      <point x="52" y="507"/>
+      <point x="46" y="483" type="curve"/>
+      <point x="78" y="441" type="line"/>
+      <point x="713" y="217" type="line"/>
+      <point x="751" y="240"/>
     </contour>
   </outline>
 </glyph>

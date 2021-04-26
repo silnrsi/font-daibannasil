@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bar" format="2">
-  <advance width="627"/>
+  <advance width="460"/>
   <unicode hex="007C"/>
   <outline>
     <contour>
-      <point x="220" y="-493" type="line"/>
-      <point x="407" y="-493" type="line"/>
-      <point x="407" y="1583" type="line"/>
-      <point x="220" y="1583" type="line"/>
+      <point x="290" y="-334"/>
+      <point x="312" y="-315" type="curve"/>
+      <point x="312" y="1506" type="line"/>
+      <point x="270" y="1536" type="line"/>
+      <point x="234" y="1527"/>
+      <point x="181" y="1502"/>
+      <point x="147" y="1482" type="curve"/>
+      <point x="147" y="-342" type="line"/>
+      <point x="188" y="-372" type="line"/>
+      <point x="218" y="-362"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <string>b''</string>
-    </dict>
-  </lib>
 </glyph>

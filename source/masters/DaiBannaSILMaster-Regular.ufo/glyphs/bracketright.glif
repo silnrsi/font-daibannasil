@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bracketright" format="2">
-  <advance width="677"/>
+  <advance width="579"/>
   <unicode hex="005D"/>
   <outline>
     <contour>
-      <point x="64" y="-444" type="line"/>
-      <point x="430" y="-444" type="line"/>
-      <point x="430" y="1533" type="line"/>
-      <point x="64" y="1533" type="line"/>
-      <point x="64" y="1448" type="line" name="hr02"/>
-      <point x="305" y="1448" type="line"/>
-      <point x="305" y="-355" type="line" name="hr01"/>
-      <point x="64" y="-355" type="line"/>
+      <point x="69" y="-308" type="line"/>
+      <point x="450" y="-308" type="line"/>
+      <point x="450" y="1472" type="line"/>
+      <point x="61" y="1472" type="line"/>
+      <point x="53" y="1451"/>
+      <point x="40" y="1416"/>
+      <point x="36" y="1390" type="curve"/>
+      <point x="69" y="1366" type="line"/>
+      <point x="322" y="1366" type="line"/>
+      <point x="322" y="-202" type="line"/>
+      <point x="61" y="-202" type="line"/>
+      <point x="53" y="-218"/>
+      <point x="42" y="-253"/>
+      <point x="38" y="-281" type="curve"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <string>b''</string>
-    </dict>
-  </lib>
 </glyph>

@@ -30,6 +30,10 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+unreleased (SIL WSTech team) Dai Banna SIL version 2.2xx
+- Replaced many Latin glyphs with Gentium Plus at 92%
+  The Latin glyphs that were kept were designed especially
+  for the Dai Banna characters.
 21 Feb 2011 (AYWC) Dai Banna SIL version 2.200
 - Added support for Unicode 5.2 additions
 - Renamed 'Oblique' fonts to 'Italic' (for user-friendliness)
