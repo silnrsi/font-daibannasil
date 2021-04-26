@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ugrave" format="2">
+  <advance width="998"/>
+  <unicode hex="00F9"/>
+  <anchor x="502" y="0" name="H"/>
+  <anchor x="501" y="-92" name="L"/>
+  <anchor x="791" y="0" name="O"/>
+  <anchor x="997" y="828" name="R"/>
+  <anchor x="501" y="1297" name="U"/>
+  <outline>
+    <component base="LtnSmU"/>
+    <component base="CombGrave" xOffset="899"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

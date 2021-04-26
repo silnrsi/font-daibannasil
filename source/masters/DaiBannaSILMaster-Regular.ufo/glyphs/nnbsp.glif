@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nnbsp" format="2">
+  <advance width="322"/>
+  <unicode hex="202F"/>
+  <anchor x="227" y="0" name="H"/>
+  <anchor x="227" y="-92" name="L"/>
+  <anchor x="250" y="0" name="O"/>
+  <anchor x="453" y="828" name="R"/>
+  <anchor x="227" y="1320" name="U"/>
+  <outline/>
+</glyph>

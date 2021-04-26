@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="horizontalbar" format="2">
+  <advance width="1762"/>
+  <unicode hex="2015"/>
+  <outline>
+    <contour>
+      <point x="1707" y="510" type="curve"/>
+      <point x="1682" y="541" type="line"/>
+      <point x="95" y="541" type="line"/>
+      <point x="81" y="517"/>
+      <point x="48" y="458"/>
+      <point x="39" y="431" type="curve"/>
+      <point x="66" y="400" type="line"/>
+      <point x="1653" y="400" type="line"/>
+      <point x="1664" y="420"/>
+      <point x="1699" y="483"/>
+    </contour>
+  </outline>
+</glyph>

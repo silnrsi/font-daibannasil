@@ -33,6 +33,7 @@ unreleased (SIL WSTech team) Dai Banna SIL version 3.xxx
 - Replaced many Latin glyphs with Gentium Plus at 92%
   The Latin glyphs that were kept were designed especially
   for the Dai Banna characters.
+- Imported missing Latin characters, with the same settings.
 17 Feb 2021 (SIL) Dai Banna SIL version 3.000
 - Use visual instead of logical order for left vowels.
   This encoding was changed in Unicode 8.0

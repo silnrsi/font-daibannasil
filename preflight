@@ -18,10 +18,10 @@ echo "-----Create WOFF metadata file..."
 psfmakewoffmetadata -n "DaiBannaSIL" -i org.sil.fonts -o source/DaiBannaSIL-WOFF-metadata.xml source/masters/*-Regular.ufo
 
 #echo "-----Rebuilding composites..."
-#psfbuildcomp -i source/composites.txt -c -n source/masters/DaiBannaSILMaster-Regular.ufo -p backup=False
-#psfbuildcomp -i source/composites.txt -c -n source/masters/DaiBannaSILMaster-ExtraBold.ufo -p backup=False
-#psfbuildcomp -i source/composites.txt -c -n source/masters/DaiBannaSILMaster-Italic.ufo -p backup=False
-#psfbuildcomp -i source/composites.txt -c -n source/masters/DaiBannaSILMaster-ExtraBoldItalic.ufo -p backup=False
+psfbuildcomp -i source/composites.txt -c -n source/masters/DaiBannaSILMaster-Regular.ufo -p backup=False
+psfbuildcomp -i source/composites.txt -c -n source/masters/DaiBannaSILMaster-ExtraBold.ufo -p backup=False
+psfbuildcomp -i source/composites.txt -c -n source/masters/DaiBannaSILMaster-Italic.ufo -p backup=False
+psfbuildcomp -i source/composites.txt -c -n source/masters/DaiBannaSILMaster-ExtraBoldItalic.ufo -p backup=False
 
 echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
 psfsyncmasters -q source/DaiBannaSILUpright.designspace source/DaiBannaSILItalic.designspace

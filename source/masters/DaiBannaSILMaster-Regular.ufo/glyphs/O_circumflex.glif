@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ocircumflex" format="2">
+  <advance width="1130"/>
+  <unicode hex="00D4"/>
+  <anchor x="540" y="0" name="H"/>
+  <anchor x="567" y="-92" name="L"/>
+  <anchor x="623" y="0" name="O"/>
+  <anchor x="1157" y="1012" name="R"/>
+  <anchor x="567" y="1628" name="U"/>
+  <outline>
+    <component base="LtnCapO"/>
+    <component base="CombCircum.LP" xOffset="1040" yOffset="294"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

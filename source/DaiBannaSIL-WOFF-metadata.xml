@@ -4,8 +4,8 @@
   <vendor name="SIL International" url="http://www.sil.org/" />
   <credits>
     <credit
-      name="Adrian Cheuk, Victor Gaultney, Martin Hosken, Julie Remington"
-      url="http://scripts.sil.org/"
+      name="Adrian Cheuk, Victor Gaultney, Martin Hosken, Julie Remington, Bobby de Vos"
+      url="https://software.sil.org/daibanna/"
       role="SIL designers and font engineers"
     />
   </credits>
@@ -13,7 +13,7 @@
     <text lang="en">
       Dai Banna SIL is a Unicode font package that supports the New Tai Lue script.  The New Tai Lue script is used by approximately 300,000 people who speak the Xishuangbanna Dai language in Yunnan, China.  It is a simplification of the Tai Tham (Old Tai Lue) script as used for this language for hundreds of years.
       
-      Version 2.200 is the latest Unicode release.  It has complete coverage of the NEW TAI LUE Unicode block (U+1980..19DF) as per Unicode 6.0.  It uses Graphite technology to support complex script behaviours like vowel reordering and intersyllabic line breaking in spaceless text.  (NB: Only basic break opportunities are accounted for in the current release.  Breaking behaviours for numbers and special CCV structures have yet to be added.)  The source package includes the source Graphite code.
+      It has complete coverage of the NEW TAI LUE Unicode block (U+1980..19DF) as per Unicode 6.0.  It uses Graphite technology to support complex script behaviours like intersyllabic line breaking in spaceless text.  (NB: Only basic break opportunities are accounted for in the current release.  Breaking behaviours for numbers and special CCV structures have yet to be added.)
       
       Eight fonts from two typeface families are included in this release:
       
@@ -31,6 +31,14 @@
       ---------
       (This should list both major and minor changes, most recent first.)
       
+      unreleased (SIL WSTech team) Dai Banna SIL version 3.xxx
+      - Replaced many Latin glyphs with Gentium Plus at 92%
+      The Latin glyphs that were kept were designed especially
+      for the Dai Banna characters.
+      - Imported missing Latin characters, with the same settings.
+      17 Feb 2021 (SIL) Dai Banna SIL version 3.000
+      - Use visual instead of logical order for left vowels.
+      This encoding was changed in Unicode 8.0
       21 Feb 2011 (AYWC) Dai Banna SIL version 2.200
       - Added support for Unicode 5.2 additions
       - Renamed 'Oblique' fonts to 'Italic' (for user-friendliness)

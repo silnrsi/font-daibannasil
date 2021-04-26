@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Iacute" format="2">
+  <advance width="527"/>
+  <unicode hex="00CD"/>
+  <anchor x="207" y="0" name="H"/>
+  <anchor x="194" y="-92" name="L"/>
+  <anchor x="262" y="0" name="O"/>
+  <anchor x="522" y="986" name="R"/>
+  <anchor x="414" y="1508" name="U"/>
+  <outline>
+    <component base="LtnCapI"/>
+    <component base="CombAcute.LP" xOffset="698" yOffset="294"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

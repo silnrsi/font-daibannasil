@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ydieresis" format="2">
+  <advance width="916"/>
+  <unicode hex="00FF"/>
+  <anchor x="625" y="-92" name="L"/>
+  <anchor x="1079" y="800" name="R"/>
+  <anchor x="599" y="1260" name="U"/>
+  <outline>
+    <component base="LtnSmY"/>
+    <component base="CombDiaer" xOffset="908"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

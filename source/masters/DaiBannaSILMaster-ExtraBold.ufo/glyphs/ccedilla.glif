@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ccedilla" format="2">
+  <advance width="869"/>
+  <unicode hex="00E7"/>
+  <anchor x="476" y="-552" name="L"/>
+  <anchor x="869" y="828" name="R"/>
+  <anchor x="476" y="966" name="U"/>
+  <outline>
+    <component base="LtnSmC"/>
+    <component base="CombCedilla" xOffset="978"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

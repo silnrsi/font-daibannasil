@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Otilde" format="2">
+  <advance width="1185"/>
+  <unicode hex="00D5"/>
+  <anchor x="563" y="0" name="H"/>
+  <anchor x="594" y="-92" name="L"/>
+  <anchor x="655" y="0" name="O"/>
+  <anchor x="1155" y="1012" name="R"/>
+  <anchor x="594" y="1554" name="U"/>
+  <outline>
+    <component base="LtnCapO"/>
+    <component base="CombTilde.LP" xOffset="1098" yOffset="294"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

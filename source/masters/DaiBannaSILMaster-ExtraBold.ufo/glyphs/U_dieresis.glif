@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Udieresis" format="2">
+  <advance width="1268"/>
+  <unicode hex="00DC"/>
+  <anchor x="641" y="0" name="H"/>
+  <anchor x="641" y="-92" name="L"/>
+  <anchor x="721" y="0" name="O"/>
+  <anchor x="1269" y="1012" name="R"/>
+  <anchor x="641" y="1554" name="U"/>
+  <outline>
+    <component base="LtnCapU"/>
+    <component base="CombDiaer.LP" xOffset="1145" yOffset="294"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

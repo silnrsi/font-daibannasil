@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="EnQuad" format="2">
+  <advance width="884"/>
+  <unicode hex="2000"/>
+  <anchor x="441" y="0" name="H"/>
+  <anchor x="441" y="-92" name="L"/>
+  <anchor x="487" y="0" name="O"/>
+  <anchor x="883" y="828" name="R"/>
+  <anchor x="441" y="1320" name="U"/>
+  <outline/>
+</glyph>

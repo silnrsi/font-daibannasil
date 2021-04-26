@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="PuncSpace" format="2">
+  <advance width="431"/>
+  <unicode hex="2008"/>
+  <anchor x="215" y="0" name="H"/>
+  <anchor x="215" y="-92" name="L"/>
+  <anchor x="238" y="0" name="O"/>
+  <anchor x="430" y="828" name="R"/>
+  <anchor x="215" y="1320" name="U"/>
+  <outline/>
+</glyph>
