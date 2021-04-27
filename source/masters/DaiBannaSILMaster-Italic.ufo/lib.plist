@@ -81,8 +81,8 @@
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>
-    <string>NULL</string>
-    <string>CR</string>
+    <string>.null</string>
+    <string>nonmarkingreturn</string>
     <string>space</string>
     <string>dollar</string>
     <string>percent</string>
