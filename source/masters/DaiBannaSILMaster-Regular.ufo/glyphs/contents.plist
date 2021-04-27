@@ -4,6 +4,8 @@
 <dict>
   <key>.notdef</key>
   <string>_notdef.glif</string>
+  <key>.null</key>
+  <string>_null.glif</string>
   <key>A</key>
   <string>A_.glif</string>
   <key>AE</key>
@@ -24,8 +26,6 @@
   <string>B_.glif</string>
   <key>C</key>
   <string>C_.glif</string>
-  <key>CR</key>
-  <string>C_R_.glif</string>
   <key>Ccedilla</key>
   <string>C_cedilla.glif</string>
   <key>CombAcute</key>
@@ -174,8 +174,6 @@
   <string>M_iddleD_ot.glif</string>
   <key>N</key>
   <string>N_.glif</string>
-  <key>NULL</key>
-  <string>N_U_L_L_.glif</string>
   <key>Ntilde</key>
   <string>N_tilde.glif</string>
   <key>O</key>
@@ -498,6 +496,8 @@
   <string>nine.glif</string>
   <key>nnbsp</key>
   <string>nnbsp.glif</string>
+  <key>nonmarkingreturn</key>
+  <string>nonmarkingreturn.glif</string>
   <key>notequal</key>
   <string>notequal.glif</string>
   <key>ntilde</key>
