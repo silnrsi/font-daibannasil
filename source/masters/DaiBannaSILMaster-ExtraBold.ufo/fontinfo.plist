@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Dai Banna SIL Master</string>
   <key>openTypeHeadCreated</key>
-  <string>2021/04/27 10:36:20</string>
+  <string>2021/05/10 09:47:58</string>
   <key>openTypeHeadFlags</key>
   <array/>
   <key>openTypeHheaAscender</key>
@@ -86,7 +86,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Dai Banna SIL Master Extra Bold: 2021</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.200</string>
+  <string>Version 3.001</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -191,9 +191,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>unitsPerEm</key>
   <integer>2048</integer>
   <key>versionMajor</key>
-  <integer>2</integer>
+  <integer>3</integer>
   <key>versionMinor</key>
-  <integer>200</integer>
+  <integer>1</integer>
   <key>xHeight</key>
   <integer>906</integer>
 </dict>
