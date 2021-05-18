@@ -2,8 +2,10 @@
 <designspace format="3">
     <axes>
         <axis default="400.0" maximum="800.0" minimum="400.0" name="weight" tag="wght">
-            <map input="400.0" output="400.0" />
-            <map input="800.0" output="800.0" />
+            <map input="400.0" output="0.0" />
+            <map input="500.0" output="30.0" />
+            <map input="700.0" output="80.0" />
+            <map input="800.0" output="120.0" />
             <labelname xml:lang="en">Weight</labelname>
         </axis>
         <axis default="100.0" maximum="100.0" minimum="100.0" name="width" tag="wdth">
@@ -22,23 +24,23 @@
             <features copy="1" />
             <info copy="1" />
             <location>
-                <dimension name="weight" xvalue="400.000000" />
+                <dimension name="weight" xvalue="0.000000" />
                 <dimension name="width" xvalue="100.000000" />
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
         <source familyname="Dai Banna SIL Master" filename="masters/DaiBannaSILMaster-ExtraBold.ufo" name="Dai Banna SIL Extra Bold" stylename="Extra Bold">
             <location>
-                <dimension name="weight" xvalue="800.000000" />
+                <dimension name="weight" xvalue="100.000000" />
                 <dimension name="width" xvalue="100.000000" />
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
     </sources>
     <instances>
-        <instance familyname="Dai Banna SIL" filename="instances/DaiBannaSIL-Regular.ufo" name="Dai Banna SIL Regular" stylemapfamilyname="Dai Banna SIL" stylemapstylename="regular" stylename="Regular" postscriptfontname="DaiBannaSIL-Regular">
+        <instance familyname="Dai Banna SIL Light" filename="instances/DaiBannaSILLight-Regular.ufo" name="Dai Banna SIL Light Regular" stylemapfamilyname="Dai Banna SIL Light" stylemapstylename="regular" stylename="Regular" postscriptfontname="DaiBannaSILLight-Regular">
             <location>
-                <dimension name="weight" xvalue="400.000000" />
+                <dimension name="weight" xvalue="0.000000" />
                 <dimension name="width" xvalue="100.000000" />
                 <dimension name="custom" xvalue="0.000000" />
             </location>
@@ -47,16 +49,16 @@
         </instance>
         <instance familyname="Dai Banna SIL Book" filename="instances/DaiBannaSILBook-Regular.ufo" name="Dai Banna SIL Book Regular" stylemapfamilyname="Dai Banna SIL Book" stylemapstylename="regular" stylename="Regular" postscriptfontname="DaiBannaSILBook-Regular">
             <location>
-                <dimension name="weight" xvalue="500.000000" />
+                <dimension name="weight" xvalue="30.000000" />
                 <dimension name="width" xvalue="100.000000" />
                 <dimension name="custom" xvalue="0.000000" />
             </location>
             <info />
             <kerning />
         </instance>
-        <instance familyname="Dai Banna SIL" filename="instances/DaiBannaSIL-Bold.ufo" name="Dai Banna SIL Bold" stylemapfamilyname="Dai Banna SIL" stylemapstylename="bold" stylename="Bold" postscriptfontname="DaiBannaSIL-Bold">
+        <instance familyname="Dai Banna SIL Light" filename="instances/DaiBannaSILLight-Bold.ufo" name="Dai Banna SIL Light Bold" stylemapfamilyname="Dai Banna SIL Light" stylemapstylename="bold" stylename="Bold" postscriptfontname="DaiBannaSILLight-Bold">
             <location>
-                <dimension name="weight" xvalue="700.000000" />
+                <dimension name="weight" xvalue="80.000000" />
                 <dimension name="width" xvalue="100.000000" />
                 <dimension name="custom" xvalue="0.000000" />
             </location>
@@ -65,7 +67,7 @@
         </instance>
         <instance familyname="Dai Banna SIL Book" filename="instances/DaiBannaSILBook-Bold.ufo" name="Dai Banna SIL Book Bold" stylemapfamilyname="Dai Banna SIL Book" stylemapstylename="bold" stylename="Bold"  postscriptfontname="DaiBannaSILBook-Bold">
             <location>
-                <dimension name="weight" xvalue="800.000000" />
+                <dimension name="weight" xvalue="120.000000" />
                 <dimension name="width" xvalue="100.000000" />
                 <dimension name="custom" xvalue="0.000000" />
             </location>

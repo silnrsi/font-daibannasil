@@ -10,7 +10,6 @@ TESTRESULTSDIR = 'test-results'
 APPNAME="DaiBannaSIL"
 getufoinfo('source/masters/' + APPNAME + 'Master-Regular' + '.ufo')
 
-DESC_SHORT = "A New Tai Lue script font used by the Xishuangbanna Dai people"
 DESC_LONG = """
 Dai Banna SIL is a Unicode font package for the New Tai Lue script used by the Xishuangbanna Dai people.  It includes two font families which differ only in weight.  It has complete coverage of the Unicode 8.0 New Tai Lue block and smart code in Graphite.
 """
