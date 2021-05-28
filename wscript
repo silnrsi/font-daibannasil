@@ -30,6 +30,7 @@ for dspace in ('Upright', 'Italic'):
             no_make = 1,
             params = '-e gdlerr-${DS:FILENAME_BASE}.txt',
             ),
+        version = VERSION,
         woff = woff('woff/${DS:FILENAME_BASE}',
             metadata = '../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml'),
         pdf = fret(params='-oi')
