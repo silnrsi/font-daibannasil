@@ -7,7 +7,7 @@
   <anchor x="806" y="0" name="O"/>
   <anchor x="699" y="1600" name="U"/>
   <outline>
-    <component base="LtnCapA"/>
+    <component base="A"/>
     <component base="CombGrave.LP" xOffset="943" yOffset="294"/>
   </outline>
   <lib>

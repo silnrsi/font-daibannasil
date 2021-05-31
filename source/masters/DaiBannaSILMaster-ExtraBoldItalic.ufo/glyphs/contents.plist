@@ -122,46 +122,8 @@
   <string>L_.glif</string>
   <key>LineSep</key>
   <string>L_ineS_ep.glif</string>
-  <key>LtnCapA</key>
-  <string>L_tnC_apA_.glif</string>
-  <key>LtnCapC</key>
-  <string>L_tnC_apC_.glif</string>
-  <key>LtnCapE</key>
-  <string>L_tnC_apE_.glif</string>
   <key>LtnCapEsh</key>
   <string>L_tnC_apE_sh.glif</string>
-  <key>LtnCapI</key>
-  <string>L_tnC_apI_.glif</string>
-  <key>LtnCapN</key>
-  <string>L_tnC_apN_.glif</string>
-  <key>LtnCapO</key>
-  <string>L_tnC_apO_.glif</string>
-  <key>LtnCapS</key>
-  <string>L_tnC_apS_.glif</string>
-  <key>LtnCapU</key>
-  <string>L_tnC_apU_.glif</string>
-  <key>LtnCapY</key>
-  <string>L_tnC_apY_.glif</string>
-  <key>LtnCapZ</key>
-  <string>L_tnC_apZ_.glif</string>
-  <key>LtnSmA</key>
-  <string>L_tnS_mA_.glif</string>
-  <key>LtnSmC</key>
-  <string>L_tnS_mC_.glif</string>
-  <key>LtnSmE</key>
-  <string>L_tnS_mE_.glif</string>
-  <key>LtnSmN</key>
-  <string>L_tnS_mN_.glif</string>
-  <key>LtnSmO</key>
-  <string>L_tnS_mO_.glif</string>
-  <key>LtnSmS</key>
-  <string>L_tnS_mS_.glif</string>
-  <key>LtnSmU</key>
-  <string>L_tnS_mU_.glif</string>
-  <key>LtnSmY</key>
-  <string>L_tnS_mY_.glif</string>
-  <key>LtnSmZ</key>
-  <string>L_tnS_mZ_.glif</string>
   <key>M</key>
   <string>M_.glif</string>
   <key>MiddleDot</key>

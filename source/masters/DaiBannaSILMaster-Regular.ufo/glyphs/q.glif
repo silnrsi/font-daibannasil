@@ -2,7 +2,7 @@
 <glyph name="q" format="2">
   <advance width="970"/>
   <unicode hex="0071"/>
-  <anchor x="512" y="-552" name="L"/>
+  <anchor x="374" y="-92" name="L"/>
   <anchor x="993" y="828" name="R"/>
   <anchor x="512" y="966" name="U"/>
   <outline>

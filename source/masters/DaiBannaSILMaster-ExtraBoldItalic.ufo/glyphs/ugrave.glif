@@ -8,7 +8,7 @@
   <anchor x="1076" y="800" name="R"/>
   <anchor x="628" y="1380" name="U"/>
   <outline>
-    <component base="LtnSmU"/>
+    <component base="u"/>
     <component base="CombGrave" xOffset="835"/>
   </outline>
   <lib>

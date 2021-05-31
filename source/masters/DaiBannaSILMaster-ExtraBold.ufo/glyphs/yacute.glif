@@ -6,7 +6,7 @@
   <anchor x="966" y="828" name="R"/>
   <anchor x="421" y="1380" name="U"/>
   <outline>
-    <component base="LtnSmY"/>
+    <component base="y"/>
     <component base="CombAcute" xOffset="1000"/>
   </outline>
   <lib>

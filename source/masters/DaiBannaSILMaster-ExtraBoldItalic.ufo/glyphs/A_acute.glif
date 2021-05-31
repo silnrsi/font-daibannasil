@@ -7,7 +7,7 @@
   <anchor x="806" y="0" name="O"/>
   <anchor x="700" y="1600" name="U"/>
   <outline>
-    <component base="LtnCapA"/>
+    <component base="A"/>
     <component base="CombAcute.LP" xOffset="1014" yOffset="294"/>
   </outline>
   <lib>

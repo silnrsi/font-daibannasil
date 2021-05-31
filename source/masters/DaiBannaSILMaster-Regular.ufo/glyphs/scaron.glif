@@ -6,7 +6,7 @@
   <anchor x="365" y="-92" name="L"/>
   <anchor x="365" y="1334" name="U"/>
   <outline>
-    <component base="LtnSmS"/>
+    <component base="s"/>
     <component base="CombCaron" xOffset="838"/>
   </outline>
   <lib>

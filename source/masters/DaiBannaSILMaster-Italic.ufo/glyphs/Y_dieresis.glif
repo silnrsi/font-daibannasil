@@ -5,7 +5,7 @@
   <anchor x="453" y="-92" name="L"/>
   <anchor x="672" y="1508" name="U"/>
   <outline>
-    <component base="LtnCapY"/>
+    <component base="Y"/>
     <component base="CombDiaer.LP" xOffset="958" yOffset="294"/>
   </outline>
   <lib>

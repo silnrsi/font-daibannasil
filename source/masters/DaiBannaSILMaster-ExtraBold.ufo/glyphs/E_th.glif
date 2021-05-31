@@ -15,6 +15,6 @@
       <point x="25" y="587" type="curve"/>
       <point x="46" y="565" type="line"/>
     </contour>
-    <component base="LtnCapD"/>
+    <component base="D"/>
   </outline>
 </glyph>

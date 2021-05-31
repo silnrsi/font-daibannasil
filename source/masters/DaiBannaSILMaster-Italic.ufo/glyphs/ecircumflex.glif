@@ -8,7 +8,7 @@
   <anchor x="813" y="800" name="R"/>
   <anchor x="536" y="1370" name="U"/>
   <outline>
-    <component base="LtnSmE"/>
+    <component base="e"/>
     <component base="CombCircum" xOffset="793"/>
   </outline>
   <lib>

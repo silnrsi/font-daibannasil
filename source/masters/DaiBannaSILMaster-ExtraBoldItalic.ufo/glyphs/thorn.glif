@@ -2,7 +2,7 @@
 <glyph name="thorn" format="2">
   <advance width="966"/>
   <unicode hex="00FE"/>
-  <anchor x="384" y="-552" name="L"/>
+  <anchor x="563" y="-92" name="L"/>
   <anchor x="667" y="1508" name="U"/>
   <outline>
     <contour>

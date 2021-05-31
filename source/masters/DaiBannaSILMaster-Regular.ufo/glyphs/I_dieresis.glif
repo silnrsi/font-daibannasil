@@ -8,7 +8,7 @@
   <anchor x="533" y="1012" name="R"/>
   <anchor x="271" y="1554" name="U"/>
   <outline>
-    <component base="LtnCapI"/>
+    <component base="I"/>
     <component base="CombDiaer.LP" xOffset="745" yOffset="294"/>
   </outline>
   <lib>

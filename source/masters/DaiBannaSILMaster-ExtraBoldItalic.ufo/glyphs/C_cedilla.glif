@@ -5,7 +5,7 @@
   <anchor x="379" y="-552" name="L"/>
   <anchor x="649" y="1214" name="U"/>
   <outline>
-    <component base="LtnCapC"/>
+    <component base="C"/>
     <component base="CombCedilla" xOffset="931"/>
   </outline>
   <lib>

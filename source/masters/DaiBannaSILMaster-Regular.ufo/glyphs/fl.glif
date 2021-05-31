@@ -6,7 +6,7 @@
   <anchor x="1096" y="828" name="R"/>
   <anchor x="848" y="1490" name="U"/>
   <outline>
-    <component base="LtnSmF"/>
-    <component base="LtnSmL" xOffset="586"/>
+    <component base="f"/>
+    <component base="l" xOffset="586"/>
   </outline>
 </glyph>
