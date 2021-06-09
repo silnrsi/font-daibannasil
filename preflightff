@@ -1,0 +1,8 @@
+#!/bin/sh
+
+psffixffglifs -p checkfix=fix source/masters/DaiBannaSILMaster-Regular.ufo &
+psffixffglifs -p checkfix=fix source/masters/DaiBannaSILMaster-ExtraBold.ufo &
+psffixffglifs -p checkfix=fix source/masters/DaiBannaSILMaster-Italic.ufo &
+psffixffglifs -p checkfix=fix source/masters/DaiBannaSILMaster-ExtraBoldItalic.ufo &
+wait
+./preflight

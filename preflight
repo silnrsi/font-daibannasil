@@ -2,10 +2,10 @@
 
 #echo "-----Normalizing Regular UFO..."
 #echo "-----Updating production names in Regular..."
-psfsetpsnames -p checkfix=fix -i source/glyph_data.csv source/masters/DaiBannaSILMaster-Regular.ufo -x
+psfsetpsnames -p checkfix=fix -i source/glyph_data.csv source/masters/DaiBannaSILMaster-Regular.ufo
 
 #echo "-----Updating glyph orders in Regular..."
-psfsetglyphorder -q --header sort_final -i source/glyph_data.csv source/masters/DaiBannaSILMaster-Regular.ufo -p backup=False -x
+psfsetglyphorder -q --header sort_final -i source/glyph_data.csv source/masters/DaiBannaSILMaster-Regular.ufo -p backup=False
 
 echo "-----Normalizing UFOs..."
 psfnormalize -p checkfix=fix source/masters/DaiBannaSILMaster-Regular.ufo          &
@@ -25,6 +25,6 @@ psfbuildcomp -i source/composites.txt -c -n source/masters/DaiBannaSILMaster-Ita
 psfbuildcomp -i source/composites.txt -c -n source/masters/DaiBannaSILMaster-ExtraBoldItalic.ufo -p backup=False
 
 echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
-psfsyncmasters -q source/DaiBannaSILUpright.designspace source/DaiBannaSILItalic.designspace
+psfsyncmasters -q --complex source/DaiBannaSILUpright.designspace source/DaiBannaSILItalic.designspace
 
 echo "-----Preflight completed!"
