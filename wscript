@@ -3,8 +3,6 @@
 
 # set the default output folders
 DOCDIR="doc"
-TESTDIR='test-suite'
-TESTRESULTSDIR = 'test-results'
 
 # set the font name, version, licensing and description
 APPNAME="DaiBannaSIL"
@@ -26,7 +24,7 @@ for dspace in ('Upright', 'Italic'):
             # cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo'])
         # ),
         instanceparams = '-W',
-        graphite = gdl('font-source/tlue.gdl',
+        graphite = gdl('source/main.gdl',
             no_make = 1,
             params = '-e gdlerr-${DS:FILENAME_BASE}.txt',
             ),
