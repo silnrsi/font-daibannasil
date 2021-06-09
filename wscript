@@ -20,9 +20,9 @@ generated = 'generated/'
 
 for dspace in ('Upright', 'Italic'):
     designspace('source/' + APPNAME + dspace + '.designspace',
-        target = process('${DS:FILENAME_BASE}.ttf'),
-            # cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo'])
-        # ),
+        target = process('${DS:FILENAME_BASE}.ttf',
+            cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo'])
+        ),
         instanceparams = '-W',
         graphite = gdl('source/main.gdl',
             no_make = 1,

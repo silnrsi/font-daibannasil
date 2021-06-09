@@ -2,10 +2,10 @@
 
 #echo "-----Normalizing Regular UFO..."
 #echo "-----Updating production names in Regular..."
-#psfsetpsnames -p checkfix=fix -i source/glyph_data.csv source/masters/DaiBannaSILMaster-Regular.ufo -x
+psfsetpsnames -p checkfix=fix -i source/glyph_data.csv source/masters/DaiBannaSILMaster-Regular.ufo -x
 
 #echo "-----Updating glyph orders in Regular..."
-#psfsetglyphorder -q --header sort_final_cdg -i source/glyph_data.csv source/masters/DaiBannaSILMaster-Regular.ufo -p backup=False -x
+psfsetglyphorder -q --header sort_final -i source/glyph_data.csv source/masters/DaiBannaSILMaster-Regular.ufo -p backup=False -x
 
 echo "-----Normalizing UFOs..."
 psfnormalize -p checkfix=fix source/masters/DaiBannaSILMaster-Regular.ufo          &
