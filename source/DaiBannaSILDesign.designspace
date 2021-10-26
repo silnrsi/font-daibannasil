@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="300.0" maximum="700.0" minimum="300.0" name="weight" tag="wght">
+            <map input="300.0" output="0.0" />
+            <map input="400.0" output="30.0" />
+            <map input="600.0" output="80.0" />
+            <map input="700.0" output="120.0" />
+            <labelname xml:lang="en">Weight</labelname>
+        </axis>
+        <axis default="100.0" maximum="100.0" minimum="100.0" name="width" tag="wdth">
+            <map input="100.0" output="100.0" />
+            <labelname xml:lang="en">Width</labelname>
+        </axis>
+        <axis default="0.0" maximum="0.0" minimum="0.0" name="custom" tag="XXXX">
+            <map input="0.0" output="0.0" />
+            <labelname xml:lang="en">Custom</labelname>
+        </axis>
+    </axes>
+    <sources>
+        <source familyname="Dai Banna SIL Master" filename="masters/DaiBannaSILMaster-Regular.ufo" name="Dai Banna SIL Regular" stylename="Regular">
+            <lib copy="1" />
+            <groups copy="1" />
+            <features copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="weight" xvalue="0.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
+            </location>
+        </source>
+        <source familyname="Dai Banna SIL Master" filename="masters/DaiBannaSILMaster-ExtraBold.ufo" name="Dai Banna SIL Extra Bold" stylename="Extra Bold">
+            <location>
+                <dimension name="weight" xvalue="100.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <instance familyname="DB SIL Test A" filename="instances/DBSILTestA-Light.ufo" name="DB SIL Test A Light" stylename="Light" postscriptfontname="DBSILTestA-Light">
+            <location>
+                <dimension name="weight" xvalue="0.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
+            </location>
+            <info />
+            <kerning />
+        </instance>
+        <instance familyname="DB SIL Test A" filename="instances/DBSILTestA-Regular.ufo" name="DB SIL Test A Regular" stylename="Regular" postscriptfontname="DBSILTestA-Regular">
+            <location>
+                <dimension name="weight" xvalue="30.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
+            </location>
+            <info />
+            <kerning />
+        </instance>
+        <instance familyname="DB SIL Test A" filename="instances/DBSILTestA-SemiBold.ufo" name="DB SIL Test A SemiBold" stylename="SemiBold" postscriptfontname="DBSILTestA-SemiBold">
+            <location>
+                <dimension name="weight" xvalue="80.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
+            </location>
+            <info />
+            <kerning />
+        </instance>
+        <instance familyname="DB SIL Test A" filename="instances/DBSILTestA-Bold.ufo" name="DB SIL Test A Bold" stylename="Bold" postscriptfontname="DBSILTestA-Bold">
+            <location>
+                <dimension name="weight" xvalue="120.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
+            </location>
+            <info />
+            <kerning />
+        </instance>
+    </instances>
+</designspace>
