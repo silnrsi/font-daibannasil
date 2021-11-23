@@ -29,7 +29,7 @@ for dspace in ('Upright', 'Italic'):
             params = '-e gdlerr-${DS:FILENAME_BASE}.txt',
             ),
         version = VERSION,
-        woff = woff('woff/${DS:FILENAME_BASE}',
+        woff = woff('web/${DS:FILENAME_BASE}',
             metadata = '../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml'),
         pdf = fret(params='-oi')
     )
