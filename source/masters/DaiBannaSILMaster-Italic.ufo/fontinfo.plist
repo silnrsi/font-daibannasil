@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>1355</integer>
   <key>copyright</key>
-  <string>Copyright (c) 1998-2021 SIL International</string>
+  <string>Copyright (c) 1998-2022 SIL International</string>
   <key>descender</key>
   <integer>-648</integer>
   <key>familyName</key>
@@ -29,7 +29,7 @@
   <key>openTypeNameDesignerURL</key>
   <string>http://scripts.sil.org/</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 1998-2021 SIL International (http://www.sil.org/), with Reserved Font Name "SIL".
+  <string>Copyright (c) 1998-2022 SIL International (http://www.sil.org/), with Reserved Font Name "SIL".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
@@ -84,7 +84,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Italic</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Dai Banna SIL Master Italic: 2021</string>
+  <string>SIL International: Dai Banna SIL Master Italic: 2022</string>
   <key>openTypeNameVersion</key>
   <string>Version 3.001</string>
   <key>openTypeOS2CodePageRanges</key>
