@@ -6,19 +6,19 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1.
 */
 @font-face {
     font-family: DaiBannaSIL-R;
-    src: url("../../../results/web/DaiBannaSILBook-Regular.woff2") format("woff2");
+    src: url("../../../web/DaiBannaSILBook-Regular.woff2") format("woff2");
 }
 @font-face {
     font-family: DaiBannaSIL-I;
-    src: url("../../../results/web/DaiBannaSILBook-Italic.woff2") format("woff2");
+    src: url("../../../web/DaiBannaSILBook-Italic.woff2") format("woff2");
 }
 @font-face {
     font-family: DaiBannaSIL-B;
-    src: url("../../../results/web/DaiBannaSILBook-Bold.woff2") format("woff2");
+    src: url("../../../web/DaiBannaSILBook-Bold.woff2") format("woff2");
 }
 @font-face {
     font-family: DaiBannaSIL-BI;
-    src: url("../../../results/web/DaiBannaSILBook-BoldItalic.woff2") format("woff2");
+    src: url("../../../web/DaiBannaSILBook-BoldItalic.woff2") format("woff2");
 }
 
 .daibanna-R { font-family: DaiBannaSIL-R; }

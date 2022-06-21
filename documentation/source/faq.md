@@ -14,4 +14,4 @@ This is *not* a defect of our fonts but rather a failure of the applications/OS 
 
 #### *Misc.: Autofit row height gives initial blank line - Excel*
 
-In a cell containing New Tai Lue text wrapped into multiple lines, the autofit function in Microsoft Excel (tested with Excel 2010 and 2016) may fail to compute the correct row height when the column width falls in a certain range.  The result is that a blank line is left before the first line of text.  This faulty behaviour is not a defect of our fonts but a bug of the application.  Manual height adjustment can remove the blank line.
+In a cell containing New Tai Lue text wrapped into multiple lines, the autofit function in Microsoft Excel (tested with Excel 2010 and 2016) may fail to compute the correct row height when the column width falls in a certain range. The result is that a blank line is left before the first line of text.  This faulty behaviour is not a defect of our fonts but a bug of the application. Manual height adjustment can remove the blank line.
