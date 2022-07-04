@@ -24,9 +24,10 @@ jobs:
           # sudo apt-get upgrade -q -y
           # sudo apt-get install libjson-perl libtext-csv-perl libharfbuzz-bin -y
           # sudo apt-get install smith-font -y --no-install-recommends
-          sudo apt-get install python3-pip python3-setuptools -y
+          # sudo apt-get install python3-pip python3-setuptools -y
           pip3 install fontmake --user
           pip3 install MutatorMath --user
+          pip3 install Brotli --user
           python3 -m pip install --upgrade git+https://github.com/silnrsi/pysilfont.git@master#egg=pysilfont --user
           python3 -m pip install --upgrade git+https://github.com/silnrsi/palaso-python.git@master#egg=palaso --user
           python3 -m pip install --upgrade git+https://github.com/silnrsi/smith.git@master#egg=smith --user

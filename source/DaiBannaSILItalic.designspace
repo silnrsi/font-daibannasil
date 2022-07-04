@@ -18,7 +18,7 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Dai Banna SIL Master" filename="masters/DaiBannaSILMaster-Italic.ufo" name="Dai Banna SIL Italic" stylename="Italic">
+        <source familyname="Dai Banna SIL Master" filename="masters/DaiBannaSIL-LightItalic.ufo" name="Dai Banna SIL Light Italic" stylename="Light Italic">
             <lib copy="1" />
             <groups copy="1" />
             <features copy="1" />

@@ -18,7 +18,7 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Dai Banna SIL Master" filename="masters/DaiBannaSILMaster-Regular.ufo" name="Dai Banna SIL Regular" stylename="Regular">
+        <source familyname="Dai Banna SIL Master" filename="masters/DaiBannaSIL-Light.ufo" name="Dai Banna SIL Light" stylename="Light">
             <lib copy="1" />
             <groups copy="1" />
             <features copy="1" />
