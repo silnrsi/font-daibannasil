@@ -49,7 +49,7 @@
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.uniqueID</key>
-  <string>SIL International: Dai Banna SIL Master Italic: 2022</string>
+  <string>SIL International: Dai Banna SIL Light Italic: 2022</string>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
@@ -71,9 +71,9 @@
   <key>com.schriftgestaltung.keyboardIncrement</key>
   <integer>1</integer>
   <key>com.schriftgestaltung.weight</key>
-  <string>Regular</string>
+  <string>Light</string>
   <key>com.schriftgestaltung.weightValue</key>
-  <integer>400</integer>
+  <integer>300</integer>
   <key>com.schriftgestaltung.width</key>
   <string>Regular</string>
   <key>com.schriftgestaltung.widthValue</key>

@@ -11,9 +11,9 @@
   <key>descender</key>
   <integer>-648</integer>
   <key>familyName</key>
-  <string>Dai Banna SIL Master</string>
+  <string>Dai Banna SIL</string>
   <key>openTypeHeadCreated</key>
-  <string>2022/04/06 21:02:19</string>
+  <string>2022/07/04 15:49:32</string>
   <key>openTypeHheaAscender</key>
   <integer>1662</integer>
   <key>openTypeHheaDescender</key>
@@ -78,11 +78,11 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameManufacturerURL</key>
   <string>http://www.sil.org/</string>
   <key>openTypeNamePreferredFamilyName</key>
-  <string>Dai Banna SIL Master</string>
+  <string>Dai Banna SIL</string>
   <key>openTypeNamePreferredSubfamilyName</key>
-  <string>Regular</string>
+  <string>Light</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Dai Banna SIL Master Regular: 2022</string>
+  <string>SIL International: Dai Banna SIL Light: 2022</string>
   <key>openTypeNameVersion</key>
   <string>Version 3.001</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -179,9 +179,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>1444</integer>
   </array>
   <key>postscriptFontName</key>
-  <string>DaiBannaSILMaster-Regular</string>
+  <string>DaiBannaSIL-Light</string>
   <key>postscriptFullName</key>
-  <string>Dai Banna SIL Master</string>
+  <string>Dai Banna SIL Light</string>
   <key>postscriptStemSnapH</key>
   <array>
     <integer>76</integer>
@@ -197,11 +197,11 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>postscriptUnderlineThickness</key>
   <integer>20</integer>
   <key>styleMapFamilyName</key>
-  <string>Dai Banna SIL Master</string>
+  <string>Dai Banna SIL</string>
   <key>styleMapStyleName</key>
   <string>regular</string>
   <key>styleName</key>
-  <string>Regular</string>
+  <string>Light</string>
   <key>trademark</key>
   <string>Dai Banna SIL is a trademark of SIL International.</string>
   <key>unitsPerEm</key>

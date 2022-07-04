@@ -2,27 +2,27 @@
 
 #echo "-----Normalizing Regular UFO..."
 #echo "-----Updating production names in Regular..."
-psfsetpsnames -p checkfix=fix -i source/glyph_data.csv source/masters/DaiBannaSILMaster-Regular.ufo
+psfsetpsnames -p checkfix=fix -i source/glyph_data.csv source/masters/DaiBannaSIL-Light.ufo
 
 #echo "-----Updating glyph orders in Regular..."
-psfsetglyphorder -q --header sort_final -i source/glyph_data.csv source/masters/DaiBannaSILMaster-Regular.ufo -p backup=False
+psfsetglyphorder -q --header sort_final -i source/glyph_data.csv source/masters/DaiBannaSIL-Light.ufo -p backup=False
 
 echo "-----Normalizing UFOs..."
-psfnormalize -p checkfix=fix source/masters/DaiBannaSILMaster-Regular.ufo          &
-psfnormalize -p checkfix=fix source/masters/DaiBannaSILMaster-ExtraBold.ufo        &
-psfnormalize -p checkfix=fix source/masters/DaiBannaSILMaster-Italic.ufo           &
-psfnormalize -p checkfix=fix source/masters/DaiBannaSILMaster-ExtraBoldItalic.ufo  &
+psfnormalize -p checkfix=fix source/masters/DaiBannaSIL-Light.ufo          &
+psfnormalize -p checkfix=fix source/masters/DaiBannaSIL-Bold.ufo        &
+psfnormalize -p checkfix=fix source/masters/DaiBannaSIL-LightItalic.ufo           &
+psfnormalize -p checkfix=fix source/masters/DaiBannaSIL-BoldItalic.ufo  &
 wait
 
 echo "-----Create WOFF metadata file..."
-psfmakewoffmetadata -n "DaiBannaSILLight" -i org.sil.fonts -o source/DaiBannaSILLight-WOFF-metadata.xml source/masters/*-Regular.ufo
-psfmakewoffmetadata -n "DaiBannaSILBook"  -i org.sil.fonts -o source/DaiBannaSILBook-WOFF-metadata.xml  source/masters/*-Regular.ufo
+psfmakewoffmetadata -n "DaiBannaSILLight" -i org.sil.fonts -o source/DaiBannaSILLight-WOFF-metadata.xml source/masters/*-Light.ufo
+psfmakewoffmetadata -n "DaiBannaSILBook"  -i org.sil.fonts -o source/DaiBannaSILBook-WOFF-metadata.xml  source/masters/*-Light.ufo
 
 #echo "-----Rebuilding composites..."
-psfbuildcomp -i source/composites.txt -c -n source/masters/DaiBannaSILMaster-Regular.ufo -p backup=False
-psfbuildcomp -i source/composites.txt -c -n source/masters/DaiBannaSILMaster-ExtraBold.ufo -p backup=False
-psfbuildcomp -i source/composites.txt -c -n source/masters/DaiBannaSILMaster-Italic.ufo -p backup=False
-psfbuildcomp -i source/composites.txt -c -n source/masters/DaiBannaSILMaster-ExtraBoldItalic.ufo -p backup=False
+psfbuildcomp -i source/composites.txt -c -n source/masters/DaiBannaSIL-Light.ufo -p backup=False
+psfbuildcomp -i source/composites.txt -c -n source/masters/DaiBannaSIL-Bold.ufo -p backup=False
+psfbuildcomp -i source/composites.txt -c -n source/masters/DaiBannaSIL-LightItalic.ufo -p backup=False
+psfbuildcomp -i source/composites.txt -c -n source/masters/DaiBannaSIL-BoldItalic.ufo -p backup=False
 
 echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
 psfsyncmasters -q --complex source/DaiBannaSILUpright.designspace source/DaiBannaSILItalic.designspace

@@ -18,7 +18,7 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Dai Banna SIL Master" filename="masters/DaiBannaSIL-LightItalic.ufo" name="Dai Banna SIL Light Italic" stylename="Light Italic">
+        <source familyname="Dai Banna SIL" filename="masters/DaiBannaSIL-LightItalic.ufo" name="Dai Banna SIL Light Italic" stylename="Light Italic">
             <lib copy="1" />
             <groups copy="1" />
             <features copy="1" />
@@ -29,9 +29,9 @@
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-        <source familyname="Dai Banna SIL Master" filename="masters/DaiBannaSIL-BoldItalic.ufo" name="Dai Banna SIL Bold Italic" stylename="Bold Italic">
+        <source familyname="Dai Banna SIL" filename="masters/DaiBannaSIL-BoldItalic.ufo" name="Dai Banna SIL Bold Italic" stylename="Bold Italic">
             <location>
-                <dimension name="weight" xvalue="800.000000" />
+                <dimension name="weight" xvalue="900.000000" />
                 <dimension name="width" xvalue="100.000000" />
                 <dimension name="custom" xvalue="0.000000" />
             </location>
