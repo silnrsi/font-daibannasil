@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="CombCircum.LP" format="2">
-  <anchor x="-299" y="1315" name="U"/>
-  <anchor x="-354" y="920" name="_U"/>
+  <anchor x="-305" y="1318" name="U"/>
+  <anchor x="-360" y="920" name="_U"/>
   <outline>
     <contour>
-      <point x="-49" y="994" type="curve"/>
-      <point x="-236" y="1289" type="line"/>
-      <point x="-376" y="1289" type="line"/>
-      <point x="-655" y="994" type="line"/>
-      <point x="-644" y="969"/>
-      <point x="-609" y="942"/>
-      <point x="-598" y="934" type="curve"/>
-      <point x="-330" y="1077" type="line"/>
-      <point x="-119" y="934" type="line"/>
-      <point x="-100" y="943"/>
-      <point x="-66" y="969"/>
+      <point x="-47" y="996" type="curve"/>
+      <point x="-236" y="1294" type="line"/>
+      <point x="-387" y="1294" type="line"/>
+      <point x="-671" y="996" type="line"/>
+      <point x="-661" y="971"/>
+      <point x="-620" y="940"/>
+      <point x="-609" y="932" type="curve"/>
+      <point x="-336" y="1066" type="line"/>
+      <point x="-123" y="932" type="line"/>
+      <point x="-104" y="941"/>
+      <point x="-64" y="971"/>
     </contour>
   </outline>
 </glyph>

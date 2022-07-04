@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nbhyphen" format="2">
-  <advance width="635"/>
+  <advance width="644"/>
   <unicode hex="2011"/>
   <anchor x="335" y="920" name="U"/>
   <outline>

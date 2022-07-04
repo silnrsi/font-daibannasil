@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="egrave" format="2">
-  <advance width="814"/>
+  <advance width="829"/>
   <unicode hex="00E8"/>
-  <anchor x="366" y="0" name="H"/>
-  <anchor x="353" y="-92" name="L"/>
-  <anchor x="412" y="0" name="O"/>
-  <anchor x="977" y="800" name="R"/>
-  <anchor x="552" y="1380" name="U"/>
+  <anchor x="373" y="0" name="H"/>
+  <anchor x="360" y="-92" name="L"/>
+  <anchor x="419" y="0" name="O"/>
+  <anchor x="1010" y="800" name="R"/>
+  <anchor x="559" y="1404" name="U"/>
   <outline>
     <component base="e"/>
-    <component base="CombGrave" xOffset="759"/>
+    <component base="CombGrave" xOffset="766"/>
   </outline>
   <lib>
     <dict>

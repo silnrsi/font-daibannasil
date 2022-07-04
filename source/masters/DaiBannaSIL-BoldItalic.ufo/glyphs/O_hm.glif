@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ohm" format="2">
-  <advance width="1171"/>
+  <advance width="1186"/>
   <unicode hex="2126"/>
   <anchor x="158" y="1159" name="G"/>
-  <anchor x="515" y="-92" name="L"/>
+  <anchor x="525" y="-92" name="L"/>
   <outline>
     <component base="GrCapOmega"/>
   </outline>

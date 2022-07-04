@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="adieresis" format="2">
-  <advance width="926"/>
+  <advance width="942"/>
   <unicode hex="00E4"/>
-  <anchor x="354" y="0" name="H"/>
-  <anchor x="406" y="-92" name="L"/>
-  <anchor x="694" y="0" name="O"/>
-  <anchor x="1089" y="800" name="R"/>
-  <anchor x="592" y="1260" name="U"/>
+  <anchor x="357" y="0" name="H"/>
+  <anchor x="414" y="-92" name="L"/>
+  <anchor x="700" y="0" name="O"/>
+  <anchor x="1135" y="800" name="R"/>
+  <anchor x="600" y="1260" name="U"/>
   <outline>
     <component base="a"/>
-    <component base="CombDiaer" xOffset="901"/>
+    <component base="CombDiaer" xOffset="915"/>
   </outline>
   <lib>
     <dict>

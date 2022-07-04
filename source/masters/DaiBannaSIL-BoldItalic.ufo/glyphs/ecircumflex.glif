@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ecircumflex" format="2">
-  <advance width="814"/>
+  <advance width="829"/>
   <unicode hex="00EA"/>
-  <anchor x="366" y="0" name="H"/>
-  <anchor x="353" y="-92" name="L"/>
-  <anchor x="412" y="0" name="O"/>
-  <anchor x="977" y="800" name="R"/>
-  <anchor x="573" y="1389" name="U"/>
+  <anchor x="373" y="0" name="H"/>
+  <anchor x="360" y="-92" name="L"/>
+  <anchor x="419" y="0" name="O"/>
+  <anchor x="1010" y="800" name="R"/>
+  <anchor x="580" y="1393" name="U"/>
   <outline>
     <component base="e"/>
-    <component base="CombCircum" xOffset="860"/>
+    <component base="CombCircum" xOffset="873"/>
   </outline>
   <lib>
     <dict>

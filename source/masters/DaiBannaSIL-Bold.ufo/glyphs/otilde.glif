@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="otilde" format="2">
-  <advance width="1002"/>
+  <advance width="1013"/>
   <unicode hex="00F5"/>
-  <anchor x="521" y="0" name="H"/>
-  <anchor x="521" y="-92" name="L"/>
-  <anchor x="562" y="0" name="O"/>
-  <anchor x="1002" y="828" name="R"/>
-  <anchor x="521" y="1297" name="U"/>
+  <anchor x="527" y="0" name="H"/>
+  <anchor x="527" y="-92" name="L"/>
+  <anchor x="569" y="0" name="O"/>
+  <anchor x="1010" y="828" name="R"/>
+  <anchor x="527" y="1297" name="U"/>
   <outline>
     <component base="o"/>
-    <component base="CombTilde" xOffset="1025"/>
+    <component base="CombTilde" xOffset="1037"/>
   </outline>
   <lib>
     <dict>

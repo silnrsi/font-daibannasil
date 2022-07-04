@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Aring" format="2">
-  <advance width="1204"/>
+  <advance width="1221"/>
   <unicode hex="00C5"/>
-  <anchor x="592" y="0" name="H"/>
-  <anchor x="592" y="-92" name="L"/>
-  <anchor x="949" y="0" name="O"/>
-  <anchor x="592" y="1665" name="U"/>
+  <anchor x="600" y="0" name="H"/>
+  <anchor x="600" y="-92" name="L"/>
+  <anchor x="962" y="0" name="O"/>
+  <anchor x="600" y="1665" name="U"/>
   <outline>
     <component base="A"/>
-    <component base="CombRingAbv" xOffset="1096" yOffset="294"/>
+    <component base="CombRingAbv" xOffset="1110" yOffset="294"/>
   </outline>
   <lib>
     <dict>

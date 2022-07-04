@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uacute" format="2">
-  <advance width="1179"/>
+  <advance width="1189"/>
   <unicode hex="00DA"/>
-  <anchor x="570" y="0" name="H"/>
-  <anchor x="542" y="-92" name="L"/>
-  <anchor x="632" y="0" name="O"/>
-  <anchor x="1192" y="986" name="R"/>
-  <anchor x="752" y="1600" name="U"/>
+  <anchor x="577" y="0" name="H"/>
+  <anchor x="547" y="-92" name="L"/>
+  <anchor x="637" y="0" name="O"/>
+  <anchor x="1199" y="986" name="R"/>
+  <anchor x="755" y="1618" name="U"/>
   <outline>
     <component base="U"/>
-    <component base="CombAcute.LP" xOffset="1067" yOffset="294"/>
+    <component base="CombAcute.LP" xOffset="1076" yOffset="294"/>
   </outline>
   <lib>
     <dict>

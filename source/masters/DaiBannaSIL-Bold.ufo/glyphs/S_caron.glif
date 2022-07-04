@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Scaron" format="2">
-  <advance width="989"/>
+  <advance width="1007"/>
   <unicode hex="0160"/>
-  <anchor x="480" y="0" name="H"/>
-  <anchor x="502" y="-92" name="L"/>
-  <anchor x="502" y="1628" name="U"/>
+  <anchor x="488" y="0" name="H"/>
+  <anchor x="510" y="-92" name="L"/>
+  <anchor x="510" y="1643" name="U"/>
   <outline>
     <component base="S"/>
-    <component base="CombCaron.LP" xOffset="1005" yOffset="294"/>
+    <component base="CombCaron.LP" xOffset="1020" yOffset="294"/>
   </outline>
   <lib>
     <dict>

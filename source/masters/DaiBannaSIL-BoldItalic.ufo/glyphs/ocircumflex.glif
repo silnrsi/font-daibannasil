@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ocircumflex" format="2">
-  <advance width="850"/>
+  <advance width="861"/>
   <unicode hex="00F4"/>
-  <anchor x="377" y="0" name="H"/>
-  <anchor x="353" y="-92" name="L"/>
-  <anchor x="422" y="0" name="O"/>
-  <anchor x="874" y="800" name="R"/>
-  <anchor x="559" y="1389" name="U"/>
+  <anchor x="384" y="0" name="H"/>
+  <anchor x="359" y="-92" name="L"/>
+  <anchor x="428" y="0" name="O"/>
+  <anchor x="880" y="800" name="R"/>
+  <anchor x="565" y="1393" name="U"/>
   <outline>
     <component base="o"/>
-    <component base="CombCircum" xOffset="846"/>
+    <component base="CombCircum" xOffset="858"/>
   </outline>
   <lib>
     <dict>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Aacute" format="2">
-  <advance width="1113"/>
+  <advance width="1125"/>
   <unicode hex="00C1"/>
-  <anchor x="502" y="0" name="H"/>
-  <anchor x="490" y="-92" name="L"/>
-  <anchor x="806" y="0" name="O"/>
-  <anchor x="700" y="1600" name="U"/>
+  <anchor x="508" y="0" name="H"/>
+  <anchor x="496" y="-92" name="L"/>
+  <anchor x="812" y="0" name="O"/>
+  <anchor x="704" y="1618" name="U"/>
   <outline>
     <component base="A"/>
-    <component base="CombAcute.LP" xOffset="1014" yOffset="294"/>
+    <component base="CombAcute.LP" xOffset="1024" yOffset="294"/>
   </outline>
   <lib>
     <dict>

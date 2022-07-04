@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ntilde" format="2">
-  <advance width="1171"/>
+  <advance width="1177"/>
   <unicode hex="00D1"/>
-  <anchor x="887" y="0" name="H"/>
-  <anchor x="531" y="-92" name="L"/>
-  <anchor x="742" y="1508" name="U"/>
+  <anchor x="892" y="0" name="H"/>
+  <anchor x="538" y="-92" name="L"/>
+  <anchor x="747" y="1508" name="U"/>
   <outline>
     <component base="N"/>
-    <component base="CombTilde.LP" xOffset="1028" yOffset="294"/>
+    <component base="CombTilde.LP" xOffset="1033" yOffset="294"/>
   </outline>
   <lib>
     <dict>

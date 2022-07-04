@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Acircumflex" format="2">
-  <advance width="1113"/>
+  <advance width="1125"/>
   <unicode hex="00C2"/>
-  <anchor x="502" y="0" name="H"/>
-  <anchor x="490" y="-92" name="L"/>
-  <anchor x="806" y="0" name="O"/>
-  <anchor x="713" y="1610" name="U"/>
+  <anchor x="508" y="0" name="H"/>
+  <anchor x="496" y="-92" name="L"/>
+  <anchor x="812" y="0" name="O"/>
+  <anchor x="717" y="1613" name="U"/>
   <outline>
     <component base="A"/>
-    <component base="CombCircum.LP" xOffset="1013" yOffset="294"/>
+    <component base="CombCircum.LP" xOffset="1023" yOffset="294"/>
   </outline>
   <lib>
     <dict>

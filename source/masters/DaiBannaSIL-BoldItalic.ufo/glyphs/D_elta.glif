@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Delta" format="2">
-  <advance width="1055"/>
+  <advance width="1061"/>
   <unicode hex="2206"/>
   <outline>
     <component base="GrCapDelta"/>
