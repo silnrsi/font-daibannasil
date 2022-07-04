@@ -29,7 +29,7 @@
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-        <source familyname="Dai Banna SIL Master" filename="masters/DaiBannaSILMaster-ExtraBoldItalic.ufo" name="Dai Banna SIL Extra Bold Italic" stylename="Extra Bold Italic">
+        <source familyname="Dai Banna SIL Master" filename="masters/DaiBannaSIL-BoldItalic.ufo" name="Dai Banna SIL Bold Italic" stylename="Bold Italic">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
                 <dimension name="width" xvalue="100.000000" />

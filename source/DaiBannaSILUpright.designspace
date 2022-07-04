@@ -29,7 +29,7 @@
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-        <source familyname="Dai Banna SIL Master" filename="masters/DaiBannaSILMaster-ExtraBold.ufo" name="Dai Banna SIL Extra Bold" stylename="Extra Bold">
+        <source familyname="Dai Banna SIL Master" filename="masters/DaiBannaSIL-Bold.ufo" name="Dai Banna SIL Bold" stylename="Bold">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
                 <dimension name="width" xvalue="100.000000" />
