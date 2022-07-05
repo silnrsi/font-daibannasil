@@ -15,8 +15,7 @@ psfnormalize -p checkfix=fix source/masters/DaiBannaSIL-BoldItalic.ufo  &
 wait
 
 echo "-----Create WOFF metadata file..."
-psfmakewoffmetadata -n "DaiBannaSILLight" -i org.sil.fonts -o source/DaiBannaSILLight-WOFF-metadata.xml source/masters/*-Light.ufo
-psfmakewoffmetadata -n "DaiBannaSILBook"  -i org.sil.fonts -o source/DaiBannaSILBook-WOFF-metadata.xml  source/masters/*-Light.ufo
+psfmakewoffmetadata -n "DaiBannaSIL" -i org.sil.fonts -o source/DaiBannaSIL-WOFF-metadata.xml source/masters/*-Light.ufo
 
 #echo "-----Rebuilding composites..."
 psfbuildcomp -i source/composites.txt -c -n source/masters/DaiBannaSIL-Light.ufo -p backup=False

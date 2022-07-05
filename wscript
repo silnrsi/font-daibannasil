@@ -21,9 +21,8 @@ generated = 'generated/'
 for dspace in ('Upright', 'Italic'):
     designspace('source/' + APPNAME + dspace + '.designspace',
         target = process('${DS:FILENAME_BASE}.ttf',
-            cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo'])
+            cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}'])
         ),
-        instanceparams = '-W',
         graphite = gdl('source/main.gdl',
             no_make = 1,
             params = '-e gdlerr-${DS:FILENAME_BASE}.txt',
@@ -31,5 +30,6 @@ for dspace in ('Upright', 'Italic'):
         version = VERSION,
         woff = woff('web/${DS:FILENAME_BASE}',
             metadata = '../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml'),
+        shortcircuit = False,
         pdf = fret(params='-oi')
     )

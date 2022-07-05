@@ -182,8 +182,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   </array>
   <key>postscriptFontName</key>
   <string>DaiBannaSIL-BoldItalic</string>
-  <key>postscriptFullName</key>
-  <string>Dai Banna SIL Bold Italic</string>
   <key>postscriptStemSnapH</key>
   <array>
     <integer>76</integer>
@@ -198,10 +196,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>-123</integer>
   <key>postscriptUnderlineThickness</key>
   <integer>20</integer>
-  <key>styleMapFamilyName</key>
-  <string>Dai Banna SIL</string>
-  <key>styleMapStyleName</key>
-  <string>bold italic</string>
   <key>styleName</key>
   <string>Bold Italic</string>
   <key>trademark</key>

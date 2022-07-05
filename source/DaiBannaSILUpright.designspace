@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="3">
     <axes>
-        <axis default="400.0" maximum="800.0" minimum="400.0" name="weight" tag="wght">
-            <map input="400.0" output="300.0" />
-            <map input="500.0" output="450.0" />
-            <map input="700.0" output="700.0" />
-            <map input="800.0" output="900.0" />
+        <axis default="400.0" maximum="700.0" minimum="300.0" name="weight" tag="wght">
+            <map input="300.0" output="300.0" />
+            <map input="400.0" output="450.0" />
+            <map input="500.0" output="575.0" />
+            <map input="600.0" output="700.0" />
+            <map input="700.0" output="900.0" />
             <labelname xml:lang="en">Weight</labelname>
         </axis>
         <axis default="100.0" maximum="100.0" minimum="100.0" name="width" tag="wdth">
@@ -38,7 +39,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Dai Banna SIL Light" filename="instances/DaiBannaSILLight-Regular.ufo" name="Dai Banna SIL Light Regular" stylemapfamilyname="Dai Banna SIL Light" stylemapstylename="regular" stylename="Regular" postscriptfontname="DaiBannaSILLight-Regular">
+        <instance familyname="Dai Banna SIL" filename="instances/DaiBannaSIL-Light.ufo" name="Dai Banna SIL Light" stylemapfamilyname="Dai Banna SIL Light" stylemapstylename="regular" stylename="Light" postscriptfontname="DaiBannaSIL-Light">
             <location>
                 <dimension name="weight" xvalue="300.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -47,7 +48,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Dai Banna SIL Book" filename="instances/DaiBannaSILBook-Regular.ufo" name="Dai Banna SIL Book Regular" stylemapfamilyname="Dai Banna SIL Book" stylemapstylename="regular" stylename="Regular" postscriptfontname="DaiBannaSILBook-Regular">
+        <instance familyname="Dai Banna SIL" filename="instances/DaiBannaSIL-Regular.ufo" name="Dai Banna SIL Regular" stylemapfamilyname="Dai Banna SIL" stylemapstylename="regular" stylename="Regular" postscriptfontname="DaiBannaSIL-Regular">
             <location>
                 <dimension name="weight" xvalue="450.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -56,7 +57,16 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Dai Banna SIL Light" filename="instances/DaiBannaSILLight-Bold.ufo" name="Dai Banna SIL Light Bold" stylemapfamilyname="Dai Banna SIL Light" stylemapstylename="bold" stylename="Bold" postscriptfontname="DaiBannaSILLight-Bold">
+        <instance familyname="Dai Banna SIL" filename="instances/DaiBannaSIL-Medium.ufo" name="Dai Banna SIL Medium" stylemapfamilyname="Dai Banna SIL Medium" stylemapstylename="regular" stylename="Medium" postscriptfontname="DaiBannaSIL-Medium">
+            <location>
+                <dimension name="weight" xvalue="575.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
+            </location>
+            <info />
+            <kerning />
+        </instance>
+        <instance familyname="Dai Banna SIL" filename="instances/DaiBannaSIL-SemiBold.ufo" name="Dai Banna SIL SemiBold" stylemapfamilyname="Dai Banna SIL SemiBold" stylemapstylename="regular" stylename="SemiBold" postscriptfontname="DaiBannaSIL-SemiBold">
             <location>
                 <dimension name="weight" xvalue="700.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -65,7 +75,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Dai Banna SIL Book" filename="instances/DaiBannaSILBook-Bold.ufo" name="Dai Banna SIL Book Bold" stylemapfamilyname="Dai Banna SIL Book" stylemapstylename="bold" stylename="Bold"  postscriptfontname="DaiBannaSILBook-Bold">
+        <instance familyname="Dai Banna SIL" filename="instances/DaiBannaSIL-Bold.ufo" name="Dai Banna SIL Bold" stylemapfamilyname="Dai Banna SIL" stylemapstylename="bold" stylename="Bold"  postscriptfontname="DaiBannaSIL-Bold">
             <location>
                 <dimension name="weight" xvalue="900.000000" />
                 <dimension name="width" xvalue="100.000000" />
