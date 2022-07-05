@@ -1,6 +1,6 @@
 ---
 title: Dai Banna SIL - Frequently Asked Questions
-fontversion: 3.100
+fontversion: 4.000
 ---
 
 #### *Font linking: CJK punctuation rendered in other fonts - Windows*

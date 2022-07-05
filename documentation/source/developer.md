@@ -1,6 +1,6 @@
 ---
 title: Dai Banna SIL - Developer information
-fontversion: 3.100
+fontversion: 4.000
 ---
 
 ## Welcome font developers!

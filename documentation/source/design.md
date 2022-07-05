@@ -1,6 +1,6 @@
 ---
 title: Dai Banna SIL - Design
-fontversion: 3.100
+fontversion: 4.000
 ---
 
 Dai Banna SIL includes a complete set of New Tai Lue consonants, vowels, tones, and digits, along with punctuation and other useful symbols.  A basic set of Latin glyphs, including Arabic numerals, is also provided. Apart from a few New Tai Lue characters and Chinese punctuation marks, the design is the same as its predecessor, SIL Dai Banna (obsolete). Two font families, differing only in weight, allow for a wide range of uses.

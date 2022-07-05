@@ -1,6 +1,6 @@
 ---
 title: Dai Banna SIL - Version History
-fontversion: 3.100
+fontversion: 4.000
 ---
 
 ### unreleased (SIL WSTech team) Dai Banna SIL version 3.100

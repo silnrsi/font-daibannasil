@@ -1,4 +1,4 @@
-fontversion: 3.100
+fontversion: 4.000
 
 For the New Tai Lue (Xishuangbanna Dai) characters nothing should have changed from the previous 3.000 release.
 If there are any differences, the change in build tools (and sources) would probably be the reason.

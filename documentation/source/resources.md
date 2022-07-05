@@ -1,6 +1,6 @@
 ---
 title: Dai Banna SIL - Resources
-fontversion: 3.100
+fontversion: 4.000
 ---
 
 ## Requirements

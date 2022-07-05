@@ -1,6 +1,6 @@
 ---
 title: Dai Banna SIL - Versions and Changes
-fontversion: 3.100
+fontversion: 4.000
 ---
 
 ## Announcement list

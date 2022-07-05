@@ -84,7 +84,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Dai Banna SIL Bold: 2022</string>
   <key>openTypeNameVersion</key>
-  <string>Version 3.001</string>
+  <string>Version 4.000</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -201,9 +201,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>unitsPerEm</key>
   <integer>2048</integer>
   <key>versionMajor</key>
-  <integer>3</integer>
+  <integer>4</integer>
   <key>versionMinor</key>
-  <integer>1</integer>
+  <integer>0</integer>
   <key>xHeight</key>
   <integer>906</integer>
 </dict>
