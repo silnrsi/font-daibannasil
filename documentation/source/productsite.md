@@ -5,19 +5,11 @@ fontversion: 4.000
 
 ## About
 
-Dai Banna SIL is a Unicode font package for rendering New Tai Lue (Xishuangbanna Dai) characters. It includes a complete set of New Tai Lue consonants, vowels, tones, and digits, along with punctuation and other useful symbols.  A basic set of Latin glyphs, including Arabic numerals, is also provided. Apart from a few New Tai Lue characters and Chinese punctuation marks, the design is the same as its predecessor, SIL Dai Banna (obsolete). Two font families, differing only in weight, allow for a wide range of uses.
+Dai Banna SIL is a Unicode font package for rendering New Tai Lue (Xishuangbanna Dai) characters. It includes a complete set of New Tai Lue consonants, vowels, tones, and digits, along with punctuation and other useful symbols.  A basic set of Latin glyphs, including Arabic numerals, is also provided. Apart from a few New Tai Lue characters and Chinese punctuation marks, the design is the same as its predecessor, SIL Dai Banna (obsolete).
 
-### Dai Banna SIL Light
-
-![Dai Banna SIL Light](assets/images/dbsil_light.png){.fullsize}
-<!-- PRODUCT SITE IMAGE SRC https://software.sil.org/wp/wp-content/uploads/2019/04/dbsil_light.png -->
-<!-- <figcaption>Dai Banna SIL Light</figcaption> -->
-
-### Dai Banna SIL Book
-
-![Dai Banna SIL Book](assets/images/dbsil_book.png){.fullsize}
-<!-- PRODUCT SITE IMAGE SRC https://software.sil.org/wp/wp-content/uploads/2019/04/dbsil_book.png -->
-<!-- <figcaption>Dai Banna SIL Book</figcaption> -->
+![Dai Banna SIL](assets/images/dbsil_banner.png){.fullsize}
+<!-- PRODUCT SITE IMAGE SRC https://software.sil.org/wp/wp-content/uploads/2022/07/dbsil_banner.png -->
+<!-- <figcaption>Dai Banna SIL</figcaption> -->
 
 For a different style of New Tai Lue script, see SIL’s [Nokyung](https://software.sil.org/nokyung) fonts.
 

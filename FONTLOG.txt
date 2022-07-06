@@ -13,23 +13,15 @@ Dai Banna SIL is a Unicode font package that supports the New Tai Lue script.  T
 
 It has complete coverage of the NEW TAI LUE Unicode block (U+1980..19DF) as per Unicode 6.0.  It uses Graphite technology to support complex script behaviours like intersyllabic line breaking in spaceless text.  (NB: Only basic break opportunities are accounted for in the current release.  Breaking behaviours for numbers and special CCV structures have yet to be added.)
 
-Eight fonts from two typeface families are included in this release:
-
-	DBSILLR.ttf	- Dai Banna SIL Light
-	DBSILLO.ttf	- Dai Banna SIL Light Italic
-	DBSILLB.ttf	- Dai Banna SIL Light Bold
-	DBSILLC.ttf	- Dai Banna SIL Light Bold Italic
-	DBSILBR.ttf	- Dai Banna SIL Book
-	DBSILBO.ttf	- Dai Banna SIL Book Italic
-	DBSILBB.ttf	- Dai Banna SIL Book Bold
-	DBSILBC.ttf	- Dai Banna SIL Book Bold Italic
+The previous weights in two families (Dai Banna SIL Light and Dai Banna SIL Book) are now included in one family (Dai Banna SIL) with an additional weight (Medium).
 
 
 ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-### unreleased (SIL WSTech team) Dai Banna SIL version 3.100
+### unreleased (SIL WSTech team) Dai Banna SIL version 4.000
+- Switched to a single family with a wider range of weights.
 - Replaced many Latin glyphs with Gentium Plus at 92%
   The Latin glyphs that were kept were designed especially
   for the Dai Banna characters.

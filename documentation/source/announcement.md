@@ -1,6 +1,10 @@
 fontversion: 4.000
 
-For the New Tai Lue (Xishuangbanna Dai) characters nothing should have changed from the previous 3.000 release.
+The previous weights in two families (Dai Banna SIL Light and Dai Banna SIL Book) are now included in one family (Dai Banna SIL) with an additional weight (Medium).
+
+For the New Tai Lue (Xishuangbanna Dai) characters the weights should be the same as before, just with different font names.
+For example, Dai Banna SIL Light (Bold) is now Dai Banna SIL (SemiBold). Note the change in the font name and the (weight).
+
 If there are any differences, the change in build tools (and sources) would probably be the reason.
 The build process for the fonts completely changed to using open sources built using open source tools.
 

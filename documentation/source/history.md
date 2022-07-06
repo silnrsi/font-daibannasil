@@ -3,7 +3,8 @@ title: Dai Banna SIL - Version History
 fontversion: 4.000
 ---
 
-### unreleased (SIL WSTech team) Dai Banna SIL version 3.100
+### unreleased (SIL WSTech team) Dai Banna SIL version 4.000
+- Switched to a single family with a wider range of weights.
 - Replaced many Latin glyphs with Gentium Plus at 92%
   The Latin glyphs that were kept were designed especially
   for the Dai Banna characters.

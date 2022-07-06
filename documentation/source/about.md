@@ -12,8 +12,6 @@ For more information on the visual characteristics of the font family see [Desig
 
 ## Future plans
 
-Release as one font family, with a large range of weights, sufficient to cover the existing weights.
-
 Please send us your requests using the [form on the font website](https://software.sil.org/daibanna/#contact). If you are interested in helping us make the fonts better see the [Developer](developer.md) page.
 
 ## Announcement list
