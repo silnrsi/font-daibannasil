@@ -13,7 +13,7 @@ Some applications will list all the weights but leave out Bold. To access the Bo
 
 #### *Why do I sometimes get a fake Bold?*
 
-If you choose a weight other than Regular (such as Light), then use application controls to turn on Bold, some applications will make a "fake" Bold rather than use one of the real ones in the font (Medium, SemiBold, Bold). This is because only Regular has an associated Bold counterpart. This is a technical limitation with some apps and OSes. If you are using some other weight than Regular for text and want to make a word or phrase stand out you will need to select the text and apply one of the heavier weights manually. 
+If you choose a weight other than Regular (such as Light), then use application controls to turn on Bold, some applications will make a "fake" Bold rather than use one of the real ones in the font (Medium, SemiBold, Bold). This is because only Regular has an associated Bold counterpart. This is a technical limitation with some apps and OSes. If you are using some other weight than Regular for text and want to make a word or phrase stand out you will need to select the text and apply one of the heavier weights manually.
 
 ### *Font linking: CJK punctuation rendered in other fonts - Windows*
 
