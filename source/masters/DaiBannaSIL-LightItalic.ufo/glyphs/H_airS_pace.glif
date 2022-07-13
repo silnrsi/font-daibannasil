@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="HairSpace" format="2">
-  <advance width="92"/>
+  <advance width="158"/>
   <unicode hex="200A"/>
   <anchor x="-12" y="0" name="H"/>
   <anchor x="-25" y="-92" name="L"/>

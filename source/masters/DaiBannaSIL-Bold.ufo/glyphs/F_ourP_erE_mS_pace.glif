@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="FourPerEmSpace" format="2">
-  <advance width="368"/>
+  <advance width="512"/>
   <unicode hex="2005"/>
   <anchor x="184" y="0" name="H"/>
   <anchor x="184" y="-92" name="L"/>

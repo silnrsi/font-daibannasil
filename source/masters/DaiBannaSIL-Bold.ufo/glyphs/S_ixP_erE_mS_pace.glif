@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="SixPerEmSpace" format="2">
-  <advance width="239"/>
+  <advance width="341"/>
   <unicode hex="2006"/>
   <anchor x="119" y="0" name="H"/>
   <anchor x="119" y="-92" name="L"/>

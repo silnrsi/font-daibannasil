@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="FigureSpace" format="2">
-  <advance width="757"/>
+  <advance width="956"/>
   <unicode hex="2007"/>
   <anchor x="333" y="0" name="H"/>
   <anchor x="321" y="-92" name="L"/>
