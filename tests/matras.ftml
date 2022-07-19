@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
+    <fontscale>200</fontscale>
+    <fontsrc label="RefL">url(../references/DaiBannaSIL-Light.ttf)</fontsrc>
+    <fontsrc label="RefB">url(../references/DaiBannaSIL-Bold.ttf)</fontsrc>
+    <fontsrc label="RefLI">url(../references/DaiBannaSIL-LightItalic.ttf)</fontsrc>
+    <fontsrc label="RefBI">url(../references/DaiBannaSIL-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="L">url(../results/DaiBannaSIL-Light.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/DaiBannaSIL-Bold.ttf)</fontsrc>
+    <fontsrc label="LI">url(../results/DaiBannaSIL-LightItalic.ttf)</fontsrc>
+    <fontsrc label="BI">url(../results/DaiBannaSIL-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="Nokyung">url(../references/Nokyung-Regular.ttf)</fontsrc>
+    <fontsrc label="Noto">url(../references/NotoSansNewTaiLue-Regular.ttf)</fontsrc>
+    <title>Matras auto</title>
+  </head>
+  <testgroup label="Consonants with matras">
+    <test label="1980">
+      <comment>uni1980</comment>
+      <string>\u001980\u0019B0 \u001980\u0019B1 \u001980\u0019B2 \u001980\u0019B3 \u001980\u0019B4</string>
+    </test>
+    <test label="1980">
+      <comment>uni1980</comment>
+      <string>\u0019B5\u001980 \u0019B6\u001980 \u0019B7\u001980</string>
+    </test>
+    <test label="1980">
+      <comment>uni1980</comment>
+      <string>\u001980\u0019B8 \u001980\u0019B9</string>
+    </test>
+    <test label="1980">
+      <comment>uni1980</comment>
+      <string>\u0019BA\u001980</string>
+    </test>
+    <test label="1980">
+      <comment>uni1980</comment>
+      <string>\u001980\u0019BB \u001980\u0019BC \u001980\u0019BD \u001980\u0019BE \u001980\u0019BF \u001980\u0019C0</string>
+    </test>
+    <test label="1981">
+      <comment>uni1981</comment>
+      <string>\u001981\u0019B0 \u001981\u0019B1 \u001981\u0019B2 \u001981\u0019B3 \u001981\u0019B4</string>
+    </test>
+    <test label="1981">
+      <comment>uni1981</comment>
+      <string>\u0019B5\u001981 \u0019B6\u001981 \u0019B7\u001981</string>
+    </test>
+    <test label="1981">
+      <comment>uni1981</comment>
+      <string>\u001981\u0019B8 \u001981\u0019B9</string>
+    </test>
+    <test label="1981">
+      <comment>uni1981</comment>
+      <string>\u0019BA\u001981</string>
+    </test>
+    <test label="1981">
+      <comment>uni1981</comment>
+      <string>\u001981\u0019BB \u001981\u0019BC \u001981\u0019BD \u001981\u0019BE \u001981\u0019BF \u001981\u0019C0</string>
+    </test>
+    <test label="1982">
+      <comment>uni1982</comment>
+      <string>\u001982\u0019B0 \u001982\u0019B1 \u001982\u0019B2 \u001982\u0019B3 \u001982\u0019B4</string>
+    </test>
+    <test label="1982">
+      <comment>uni1982</comment>
+      <string>\u0019B5\u001982 \u0019B6\u001982 \u0019B7\u001982</string>
+    </test>
+    <test label="1982">
+      <comment>uni1982</comment>
+      <string>\u001982\u0019B8 \u001982\u0019B9</string>
+    </test>
+    <test label="1982">
+      <comment>uni1982</comment>
+      <string>\u0019BA\u001982</string>
+    </test>
+    <test label="1982">
+      <comment>uni1982</comment>
+      <string>\u001982\u0019BB \u001982\u0019BC \u001982\u0019BD \u001982\u0019BE \u001982\u0019BF \u001982\u0019C0</string>
+    </test>
+    <test label="1983">
+      <comment>uni1983</comment>
+      <string>\u001983\u0019B0 \u001983\u0019B1 \u001983\u0019B2 \u001983\u0019B3 \u001983\u0019B4</string>
+    </test>
+    <test label="1983">
+      <comment>uni1983</comment>
+      <string>\u0019B5\u001983 \u0019B6\u001983 \u0019B7\u001983</string>
+    </test>
+    <test label="1983">
+      <comment>uni1983</comment>
+      <string>\u001983\u0019B8 \u001983\u0019B9</string>
+    </test>
+    <test label="1983">
+      <comment>uni1983</comment>
+      <string>\u0019BA\u001983</string>
+    </test>
+    <test label="1983">
+      <comment>uni1983</comment>
+      <string>\u001983\u0019BB \u001983\u0019BC \u001983\u0019BD \u001983\u0019BE \u001983\u0019BF \u001983\u0019C0</string>
+    </test>
+    <test label="1984">
+      <comment>uni1984</comment>
+      <string>\u001984\u0019B0 \u001984\u0019B1 \u001984\u0019B2 \u001984\u0019B3 \u001984\u0019B4</string>
+    </test>
+    <test label="1984">
+      <comment>uni1984</comment>
+      <string>\u0019B5\u001984 \u0019B6\u001984 \u0019B7\u001984</string>
+    </test>
+    <test label="1984">
+      <comment>uni1984</comment>
+      <string>\u001984\u0019B8 \u001984\u0019B9</string>
+    </test>
+    <test label="1984">
+      <comment>uni1984</comment>
+      <string>\u0019BA\u001984</string>
+    </test>
+    <test label="1984">
+      <comment>uni1984</comment>
+      <string>\u001984\u0019BB \u001984\u0019BC \u001984\u0019BD \u001984\u0019BE \u001984\u0019BF \u001984\u0019C0</string>
+    </test>
+    <test label="1985">
+      <comment>uni1985</comment>
+      <string>\u001985\u0019B0 \u001985\u0019B1 \u001985\u0019B2 \u001985\u0019B3 \u001985\u0019B4</string>
+    </test>
+    <test label="1985">
+      <comment>uni1985</comment>
+      <string>\u0019B5\u001985 \u0019B6\u001985 \u0019B7\u001985</string>
+    </test>
+    <test label="1985">
+      <comment>uni1985</comment>
+      <string>\u001985\u0019B8 \u001985\u0019B9</string>
+    </test>
+    <test label="1985">
+      <comment>uni1985</comment>
+      <string>\u0019BA\u001985</string>
+    </test>
+    <test label="1985">
+      <comment>uni1985</comment>
+      <string>\u001985\u0019BB \u001985\u0019BC \u001985\u0019BD \u001985\u0019BE \u001985\u0019BF \u001985\u0019C0</string>
+    </test>
+    <test label="1986">
+      <comment>uni1986</comment>
+      <string>\u001986\u0019B0 \u001986\u0019B1 \u001986\u0019B2 \u001986\u0019B3 \u001986\u0019B4</string>
+    </test>
+    <test label="1986">
+      <comment>uni1986</comment>
+      <string>\u0019B5\u001986 \u0019B6\u001986 \u0019B7\u001986</string>
+    </test>
+    <test label="1986">
+      <comment>uni1986</comment>
+      <string>\u001986\u0019B8 \u001986\u0019B9</string>
+    </test>
+    <test label="1986">
+      <comment>uni1986</comment>
+      <string>\u0019BA\u001986</string>
+    </test>
+    <test label="1986">
+      <comment>uni1986</comment>
+      <string>\u001986\u0019BB \u001986\u0019BC \u001986\u0019BD \u001986\u0019BE \u001986\u0019BF \u001986\u0019C0</string>
+    </test>
+    <test label="1987">
+      <comment>uni1987</comment>
+      <string>\u001987\u0019B0 \u001987\u0019B1 \u001987\u0019B2 \u001987\u0019B3 \u001987\u0019B4</string>
+    </test>
+    <test label="1987">
+      <comment>uni1987</comment>
+      <string>\u0019B5\u001987 \u0019B6\u001987 \u0019B7\u001987</string>
+    </test>
+    <test label="1987">
+      <comment>uni1987</comment>
+      <string>\u001987\u0019B8 \u001987\u0019B9</string>
+    </test>
+    <test label="1987">
+      <comment>uni1987</comment>
+      <string>\u0019BA\u001987</string>
+    </test>
+    <test label="1987">
+      <comment>uni1987</comment>
+      <string>\u001987\u0019BB \u001987\u0019BC \u001987\u0019BD \u001987\u0019BE \u001987\u0019BF \u001987\u0019C0</string>
+    </test>
+    <test label="1988">
+      <comment>uni1988</comment>
+      <string>\u001988\u0019B0 \u001988\u0019B1 \u001988\u0019B2 \u001988\u0019B3 \u001988\u0019B4</string>
+    </test>
+    <test label="1988">
+      <comment>uni1988</comment>
+      <string>\u0019B5\u001988 \u0019B6\u001988 \u0019B7\u001988</string>
+    </test>
+    <test label="1988">
+      <comment>uni1988</comment>
+      <string>\u001988\u0019B8 \u001988\u0019B9</string>
+    </test>
+    <test label="1988">
+      <comment>uni1988</comment>
+      <string>\u0019BA\u001988</string>
+    </test>
+    <test label="1988">
+      <comment>uni1988</comment>
+      <string>\u001988\u0019BB \u001988\u0019BC \u001988\u0019BD \u001988\u0019BE \u001988\u0019BF \u001988\u0019C0</string>
+    </test>
+    <test label="1989">
+      <comment>uni1989</comment>
+      <string>\u001989\u0019B0 \u001989\u0019B1 \u001989\u0019B2 \u001989\u0019B3 \u001989\u0019B4</string>
+    </test>
+    <test label="1989">
+      <comment>uni1989</comment>
+      <string>\u0019B5\u001989 \u0019B6\u001989 \u0019B7\u001989</string>
+    </test>
+    <test label="1989">
+      <comment>uni1989</comment>
+      <string>\u001989\u0019B8 \u001989\u0019B9</string>
+    </test>
+    <test label="1989">
+      <comment>uni1989</comment>
+      <string>\u0019BA\u001989</string>
+    </test>
+    <test label="1989">
+      <comment>uni1989</comment>
+      <string>\u001989\u0019BB \u001989\u0019BC \u001989\u0019BD \u001989\u0019BE \u001989\u0019BF \u001989\u0019C0</string>
+    </test>
+    <test label="198A">
+      <comment>uni198A</comment>
+      <string>\u00198A\u0019B0 \u00198A\u0019B1 \u00198A\u0019B2 \u00198A\u0019B3 \u00198A\u0019B4</string>
+    </test>
+    <test label="198A">
+      <comment>uni198A</comment>
+      <string>\u0019B5\u00198A \u0019B6\u00198A \u0019B7\u00198A</string>
+    </test>
+    <test label="198A">
+      <comment>uni198A</comment>
+      <string>\u00198A\u0019B8 \u00198A\u0019B9</string>
+    </test>
+    <test label="198A">
+      <comment>uni198A</comment>
+      <string>\u0019BA\u00198A</string>
+    </test>
+    <test label="198A">
+      <comment>uni198A</comment>
+      <string>\u00198A\u0019BB \u00198A\u0019BC \u00198A\u0019BD \u00198A\u0019BE \u00198A\u0019BF \u00198A\u0019C0</string>
+    </test>
+    <test label="198B">
+      <comment>uni198B</comment>
+      <string>\u00198B\u0019B0 \u00198B\u0019B1 \u00198B\u0019B2 \u00198B\u0019B3 \u00198B\u0019B4</string>
+    </test>
+    <test label="198B">
+      <comment>uni198B</comment>
+      <string>\u0019B5\u00198B \u0019B6\u00198B \u0019B7\u00198B</string>
+    </test>
+    <test label="198B">
+      <comment>uni198B</comment>
+      <string>\u00198B\u0019B8 \u00198B\u0019B9</string>
+    </test>
+    <test label="198B">
+      <comment>uni198B</comment>
+      <string>\u0019BA\u00198B</string>
+    </test>
+    <test label="198B">
+      <comment>uni198B</comment>
+      <string>\u00198B\u0019BB \u00198B\u0019BC \u00198B\u0019BD \u00198B\u0019BE \u00198B\u0019BF \u00198B\u0019C0</string>
+    </test>
+    <test label="198C">
+      <comment>uni198C</comment>
+      <string>\u00198C\u0019B0 \u00198C\u0019B1 \u00198C\u0019B2 \u00198C\u0019B3 \u00198C\u0019B4</string>
+    </test>
+    <test label="198C">
+      <comment>uni198C</comment>
+      <string>\u0019B5\u00198C \u0019B6\u00198C \u0019B7\u00198C</string>
+    </test>
+    <test label="198C">
+      <comment>uni198C</comment>
+      <string>\u00198C\u0019B8 \u00198C\u0019B9</string>
+    </test>
+    <test label="198C">
+      <comment>uni198C</comment>
+      <string>\u0019BA\u00198C</string>
+    </test>
+    <test label="198C">
+      <comment>uni198C</comment>
+      <string>\u00198C\u0019BB \u00198C\u0019BC \u00198C\u0019BD \u00198C\u0019BE \u00198C\u0019BF \u00198C\u0019C0</string>
+    </test>
+    <test label="198D">
+      <comment>uni198D</comment>
+      <string>\u00198D\u0019B0 \u00198D\u0019B1 \u00198D\u0019B2 \u00198D\u0019B3 \u00198D\u0019B4</string>
+    </test>
+    <test label="198D">
+      <comment>uni198D</comment>
+      <string>\u0019B5\u00198D \u0019B6\u00198D \u0019B7\u00198D</string>
+    </test>
+    <test label="198D">
+      <comment>uni198D</comment>
+      <string>\u00198D\u0019B8 \u00198D\u0019B9</string>
+    </test>
+    <test label="198D">
+      <comment>uni198D</comment>
+      <string>\u0019BA\u00198D</string>
+    </test>
+    <test label="198D">
+      <comment>uni198D</comment>
+      <string>\u00198D\u0019BB \u00198D\u0019BC \u00198D\u0019BD \u00198D\u0019BE \u00198D\u0019BF \u00198D\u0019C0</string>
+    </test>
+    <test label="198E">
+      <comment>uni198E</comment>
+      <string>\u00198E\u0019B0 \u00198E\u0019B1 \u00198E\u0019B2 \u00198E\u0019B3 \u00198E\u0019B4</string>
+    </test>
+    <test label="198E">
+      <comment>uni198E</comment>
+      <string>\u0019B5\u00198E \u0019B6\u00198E \u0019B7\u00198E</string>
+    </test>
+    <test label="198E">
+      <comment>uni198E</comment>
+      <string>\u00198E\u0019B8 \u00198E\u0019B9</string>
+    </test>
+    <test label="198E">
+      <comment>uni198E</comment>
+      <string>\u0019BA\u00198E</string>
+    </test>
+    <test label="198E">
+      <comment>uni198E</comment>
+      <string>\u00198E\u0019BB \u00198E\u0019BC \u00198E\u0019BD \u00198E\u0019BE \u00198E\u0019BF \u00198E\u0019C0</string>
+    </test>
+    <test label="198F">
+      <comment>uni198F</comment>
+      <string>\u00198F\u0019B0 \u00198F\u0019B1 \u00198F\u0019B2 \u00198F\u0019B3 \u00198F\u0019B4</string>
+    </test>
+    <test label="198F">
+      <comment>uni198F</comment>
+      <string>\u0019B5\u00198F \u0019B6\u00198F \u0019B7\u00198F</string>
+    </test>
+    <test label="198F">
+      <comment>uni198F</comment>
+      <string>\u00198F\u0019B8 \u00198F\u0019B9</string>
+    </test>
+    <test label="198F">
+      <comment>uni198F</comment>
+      <string>\u0019BA\u00198F</string>
+    </test>
+    <test label="198F">
+      <comment>uni198F</comment>
+      <string>\u00198F\u0019BB \u00198F\u0019BC \u00198F\u0019BD \u00198F\u0019BE \u00198F\u0019BF \u00198F\u0019C0</string>
+    </test>
+    <test label="1990">
+      <comment>uni1990</comment>
+      <string>\u001990\u0019B0 \u001990\u0019B1 \u001990\u0019B2 \u001990\u0019B3 \u001990\u0019B4</string>
+    </test>
+    <test label="1990">
+      <comment>uni1990</comment>
+      <string>\u0019B5\u001990 \u0019B6\u001990 \u0019B7\u001990</string>
+    </test>
+    <test label="1990">
+      <comment>uni1990</comment>
+      <string>\u001990\u0019B8 \u001990\u0019B9</string>
+    </test>
+    <test label="1990">
+      <comment>uni1990</comment>
+      <string>\u0019BA\u001990</string>
+    </test>
+    <test label="1990">
+      <comment>uni1990</comment>
+      <string>\u001990\u0019BB \u001990\u0019BC \u001990\u0019BD \u001990\u0019BE \u001990\u0019BF \u001990\u0019C0</string>
+    </test>
+    <test label="1991">
+      <comment>uni1991</comment>
+      <string>\u001991\u0019B0 \u001991\u0019B1 \u001991\u0019B2 \u001991\u0019B3 \u001991\u0019B4</string>
+    </test>
+    <test label="1991">
+      <comment>uni1991</comment>
+      <string>\u0019B5\u001991 \u0019B6\u001991 \u0019B7\u001991</string>
+    </test>
+    <test label="1991">
+      <comment>uni1991</comment>
+      <string>\u001991\u0019B8 \u001991\u0019B9</string>
+    </test>
+    <test label="1991">
+      <comment>uni1991</comment>
+      <string>\u0019BA\u001991</string>
+    </test>
+    <test label="1991">
+      <comment>uni1991</comment>
+      <string>\u001991\u0019BB \u001991\u0019BC \u001991\u0019BD \u001991\u0019BE \u001991\u0019BF \u001991\u0019C0</string>
+    </test>
+    <test label="1992">
+      <comment>uni1992</comment>
+      <string>\u001992\u0019B0 \u001992\u0019B1 \u001992\u0019B2 \u001992\u0019B3 \u001992\u0019B4</string>
+    </test>
+    <test label="1992">
+      <comment>uni1992</comment>
+      <string>\u0019B5\u001992 \u0019B6\u001992 \u0019B7\u001992</string>
+    </test>
+    <test label="1992">
+      <comment>uni1992</comment>
+      <string>\u001992\u0019B8 \u001992\u0019B9</string>
+    </test>
+    <test label="1992">
+      <comment>uni1992</comment>
+      <string>\u0019BA\u001992</string>
+    </test>
+    <test label="1992">
+      <comment>uni1992</comment>
+      <string>\u001992\u0019BB \u001992\u0019BC \u001992\u0019BD \u001992\u0019BE \u001992\u0019BF \u001992\u0019C0</string>
+    </test>
+    <test label="1993">
+      <comment>uni1993</comment>
+      <string>\u001993\u0019B0 \u001993\u0019B1 \u001993\u0019B2 \u001993\u0019B3 \u001993\u0019B4</string>
+    </test>
+    <test label="1993">
+      <comment>uni1993</comment>
+      <string>\u0019B5\u001993 \u0019B6\u001993 \u0019B7\u001993</string>
+    </test>
+    <test label="1993">
+      <comment>uni1993</comment>
+      <string>\u001993\u0019B8 \u001993\u0019B9</string>
+    </test>
+    <test label="1993">
+      <comment>uni1993</comment>
+      <string>\u0019BA\u001993</string>
+    </test>
+    <test label="1993">
+      <comment>uni1993</comment>
+      <string>\u001993\u0019BB \u001993\u0019BC \u001993\u0019BD \u001993\u0019BE \u001993\u0019BF \u001993\u0019C0</string>
+    </test>
+    <test label="1994">
+      <comment>uni1994</comment>
+      <string>\u001994\u0019B0 \u001994\u0019B1 \u001994\u0019B2 \u001994\u0019B3 \u001994\u0019B4</string>
+    </test>
+    <test label="1994">
+      <comment>uni1994</comment>
+      <string>\u0019B5\u001994 \u0019B6\u001994 \u0019B7\u001994</string>
+    </test>
+    <test label="1994">
+      <comment>uni1994</comment>
+      <string>\u001994\u0019B8 \u001994\u0019B9</string>
+    </test>
+    <test label="1994">
+      <comment>uni1994</comment>
+      <string>\u0019BA\u001994</string>
+    </test>
+    <test label="1994">
+      <comment>uni1994</comment>
+      <string>\u001994\u0019BB \u001994\u0019BC \u001994\u0019BD \u001994\u0019BE \u001994\u0019BF \u001994\u0019C0</string>
+    </test>
+    <test label="1995">
+      <comment>uni1995</comment>
+      <string>\u001995\u0019B0 \u001995\u0019B1 \u001995\u0019B2 \u001995\u0019B3 \u001995\u0019B4</string>
+    </test>
+    <test label="1995">
+      <comment>uni1995</comment>
+      <string>\u0019B5\u001995 \u0019B6\u001995 \u0019B7\u001995</string>
+    </test>
+    <test label="1995">
+      <comment>uni1995</comment>
+      <string>\u001995\u0019B8 \u001995\u0019B9</string>
+    </test>
+    <test label="1995">
+      <comment>uni1995</comment>
+      <string>\u0019BA\u001995</string>
+    </test>
+    <test label="1995">
+      <comment>uni1995</comment>
+      <string>\u001995\u0019BB \u001995\u0019BC \u001995\u0019BD \u001995\u0019BE \u001995\u0019BF \u001995\u0019C0</string>
+    </test>
+    <test label="1996">
+      <comment>uni1996</comment>
+      <string>\u001996\u0019B0 \u001996\u0019B1 \u001996\u0019B2 \u001996\u0019B3 \u001996\u0019B4</string>
+    </test>
+    <test label="1996">
+      <comment>uni1996</comment>
+      <string>\u0019B5\u001996 \u0019B6\u001996 \u0019B7\u001996</string>
+    </test>
+    <test label="1996">
+      <comment>uni1996</comment>
+      <string>\u001996\u0019B8 \u001996\u0019B9</string>
+    </test>
+    <test label="1996">
+      <comment>uni1996</comment>
+      <string>\u0019BA\u001996</string>
+    </test>
+    <test label="1996">
+      <comment>uni1996</comment>
+      <string>\u001996\u0019BB \u001996\u0019BC \u001996\u0019BD \u001996\u0019BE \u001996\u0019BF \u001996\u0019C0</string>
+    </test>
+    <test label="1997">
+      <comment>uni1997</comment>
+      <string>\u001997\u0019B0 \u001997\u0019B1 \u001997\u0019B2 \u001997\u0019B3 \u001997\u0019B4</string>
+    </test>
+    <test label="1997">
+      <comment>uni1997</comment>
+      <string>\u0019B5\u001997 \u0019B6\u001997 \u0019B7\u001997</string>
+    </test>
+    <test label="1997">
+      <comment>uni1997</comment>
+      <string>\u001997\u0019B8 \u001997\u0019B9</string>
+    </test>
+    <test label="1997">
+      <comment>uni1997</comment>
+      <string>\u0019BA\u001997</string>
+    </test>
+    <test label="1997">
+      <comment>uni1997</comment>
+      <string>\u001997\u0019BB \u001997\u0019BC \u001997\u0019BD \u001997\u0019BE \u001997\u0019BF \u001997\u0019C0</string>
+    </test>
+    <test label="1998">
+      <comment>uni1998</comment>
+      <string>\u001998\u0019B0 \u001998\u0019B1 \u001998\u0019B2 \u001998\u0019B3 \u001998\u0019B4</string>
+    </test>
+    <test label="1998">
+      <comment>uni1998</comment>
+      <string>\u0019B5\u001998 \u0019B6\u001998 \u0019B7\u001998</string>
+    </test>
+    <test label="1998">
+      <comment>uni1998</comment>
+      <string>\u001998\u0019B8 \u001998\u0019B9</string>
+    </test>
+    <test label="1998">
+      <comment>uni1998</comment>
+      <string>\u0019BA\u001998</string>
+    </test>
+    <test label="1998">
+      <comment>uni1998</comment>
+      <string>\u001998\u0019BB \u001998\u0019BC \u001998\u0019BD \u001998\u0019BE \u001998\u0019BF \u001998\u0019C0</string>
+    </test>
+    <test label="1999">
+      <comment>uni1999</comment>
+      <string>\u001999\u0019B0 \u001999\u0019B1 \u001999\u0019B2 \u001999\u0019B3 \u001999\u0019B4</string>
+    </test>
+    <test label="1999">
+      <comment>uni1999</comment>
+      <string>\u0019B5\u001999 \u0019B6\u001999 \u0019B7\u001999</string>
+    </test>
+    <test label="1999">
+      <comment>uni1999</comment>
+      <string>\u001999\u0019B8 \u001999\u0019B9</string>
+    </test>
+    <test label="1999">
+      <comment>uni1999</comment>
+      <string>\u0019BA\u001999</string>
+    </test>
+    <test label="1999">
+      <comment>uni1999</comment>
+      <string>\u001999\u0019BB \u001999\u0019BC \u001999\u0019BD \u001999\u0019BE \u001999\u0019BF \u001999\u0019C0</string>
+    </test>
+    <test label="199A">
+      <comment>uni199A</comment>
+      <string>\u00199A\u0019B0 \u00199A\u0019B1 \u00199A\u0019B2 \u00199A\u0019B3 \u00199A\u0019B4</string>
+    </test>
+    <test label="199A">
+      <comment>uni199A</comment>
+      <string>\u0019B5\u00199A \u0019B6\u00199A \u0019B7\u00199A</string>
+    </test>
+    <test label="199A">
+      <comment>uni199A</comment>
+      <string>\u00199A\u0019B8 \u00199A\u0019B9</string>
+    </test>
+    <test label="199A">
+      <comment>uni199A</comment>
+      <string>\u0019BA\u00199A</string>
+    </test>
+    <test label="199A">
+      <comment>uni199A</comment>
+      <string>\u00199A\u0019BB \u00199A\u0019BC \u00199A\u0019BD \u00199A\u0019BE \u00199A\u0019BF \u00199A\u0019C0</string>
+    </test>
+    <test label="199B">
+      <comment>uni199B</comment>
+      <string>\u00199B\u0019B0 \u00199B\u0019B1 \u00199B\u0019B2 \u00199B\u0019B3 \u00199B\u0019B4</string>
+    </test>
+    <test label="199B">
+      <comment>uni199B</comment>
+      <string>\u0019B5\u00199B \u0019B6\u00199B \u0019B7\u00199B</string>
+    </test>
+    <test label="199B">
+      <comment>uni199B</comment>
+      <string>\u00199B\u0019B8 \u00199B\u0019B9</string>
+    </test>
+    <test label="199B">
+      <comment>uni199B</comment>
+      <string>\u0019BA\u00199B</string>
+    </test>
+    <test label="199B">
+      <comment>uni199B</comment>
+      <string>\u00199B\u0019BB \u00199B\u0019BC \u00199B\u0019BD \u00199B\u0019BE \u00199B\u0019BF \u00199B\u0019C0</string>
+    </test>
+    <test label="199C">
+      <comment>uni199C</comment>
+      <string>\u00199C\u0019B0 \u00199C\u0019B1 \u00199C\u0019B2 \u00199C\u0019B3 \u00199C\u0019B4</string>
+    </test>
+    <test label="199C">
+      <comment>uni199C</comment>
+      <string>\u0019B5\u00199C \u0019B6\u00199C \u0019B7\u00199C</string>
+    </test>
+    <test label="199C">
+      <comment>uni199C</comment>
+      <string>\u00199C\u0019B8 \u00199C\u0019B9</string>
+    </test>
+    <test label="199C">
+      <comment>uni199C</comment>
+      <string>\u0019BA\u00199C</string>
+    </test>
+    <test label="199C">
+      <comment>uni199C</comment>
+      <string>\u00199C\u0019BB \u00199C\u0019BC \u00199C\u0019BD \u00199C\u0019BE \u00199C\u0019BF \u00199C\u0019C0</string>
+    </test>
+    <test label="199D">
+      <comment>uni199D</comment>
+      <string>\u00199D\u0019B0 \u00199D\u0019B1 \u00199D\u0019B2 \u00199D\u0019B3 \u00199D\u0019B4</string>
+    </test>
+    <test label="199D">
+      <comment>uni199D</comment>
+      <string>\u0019B5\u00199D \u0019B6\u00199D \u0019B7\u00199D</string>
+    </test>
+    <test label="199D">
+      <comment>uni199D</comment>
+      <string>\u00199D\u0019B8 \u00199D\u0019B9</string>
+    </test>
+    <test label="199D">
+      <comment>uni199D</comment>
+      <string>\u0019BA\u00199D</string>
+    </test>
+    <test label="199D">
+      <comment>uni199D</comment>
+      <string>\u00199D\u0019BB \u00199D\u0019BC \u00199D\u0019BD \u00199D\u0019BE \u00199D\u0019BF \u00199D\u0019C0</string>
+    </test>
+    <test label="199E">
+      <comment>uni199E</comment>
+      <string>\u00199E\u0019B0 \u00199E\u0019B1 \u00199E\u0019B2 \u00199E\u0019B3 \u00199E\u0019B4</string>
+    </test>
+    <test label="199E">
+      <comment>uni199E</comment>
+      <string>\u0019B5\u00199E \u0019B6\u00199E \u0019B7\u00199E</string>
+    </test>
+    <test label="199E">
+      <comment>uni199E</comment>
+      <string>\u00199E\u0019B8 \u00199E\u0019B9</string>
+    </test>
+    <test label="199E">
+      <comment>uni199E</comment>
+      <string>\u0019BA\u00199E</string>
+    </test>
+    <test label="199E">
+      <comment>uni199E</comment>
+      <string>\u00199E\u0019BB \u00199E\u0019BC \u00199E\u0019BD \u00199E\u0019BE \u00199E\u0019BF \u00199E\u0019C0</string>
+    </test>
+    <test label="199F">
+      <comment>uni199F</comment>
+      <string>\u00199F\u0019B0 \u00199F\u0019B1 \u00199F\u0019B2 \u00199F\u0019B3 \u00199F\u0019B4</string>
+    </test>
+    <test label="199F">
+      <comment>uni199F</comment>
+      <string>\u0019B5\u00199F \u0019B6\u00199F \u0019B7\u00199F</string>
+    </test>
+    <test label="199F">
+      <comment>uni199F</comment>
+      <string>\u00199F\u0019B8 \u00199F\u0019B9</string>
+    </test>
+    <test label="199F">
+      <comment>uni199F</comment>
+      <string>\u0019BA\u00199F</string>
+    </test>
+    <test label="199F">
+      <comment>uni199F</comment>
+      <string>\u00199F\u0019BB \u00199F\u0019BC \u00199F\u0019BD \u00199F\u0019BE \u00199F\u0019BF \u00199F\u0019C0</string>
+    </test>
+    <test label="19A0">
+      <comment>uni19A0</comment>
+      <string>\u0019A0\u0019B0 \u0019A0\u0019B1 \u0019A0\u0019B2 \u0019A0\u0019B3 \u0019A0\u0019B4</string>
+    </test>
+    <test label="19A0">
+      <comment>uni19A0</comment>
+      <string>\u0019B5\u0019A0 \u0019B6\u0019A0 \u0019B7\u0019A0</string>
+    </test>
+    <test label="19A0">
+      <comment>uni19A0</comment>
+      <string>\u0019A0\u0019B8 \u0019A0\u0019B9</string>
+    </test>
+    <test label="19A0">
+      <comment>uni19A0</comment>
+      <string>\u0019BA\u0019A0</string>
+    </test>
+    <test label="19A0">
+      <comment>uni19A0</comment>
+      <string>\u0019A0\u0019BB \u0019A0\u0019BC \u0019A0\u0019BD \u0019A0\u0019BE \u0019A0\u0019BF \u0019A0\u0019C0</string>
+    </test>
+    <test label="19A1">
+      <comment>uni19A1</comment>
+      <string>\u0019A1\u0019B0 \u0019A1\u0019B1 \u0019A1\u0019B2 \u0019A1\u0019B3 \u0019A1\u0019B4</string>
+    </test>
+    <test label="19A1">
+      <comment>uni19A1</comment>
+      <string>\u0019B5\u0019A1 \u0019B6\u0019A1 \u0019B7\u0019A1</string>
+    </test>
+    <test label="19A1">
+      <comment>uni19A1</comment>
+      <string>\u0019A1\u0019B8 \u0019A1\u0019B9</string>
+    </test>
+    <test label="19A1">
+      <comment>uni19A1</comment>
+      <string>\u0019BA\u0019A1</string>
+    </test>
+    <test label="19A1">
+      <comment>uni19A1</comment>
+      <string>\u0019A1\u0019BB \u0019A1\u0019BC \u0019A1\u0019BD \u0019A1\u0019BE \u0019A1\u0019BF \u0019A1\u0019C0</string>
+    </test>
+    <test label="19A2">
+      <comment>uni19A2</comment>
+      <string>\u0019A2\u0019B0 \u0019A2\u0019B1 \u0019A2\u0019B2 \u0019A2\u0019B3 \u0019A2\u0019B4</string>
+    </test>
+    <test label="19A2">
+      <comment>uni19A2</comment>
+      <string>\u0019B5\u0019A2 \u0019B6\u0019A2 \u0019B7\u0019A2</string>
+    </test>
+    <test label="19A2">
+      <comment>uni19A2</comment>
+      <string>\u0019A2\u0019B8 \u0019A2\u0019B9</string>
+    </test>
+    <test label="19A2">
+      <comment>uni19A2</comment>
+      <string>\u0019BA\u0019A2</string>
+    </test>
+    <test label="19A2">
+      <comment>uni19A2</comment>
+      <string>\u0019A2\u0019BB \u0019A2\u0019BC \u0019A2\u0019BD \u0019A2\u0019BE \u0019A2\u0019BF \u0019A2\u0019C0</string>
+    </test>
+    <test label="19A3">
+      <comment>uni19A3</comment>
+      <string>\u0019A3\u0019B0 \u0019A3\u0019B1 \u0019A3\u0019B2 \u0019A3\u0019B3 \u0019A3\u0019B4</string>
+    </test>
+    <test label="19A3">
+      <comment>uni19A3</comment>
+      <string>\u0019B5\u0019A3 \u0019B6\u0019A3 \u0019B7\u0019A3</string>
+    </test>
+    <test label="19A3">
+      <comment>uni19A3</comment>
+      <string>\u0019A3\u0019B8 \u0019A3\u0019B9</string>
+    </test>
+    <test label="19A3">
+      <comment>uni19A3</comment>
+      <string>\u0019BA\u0019A3</string>
+    </test>
+    <test label="19A3">
+      <comment>uni19A3</comment>
+      <string>\u0019A3\u0019BB \u0019A3\u0019BC \u0019A3\u0019BD \u0019A3\u0019BE \u0019A3\u0019BF \u0019A3\u0019C0</string>
+    </test>
+    <test label="19A4">
+      <comment>uni19A4</comment>
+      <string>\u0019A4\u0019B0 \u0019A4\u0019B1 \u0019A4\u0019B2 \u0019A4\u0019B3 \u0019A4\u0019B4</string>
+    </test>
+    <test label="19A4">
+      <comment>uni19A4</comment>
+      <string>\u0019B5\u0019A4 \u0019B6\u0019A4 \u0019B7\u0019A4</string>
+    </test>
+    <test label="19A4">
+      <comment>uni19A4</comment>
+      <string>\u0019A4\u0019B8 \u0019A4\u0019B9</string>
+    </test>
+    <test label="19A4">
+      <comment>uni19A4</comment>
+      <string>\u0019BA\u0019A4</string>
+    </test>
+    <test label="19A4">
+      <comment>uni19A4</comment>
+      <string>\u0019A4\u0019BB \u0019A4\u0019BC \u0019A4\u0019BD \u0019A4\u0019BE \u0019A4\u0019BF \u0019A4\u0019C0</string>
+    </test>
+    <test label="19A5">
+      <comment>uni19A5</comment>
+      <string>\u0019A5\u0019B0 \u0019A5\u0019B1 \u0019A5\u0019B2 \u0019A5\u0019B3 \u0019A5\u0019B4</string>
+    </test>
+    <test label="19A5">
+      <comment>uni19A5</comment>
+      <string>\u0019B5\u0019A5 \u0019B6\u0019A5 \u0019B7\u0019A5</string>
+    </test>
+    <test label="19A5">
+      <comment>uni19A5</comment>
+      <string>\u0019A5\u0019B8 \u0019A5\u0019B9</string>
+    </test>
+    <test label="19A5">
+      <comment>uni19A5</comment>
+      <string>\u0019BA\u0019A5</string>
+    </test>
+    <test label="19A5">
+      <comment>uni19A5</comment>
+      <string>\u0019A5\u0019BB \u0019A5\u0019BC \u0019A5\u0019BD \u0019A5\u0019BE \u0019A5\u0019BF \u0019A5\u0019C0</string>
+    </test>
+    <test label="19A6">
+      <comment>uni19A6</comment>
+      <string>\u0019A6\u0019B0 \u0019A6\u0019B1 \u0019A6\u0019B2 \u0019A6\u0019B3 \u0019A6\u0019B4</string>
+    </test>
+    <test label="19A6">
+      <comment>uni19A6</comment>
+      <string>\u0019B5\u0019A6 \u0019B6\u0019A6 \u0019B7\u0019A6</string>
+    </test>
+    <test label="19A6">
+      <comment>uni19A6</comment>
+      <string>\u0019A6\u0019B8 \u0019A6\u0019B9</string>
+    </test>
+    <test label="19A6">
+      <comment>uni19A6</comment>
+      <string>\u0019BA\u0019A6</string>
+    </test>
+    <test label="19A6">
+      <comment>uni19A6</comment>
+      <string>\u0019A6\u0019BB \u0019A6\u0019BC \u0019A6\u0019BD \u0019A6\u0019BE \u0019A6\u0019BF \u0019A6\u0019C0</string>
+    </test>
+    <test label="19A7">
+      <comment>uni19A7</comment>
+      <string>\u0019A7\u0019B0 \u0019A7\u0019B1 \u0019A7\u0019B2 \u0019A7\u0019B3 \u0019A7\u0019B4</string>
+    </test>
+    <test label="19A7">
+      <comment>uni19A7</comment>
+      <string>\u0019B5\u0019A7 \u0019B6\u0019A7 \u0019B7\u0019A7</string>
+    </test>
+    <test label="19A7">
+      <comment>uni19A7</comment>
+      <string>\u0019A7\u0019B8 \u0019A7\u0019B9</string>
+    </test>
+    <test label="19A7">
+      <comment>uni19A7</comment>
+      <string>\u0019BA\u0019A7</string>
+    </test>
+    <test label="19A7">
+      <comment>uni19A7</comment>
+      <string>\u0019A7\u0019BB \u0019A7\u0019BC \u0019A7\u0019BD \u0019A7\u0019BE \u0019A7\u0019BF \u0019A7\u0019C0</string>
+    </test>
+    <test label="19A8">
+      <comment>uni19A8</comment>
+      <string>\u0019A8\u0019B0 \u0019A8\u0019B1 \u0019A8\u0019B2 \u0019A8\u0019B3 \u0019A8\u0019B4</string>
+    </test>
+    <test label="19A8">
+      <comment>uni19A8</comment>
+      <string>\u0019B5\u0019A8 \u0019B6\u0019A8 \u0019B7\u0019A8</string>
+    </test>
+    <test label="19A8">
+      <comment>uni19A8</comment>
+      <string>\u0019A8\u0019B8 \u0019A8\u0019B9</string>
+    </test>
+    <test label="19A8">
+      <comment>uni19A8</comment>
+      <string>\u0019BA\u0019A8</string>
+    </test>
+    <test label="19A8">
+      <comment>uni19A8</comment>
+      <string>\u0019A8\u0019BB \u0019A8\u0019BC \u0019A8\u0019BD \u0019A8\u0019BE \u0019A8\u0019BF \u0019A8\u0019C0</string>
+    </test>
+    <test label="19A9">
+      <comment>uni19A9</comment>
+      <string>\u0019A9\u0019B0 \u0019A9\u0019B1 \u0019A9\u0019B2 \u0019A9\u0019B3 \u0019A9\u0019B4</string>
+    </test>
+    <test label="19A9">
+      <comment>uni19A9</comment>
+      <string>\u0019B5\u0019A9 \u0019B6\u0019A9 \u0019B7\u0019A9</string>
+    </test>
+    <test label="19A9">
+      <comment>uni19A9</comment>
+      <string>\u0019A9\u0019B8 \u0019A9\u0019B9</string>
+    </test>
+    <test label="19A9">
+      <comment>uni19A9</comment>
+      <string>\u0019BA\u0019A9</string>
+    </test>
+    <test label="19A9">
+      <comment>uni19A9</comment>
+      <string>\u0019A9\u0019BB \u0019A9\u0019BC \u0019A9\u0019BD \u0019A9\u0019BE \u0019A9\u0019BF \u0019A9\u0019C0</string>
+    </test>
+    <test label="19AA">
+      <comment>uni19AA</comment>
+      <string>\u0019AA\u0019B0 \u0019AA\u0019B1 \u0019AA\u0019B2 \u0019AA\u0019B3 \u0019AA\u0019B4</string>
+    </test>
+    <test label="19AA">
+      <comment>uni19AA</comment>
+      <string>\u0019B5\u0019AA \u0019B6\u0019AA \u0019B7\u0019AA</string>
+    </test>
+    <test label="19AA">
+      <comment>uni19AA</comment>
+      <string>\u0019AA\u0019B8 \u0019AA\u0019B9</string>
+    </test>
+    <test label="19AA">
+      <comment>uni19AA</comment>
+      <string>\u0019BA\u0019AA</string>
+    </test>
+    <test label="19AA">
+      <comment>uni19AA</comment>
+      <string>\u0019AA\u0019BB \u0019AA\u0019BC \u0019AA\u0019BD \u0019AA\u0019BE \u0019AA\u0019BF \u0019AA\u0019C0</string>
+    </test>
+    <test label="19AB">
+      <comment>uni19AB</comment>
+      <string>\u0019AB\u0019B0 \u0019AB\u0019B1 \u0019AB\u0019B2 \u0019AB\u0019B3 \u0019AB\u0019B4</string>
+    </test>
+    <test label="19AB">
+      <comment>uni19AB</comment>
+      <string>\u0019B5\u0019AB \u0019B6\u0019AB \u0019B7\u0019AB</string>
+    </test>
+    <test label="19AB">
+      <comment>uni19AB</comment>
+      <string>\u0019AB\u0019B8 \u0019AB\u0019B9</string>
+    </test>
+    <test label="19AB">
+      <comment>uni19AB</comment>
+      <string>\u0019BA\u0019AB</string>
+    </test>
+    <test label="19AB">
+      <comment>uni19AB</comment>
+      <string>\u0019AB\u0019BB \u0019AB\u0019BC \u0019AB\u0019BD \u0019AB\u0019BE \u0019AB\u0019BF \u0019AB\u0019C0</string>
+    </test>
+  </testgroup>
+</ftml>
