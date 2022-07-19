@@ -1,0 +1,57 @@
+\begin[class=fontproof]{document}
+\bidi-off
+\setTestFont[]
+
+\proof{ᦙᦲ ᦷᦓᧅᦍᦳᧂ ᦶᦙᧈ ᦷᦎ ᦁᧃ ᦃᧅᦺᦅᧉ ᦖᧃᧈᦠᦱ ᦓᧃᧉ ᦷᦎ ᧚.}
+
+\subsection{Waterfall}
+
+\proof[size="10,11,12,16",heading=Body text]{ᦙᦲ ᦷᦓᧅᦍᦳᧂ ᦶᦙᧈ ᦷᦎ ᦁᧃ ᦃᧅᦺᦅᧉ ᦖᧃᧈᦠᦱ ᦓᧃᧉ ᦷᦎ ᧚.}
+\proof[size="18,24,30,36",heading=Heading text]{ᦙᦲ ᦷᦓᧅᦍᦳᧂ ᦶᦙᧈ ᦷᦎ ᦁᧃ ᦃᧅᦺᦅᧉ ᦖᧃᧈᦠᦱ ᦓᧃᧉ ᦷᦎ ᧚.}
+
+\section{Patterns}
+
+\subsection{Letters}
+
+\proof{ᦰᦱᦲᦳᦴᦵᦶᦷᦸᦹᦺᦻᦼᦽᦾᦿᧀ}
+\proof{ᦀᦁᦂᦃᦄᦅᦆᦇᦈᦉᦊᦋᦌᦍᦎᦏᦐᦑᦒᦓᦔᦕᦖᦗᦘᦙᦚᦛᦜᦝᦞᦟᦠᦡᦢᦣᦤᦥᦦᦧᦨᦩᦪᦫ}
+
+\patterngroup[name="cons"]{ᦀᦁᦂᦃᦄᦅᦆᦇᦈᦉᦊᦋᦌᦍᦎᦏᦐᦑᦒᦓᦔᦕᦖᦗᦘᦙᦚᦛᦜᦝᦞᦟᦠᦡᦢᦣᦤᦥᦦᦧᦨᦩᦪᦫ}
+
+\subsection{Digits}
+
+\proof{᧐᧑᧒᧓᧔᧕᧖᧗᧘᧙}
+\patterngroup[name="digits"]{᧐᧑᧒᧓᧔᧕᧖᧗᧘᧙}
+\pattern[chars="@",reps="group_digits",format="list"]{᧐@᧑@᧒@᧓@᧔@᧕@᧖@᧗@᧘@᧙@}
+
+\subsection{Punctuation}
+
+\proof{!()*,-./:;?[]{}}
+\pattern[chars="@",reps="group_cons",format="list"]{@!@(@)@*@,@-@.@/@:@;@?@[@]@{@}@}
+
+\subsection{Spaces}
+
+\proof{H H H H H H H H H H0H H.H H H H H}
+
+\section{Generated}
+
+\subsection{Latin text}
+\pangrams
+\lorem[words=100]
+
+\subsection{Glyphs}
+\repertoire
+
+\subsection{New Tai Lue}
+\unicharchart[type=range,start=01980,end=19DF]
+
+\subsection{ASCII}
+\unicharchart[type=range,start=0020,end=007F]
+
+\subsection{Punctuation}
+\unicharchart[type=range,start=2010,end=201F]
+
+\subsection{Latin-1}
+\unicharchart[type=range,start=00A0,end=00FF]
+
+\end{document}
