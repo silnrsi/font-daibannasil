@@ -52,9 +52,8 @@ def doit(args):
     # Useful ranges of codepoints
     uids = sorted(builder.uids())
     consonants = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Consonant']
-    # right_matras = [uid for uid in uids if 'VOWEL SIGN' in get_ucd(uid, 'na') and get_ucd(uid, 'InPC') == 'Right']
-    left_matras = [uid for uid in uids if 'VOWEL SIGN' in get_ucd(uid, 'na') and get_ucd(uid, 'InPC') == 'Visual_Order_Left']
     matras = [uid for uid in uids if 'VOWEL SIGN' in get_ucd(uid, 'na')]
+    left_matras = [uid for uid in matras if get_ucd(uid, 'InPC') == 'Visual_Order_Left']
     digits = [uid for uid in uids if builder.char(uid).general == 'Nd' and uid in block]
 
     # Initialize FTML document:
@@ -124,7 +123,7 @@ def doit(args):
 
         # Characters used to create SILE test data
         ftml.startTestGroup('Proof')
-        for section in (matras, consonants, digits):
+        for section in (consonants, matras, digits):
             builder.render(section, ftml)
             ftml.closeTest()
 
