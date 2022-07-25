@@ -21,6 +21,15 @@ The fonts are built using a completely free and open source workflow using indus
 
 Full instructions for setting up the tools and building SIL fonts are available on a dedicated web site: [SIL Font Development Notes](https://silnrsi.github.io/silfontdev/).
 
+For building variable fonts (at this time, an experimental format for SIL fonts) run (on Linux and macOS; Windows requires slightly different commands):
+
+- python3 -m venv variable
+- source variable/bin/activate
+- pip3 install gftools
+- fontmake -m source/DaiBannaSIL-VF.designspace -o variable
+
+The output will be in the `variable_ttf` directory.
+
 ## Contributing to the project
 
 We warmly welcome contributions to the fonts, such as new glyphs, enhanced smart font code, or bug fixes. The [brief overview of contributing changes](https://silnrsi.github.io/silfontdev/en-US/Contributing_Changes.html) is a good place to begin. The next step is to contact us by responding to an existing issue or creating an issue in the Github repository and expressing your interest. We can then work together to plan and integrate your contributions.

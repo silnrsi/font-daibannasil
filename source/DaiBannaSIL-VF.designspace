@@ -9,14 +9,6 @@
             <map input="700.0" output="900.0" />
             <labelname xml:lang="en">Weight</labelname>
         </axis>
-        <axis default="100.0" maximum="100.0" minimum="100.0" name="width" tag="wdth">
-            <map input="100.0" output="100.0" />
-            <labelname xml:lang="en">Width</labelname>
-        </axis>
-        <axis default="0.0" maximum="0.0" minimum="0.0" name="custom" tag="XXXX">
-            <map input="0.0" output="0.0" />
-            <labelname xml:lang="en">Custom</labelname>
-        </axis>
     </axes>
     <sources>
         <source familyname="Dai Banna SIL" filename="masters/DaiBannaSIL-Light.ufo" name="Dai Banna SIL Light" stylename="Light">
@@ -26,15 +18,11 @@
             <info copy="1" />
             <location>
                 <dimension name="weight" xvalue="300.000000" />
-                <dimension name="width" xvalue="100.000000" />
-                <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
         <source familyname="Dai Banna SIL" filename="masters/DaiBannaSIL-Bold.ufo" name="Dai Banna SIL Bold" stylename="Bold">
             <location>
                 <dimension name="weight" xvalue="900.000000" />
-                <dimension name="width" xvalue="100.000000" />
-                <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
     </sources>
@@ -42,8 +30,6 @@
         <instance familyname="Dai Banna SIL" filename="instances/DaiBannaSIL-Light.ufo" name="Dai Banna SIL Light" stylename="Light" postscriptfontname="DaiBannaSIL-Light">
             <location>
                 <dimension name="weight" xvalue="300.000000" />
-                <dimension name="width" xvalue="100.000000" />
-                <dimension name="custom" xvalue="0.000000" />
             </location>
             <info />
             <kerning />
@@ -51,8 +37,6 @@
         <instance familyname="Dai Banna SIL" filename="instances/DaiBannaSIL-Regular.ufo" name="Dai Banna SIL Regular" stylename="Regular" postscriptfontname="DaiBannaSIL-Regular">
             <location>
                 <dimension name="weight" xvalue="450.000000" />
-                <dimension name="width" xvalue="100.000000" />
-                <dimension name="custom" xvalue="0.000000" />
             </location>
             <info />
             <kerning />
@@ -60,8 +44,6 @@
         <instance familyname="Dai Banna SIL" filename="instances/DaiBannaSIL-Medium.ufo" name="Dai Banna SIL Medium" stylename="Medium" postscriptfontname="DaiBannaSIL-Medium">
             <location>
                 <dimension name="weight" xvalue="575.000000" />
-                <dimension name="width" xvalue="100.000000" />
-                <dimension name="custom" xvalue="0.000000" />
             </location>
             <info />
             <kerning />
@@ -69,8 +51,6 @@
         <instance familyname="Dai Banna SIL" filename="instances/DaiBannaSIL-SemiBold.ufo" name="Dai Banna SIL SemiBold" stylename="SemiBold" postscriptfontname="DaiBannaSIL-SemiBold">
             <location>
                 <dimension name="weight" xvalue="700.000000" />
-                <dimension name="width" xvalue="100.000000" />
-                <dimension name="custom" xvalue="0.000000" />
             </location>
             <info />
             <kerning />
@@ -78,8 +58,6 @@
         <instance familyname="Dai Banna SIL" filename="instances/DaiBannaSIL-Bold.ufo" name="Dai Banna SIL Bold" stylename="Bold"  postscriptfontname="DaiBannaSIL-Bold">
             <location>
                 <dimension name="weight" xvalue="900.000000" />
-                <dimension name="width" xvalue="100.000000" />
-                <dimension name="custom" xvalue="0.000000" />
             </location>
             <info />
             <kerning />
