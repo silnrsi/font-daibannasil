@@ -54,7 +54,10 @@ def doit(args):
     consonants = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Consonant']
     matras = [uid for uid in uids if 'VOWEL SIGN' in get_ucd(uid, 'na')]
     left_matras = [uid for uid in matras if get_ucd(uid, 'InPC') == 'Visual_Order_Left']
+    final_consonants = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Consonant_Final']
+    tone = [uid for uid in uids if get_ucd(uid, 'InSC') == 'Tone_Mark']
     digits = [uid for uid in uids if builder.char(uid).general == 'Nd' and uid in block]
+    punct = [uid for uid in uids if get_ucd(uid, 'gc').startswith('P')]
 
     # Initialize FTML document:
     # Default name for test: AllChars or something based on the csvdata file:
@@ -123,7 +126,7 @@ def doit(args):
 
         # Characters used to create SILE test data
         ftml.startTestGroup('Proof')
-        for section in (consonants, matras, digits):
+        for section in (consonants, matras, final_consonants, tone, digits, punct):
             builder.render(section, ftml)
             ftml.closeTest()
 
@@ -134,10 +137,10 @@ def doit(args):
         for c in consonants:
             for m in matras:
                 if m in left_matras:
-                    combo = (m,c)
+                    cluster = (m,c)
                 else:
-                    combo = (c,m)
-                builder.render(combo, ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+                    cluster = (c,m)
+                builder.render(cluster, ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
 
     # Write the output ftml file

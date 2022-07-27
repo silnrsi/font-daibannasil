@@ -310,6 +310,21 @@ U+19C0">
       <comment>uni19B0 uni19B1 uni19B2 uni19B3 uni19B4 uni19B5 uni19B6 uni19B7 uni19B8 uni19B9 uni19BA uni19BB uni19BC uni19BD uni19BE uni19BF uni19C0</comment>
       <string>\u0019B0\u0019B1\u0019B2\u0019B3\u0019B4\u0019B5\u0019B6\u0019B7\u0019B8\u0019B9\u0019BA\u0019BB\u0019BC\u0019BD\u0019BE\u0019BF\u0019C0</string>
     </test>
+    <test label="U+19C1
+U+19C2
+U+19C3
+U+19C4
+U+19C5
+U+19C6
+U+19C7">
+      <comment>uni19C1 uni19C2 uni19C3 uni19C4 uni19C5 uni19C6 uni19C7</comment>
+      <string>\u0019C1\u0019C2\u0019C3\u0019C4\u0019C5\u0019C6\u0019C7</string>
+    </test>
+    <test label="U+19C8
+U+19C9">
+      <comment>uni19C8 uni19C9</comment>
+      <string>\u0019C8\u0019C9</string>
+    </test>
     <test label="U+19D0
 U+19D1
 U+19D2
@@ -322,6 +337,73 @@ U+19D8
 U+19D9">
       <comment>uni19D0 uni19D1 uni19D2 uni19D3 uni19D4 uni19D5 uni19D6 uni19D7 uni19D8 uni19D9</comment>
       <string>\u0019D0\u0019D1\u0019D2\u0019D3\u0019D4\u0019D5\u0019D6\u0019D7\u0019D8\u0019D9</string>
+    </test>
+    <test label="U+0021
+U+0022
+U+0023
+U+0025
+U+0026
+U+0027
+U+0028
+U+0029
+U+002A
+U+002C
+U+002D
+U+002E
+U+002F
+U+003A
+U+003B
+U+003F
+U+0040
+U+005B
+U+005C
+U+005D
+U+005F
+U+007B
+U+007D
+U+00A1
+U+00A7
+U+00AB
+U+00B6
+U+00B7
+U+00BB
+U+00BF
+U+2010
+U+2011
+U+2012
+U+2013
+U+2014
+U+2015
+U+2018
+U+2019
+U+201A
+U+201C
+U+201D
+U+201E
+U+2020
+U+2021
+U+2022
+U+2026
+U+2027
+U+2030
+U+2039
+U+203A
+U+3001
+U+3002
+U+3008
+U+3009
+U+300A
+U+300B
+U+FF01
+U+FF08
+U+FF09
+U+FF0C
+U+FF0E
+U+FF1A
+U+FF1B
+U+FF1F">
+      <comment>exclam quotedbl numbersign percent ampersand quotesingle parenleft parenright asterisk comma hyphen period slash colon semicolon question at bracketleft backslash bracketright underscore braceleft braceright exclamdown section guillemotleft paragraph periodcentered guillemotright questiondown hyphentwo nbhyphen figuredash endash emdash horizontalbar quoteleft quoteright quotesinglbase quotedblleft quotedblright quotedblbase dagger daggerdbl bullet ellipsis HyphenationPt perthousand guilsinglleft guilsinglright uni3001 uni3002 uni3008 uni3009 uni300A uni300B uniFF01 uniFF08 uniFF09 uniFF0C uniFF0E uniFF1A uniFF1B uniFF1F</comment>
+      <string>!"#%&amp;'()*,-./:;?@[\]_{}\u0000A1\u0000A7\u0000AB\u0000B6\u0000B7\u0000BB\u0000BF\u002010\u002011\u002012\u002013\u002014\u002015\u002018\u002019\u00201A\u00201C\u00201D\u00201E\u002020\u002021\u002022\u002026\u002027\u002030\u002039\u00203A\u003001\u003002\u003008\u003009\u00300A\u00300B\u00FF01\u00FF08\u00FF09\u00FF0C\u00FF0E\u00FF1A\u00FF1B\u00FF1F</string>
     </test>
   </testgroup>
 </ftml>

@@ -13,21 +13,33 @@
 
 \subsection{Letters}
 
-\proof{ᦰᦱᦲᦳᦴᦵᦶᦷᦸᦹᦺᦻᦼᦽᦾᦿᧀ}
-\proof{ᦀᦁᦂᦃᦄᦅᦆᦇᦈᦉᦊᦋᦌᦍᦎᦏᦐᦑᦒᦓᦔᦕᦖᦗᦘᦙᦚᦛᦜᦝᦞᦟᦠᦡᦢᦣᦤᦥᦦᦧᦨᦩᦪᦫ}
-
 \patterngroup[name="cons"]{ᦀᦁᦂᦃᦄᦅᦆᦇᦈᦉᦊᦋᦌᦍᦎᦏᦐᦑᦒᦓᦔᦕᦖᦗᦘᦙᦚᦛᦜᦝᦞᦟᦠᦡᦢᦣᦤᦥᦦᦧᦨᦩᦪᦫ}
+\patterngroup[name="left_matras"]{ᦵᦶᦷᦺ}
+\patterngroup[name="right_matras"]{ᦰᦱᦲᦳᦴᦸᦹᦻᦼᦽᦾᦿᧀ}
+\patterngroup[name="cons_final"]{ᧁᧂᧃᧄᧅᧆᧇ}
+\patterngroup[name="tone"]{ᧈᧉ}
+
+\pattern[chars="C",reps="group_cons",format="para"]{C}
+\pattern[chars="M",reps="group_left_matras",format="para"]{M}
+\pattern[chars="M",reps="group_right_matras",format="para"]{M}
+\pattern[chars="F",reps="group_cons_final",format="para"]{F}
+\pattern[chars="T",reps="group_tone",format="para"]{T}
+
+\pattern[chars="M,C",reps="group_right_matras,group_cons",format="table",heading=Cons+RightMatras]{CM}
+\pattern[chars="M,C",reps="group_left_matras,group_cons,",format="table",heading=Left Matras+Cons]{MC}
+\pattern[chars="C,T",reps="group_cons,group_tone",format="table",heading=Cons+Tone]{CT}
+\pattern[chars="M,T",reps="group_right_matras,group_tone",format="table",heading=RightMatras+Tone]{MT}
 
 \subsection{Digits}
 
-\proof{᧐᧑᧒᧓᧔᧕᧖᧗᧘᧙}
 \patterngroup[name="digits"]{᧐᧑᧒᧓᧔᧕᧖᧗᧘᧙}
+\pattern[chars="D",reps="group_digits",format="para"]{D}
 \pattern[chars="@",reps="group_digits",format="list"]{᧐@᧑@᧒@᧓@᧔@᧕@᧖@᧗@᧘@᧙@}
 
 \subsection{Punctuation}
 
-\proof{!()*,-./:;?[]{}}
-\pattern[chars="@",reps="group_cons",format="list"]{@!@(@)@*@,@-@.@/@:@;@?@[@]@{@}@}
+\proof{!"#&'()*,-./:;?[]‐‑‒–—―‘’‚“”„†‡•…‧‰‹›、。〈〉《》！（），．：；？}
+\pattern[chars="@",reps="group_cons",format="list"]{@!@"@#@&@'@(@)@*@,@-@.@/@:@;@?@[@]@‐@‑@‒@–@—@―@‘@’@‚@“@”@„@†@‡@•@…@‧@‹@›@、@。@〈@〉@《@》@！@（@）@，@．@：@；@？@}
 
 \subsection{Spaces}
 
@@ -50,6 +62,12 @@
 
 \subsection{Punctuation}
 \unicharchart[type=range,start=2010,end=201F]
+
+\subsection{CJK Punctuation}
+\unicharchart[type=range,start=3000,end=300F]
+
+\subsection{Full-width Punctuation}
+\unicharchart[type=range,start=FF00,end=FF0F]
 
 \subsection{Latin-1}
 \unicharchart[type=range,start=00A0,end=00FF]
