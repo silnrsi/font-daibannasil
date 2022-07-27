@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
   <key>ascender</key>
-  <integer>1662</integer>
+  <integer>1685</integer>
   <key>capHeight</key>
   <integer>1355</integer>
   <key>copyright</key>
   <string>Copyright (c) 1998-2022 SIL International</string>
   <key>descender</key>
-  <integer>-648</integer>
+  <integer>-638</integer>
   <key>familyName</key>
   <string>Dai Banna SIL</string>
   <key>openTypeHeadCreated</key>
-  <string>2022/07/13 17:50:14</string>
+  <string>2022/07/27 06:35:23</string>
   <key>openTypeHheaAscender</key>
-  <integer>1662</integer>
+  <integer>1685</integer>
   <key>openTypeHheaDescender</key>
-  <integer>-648</integer>
+  <integer>-638</integer>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
@@ -130,9 +130,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2Type</key>
   <array/>
   <key>openTypeOS2TypoAscender</key>
-  <integer>1662</integer>
+  <integer>1685</integer>
   <key>openTypeOS2TypoDescender</key>
-  <integer>-648</integer>
+  <integer>-638</integer>
   <key>openTypeOS2TypoLineGap</key>
   <integer>0</integer>
   <key>openTypeOS2UnicodeRanges</key>
@@ -166,9 +166,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
-  <integer>1662</integer>
+  <integer>1685</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>648</integer>
+  <integer>638</integer>
   <key>postscriptBlueValues</key>
   <array>
     <integer>-33</integer>
