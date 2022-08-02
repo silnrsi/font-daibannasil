@@ -603,5 +603,10 @@
     <key>zwnj</key>
     <string>uni200C</string>
   </dict>
+  <key>public.skipExportGlyphs</key>
+  <array>
+    <string>dailuemodifierfinal</string>
+    <string>dailuemodifierw</string>
+  </array>
 </dict>
 </plist>
