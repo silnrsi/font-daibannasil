@@ -42,7 +42,7 @@ Non-tested but possible functionality might include these applications:
 - FireFox browser
 - XeTeX typesetting program
 
-More information on [Graphite technology](https://scripts.sil.org/RenderingGraphite) and related applications is available.
+More information on [Graphite technology](https://graphite.sil.org/) and related applications is available.
 
 The following script sample is taken from a traditional long poem.[^sample]  Notice how lines are broken depending on what application is being used:
 

@@ -46,7 +46,7 @@ def doit(args):
     # Override default base (25CC) for displaying combining marks:
     builder.diacBase = 0x1980   # high qa
 
-    # Specify blocks of primary and secondary scripts
+    # Specify block of primary script
     block = range(0x1980, 0x19DF+1)
 
     # Useful ranges of codepoints
@@ -132,7 +132,6 @@ def doit(args):
 
     if test.lower().startswith("matras"):
         # Combinations with matras:
-
         ftml.startTestGroup('Consonants with matras')
         for c in consonants:
             for m in matras:

@@ -1,23 +1,21 @@
 FONTLOG
-Dai Banna SIL Fonts
-===================
+Dai Banna SIL
+=============
 
 This file provides detailed information on the Dai Banna SIL fonts.
 This information should be distributed along with the Dai Banna SIL fonts and any derivative works.
 
+## About this project
 
-Basic Font Information
-----------------------
+This project is intended to provide a free and open font family for all current languages and writing systems that use the New Tai Lue (Xishuangbanna Dai) script.
+The New Tai Lue script is used by approximately 300,000 people who speak the Xishuangbanna Dai language in Yunnan, China. It is a simplification of the Tai Tham (Old Tai Lue) script as used for this language for hundreds of years.
 
-Dai Banna SIL is a Unicode font package that supports the New Tai Lue script.  The New Tai Lue script is used by approximately 300,000 people who speak the Xishuangbanna Dai language in Yunnan, China.  It is a simplification of the Tai Tham (Old Tai Lue) script as used for this language for hundreds of years.
-
-It has complete coverage of the NEW TAI LUE Unicode block (U+1980..19DF) as per Unicode 6.0.  It uses Graphite technology to support complex script behaviours like intersyllabic line breaking in spaceless text.  (NB: Only basic break opportunities are accounted for in the current release.  Breaking behaviours for numbers and special CCV structures have yet to be added.)
+It uses Graphite technology to support complex script behaviours like intersyllabic line breaking in spaceless text. (NB: Only basic break opportunities are accounted for in the current release. Breaking behaviours for numbers and special CCV structures have yet to be added.)
 
 The previous weights in two families (Dai Banna SIL Light and Dai Banna SIL Book) are now included in one family (Dai Banna SIL) with an additional weight (Medium).
 
+## ChangeLog
 
-ChangeLog
----------
 (This should list both major and minor changes, most recent first.)
 
 ### unreleased (SIL WSTech team) Dai Banna SIL version 4.000
@@ -56,9 +54,8 @@ ChangeLog
 ### 17 Mar 2000 (SIL) SIL Dai Banna version 1.000
 - Initial freeware release
 
+## Information for Contributors
 
-Information for Contributors
-----------------------------
 We welcome contributions to this font project, such as new glyphs, enhanced
 smart font code, or bug fixes. The best way to begin the process is to file an
 issue in the Github project (https://github.com/silnrsi/font-daibannasil/issues)
@@ -74,21 +71,22 @@ your contribution. To read more about this requirement and find out how to
 submit the required form, please visit the CLA information page
 (https://software.sil.org/fontcla).
 
+## Acknowledgements
 
-Acknowledgements
-----------------
-(Here is where contributors can be acknowledged.  If you make modifications be sure to add your name (N), email (E), web-address (W) and description (D).  This list is sorted by last name in alphabetical order.)
+(Here is where contributors can be acknowledged. If you make modifications be sure to add your name (N), email (E), web-address (W) and description (D). This list is sorted by last name in alphabetical order.)
 
 N: Adrian Cheuk, Victor Gaultney, Martin Hosken, Julie Remington, Bobby de Vos
-E: fonts@sil.org
+E: https://software.sil.org/daibanna/#contact
 W: https://software.sil.org/daibanna/
 D: SIL designers and font engineers
 
 The original, non-Unicode font package (SIL Dai Banna) was developed with assistance from the Research Centre for the Minority Languages of China, Institute of Ethonology and Anthropology, Chinese Academy of Social Sciences located in Beijing, China.
 
-Subsequent, Unicode releases (Dai Banna SIL) were developed with valuable input from Ms. YU Kanglong, Chief Editor, Dai News Department, Xishuangbanna Daily.  Xishuangbanna Daily, established since 1957, is the largest newspaper company in Yunnan, China that publishes in the New Tai Lue script.
+Subsequent, Unicode releases (Dai Banna SIL) were developed with valuable input from Ms. YU Kanglong, Chief Editor, Dai News Department, Xishuangbanna Daily. Xishuangbanna Daily, established since 1957, is the largest newspaper company in Yunnan, China that publishes in the New Tai Lue script.
 
-The Dai Banna SIL project is maintained by SIL International.
+The Dai Banna SIL project is maintained by SIL International, a global,
+faith-based nonprofit that works with local communities around the world
+to develop language solutions that expand possibilities for a better life.
 
-For more information please visit the Dai Banna SIL page on SIL International's
-Computers and Writing systems website: https://software.sil.org/daibanna/
+For more information or support please visit:
+https://software.sil.org/daibanna/

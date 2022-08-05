@@ -1,7 +1,9 @@
 ---
-title: Dai Banna SIL - Dai Banna
+title: Dai Banna SIL - Product Site
 fontversion: 4.000
 ---
+
+# Dai Banna SIL
 
 ![Dai Banna SIL - Banner](assets/images/dbsil_banner.png){.fullsize}
 <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/wp/wp-content/uploads/2022/07/dbsil_banner.png -->
@@ -31,7 +33,7 @@ Non-tested but possible functionality might include these applications:
 - FireFox browser
 - XeTeX typesetting program
 
-More information on Graphite technology and related applications is available at [Graphite](https://scripts.sil.org/cms/scripts/page.php?site_id=projects&item_id=graphite_home).
+More information on Graphite technology and related applications is available at [Graphite](https://graphite.sil.org/).
 
 <h2 id="downloads">Downloads</h2>
 
