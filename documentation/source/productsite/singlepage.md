@@ -6,7 +6,7 @@
 
 <h2 id="about">About</h2>
 
-Dai Banna SIL is a Unicode font package for rendering New Tai Lue (Xishuangbanna Dai) characters. It includes a complete set of New Tai Lue consonants, vowels, tones, and digits, along with punctuation and other useful symbols. A basic set of Latin glyphs, including Arabic numerals, is also provided. Apart from a few New Tai Lue characters and Chinese punctuation marks, the design is the same as its predecessor, SIL Dai Banna (obsolete).
+Dai Banna SIL is a Unicode font package for rendering New Tai Lue (Xishuangbanna Dai) characters. It includes a complete set of New Tai Lue consonants, vowels, tones, and digits, along with punctuation and other useful symbols. Apart from a few New Tai Lue characters and Chinese punctuation marks, the design is the same as its predecessor, SIL Dai Banna (obsolete).
 
 For a different style of New Tai Lue script, see SIL’s [Nokyung](https://software.sil.org/nokyung) fonts.
 

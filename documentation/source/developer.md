@@ -1,5 +1,5 @@
 ---
-title: Dai Banna SIL - Developer information
+title: Dai Banna SIL - Developer Information
 fontversion: 4.000
 ---
 

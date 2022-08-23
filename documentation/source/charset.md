@@ -3,7 +3,10 @@ title: Dai Banna SIL - Character Set Support
 fontversion: 4.000
 ---
 
-Dai Banna SIL includes a complete set of New Tai Lue consonants, vowels, tones and digits, along with punctuation and other useful symbols. A basic set of Latin glyphs, including Arabic numerals, is also provided. Chinese punctuation used in New Tai Lue texts are included as well.
+Dai Banna SIL includes a complete set of New Tai Lue consonants, vowels, tones and digits, along with punctuation and other useful symbols.
+Chinese punctuation used in New Tai Lue texts, and a basic set of Latin characters, are included as well.
+Inclusion of a basic Latin repertoire is provided as a convenience, e.g., for use in menus or for displaying markup in text files.
+These fonts are not intended for extensive Latin script use.
 
 ## Supported characters
 

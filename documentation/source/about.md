@@ -5,7 +5,8 @@ fontversion: 4.000
 
 ## About this project
 
-This project is intended to provide a free and open font family for all current languages and writing systems that use the New Tai Lue (Xishuangbanna Dai) script. The New Tai Lue script is used by approximately 300,000 people who speak the Xishuangbanna Dai language in Yunnan, China. It is a simplification of the Tai Tham (Old Tai Lue) script as used for this language for hundreds of years.
+This project provides a free and open font family for the New Tai Lue (Xishuangbanna Dai) script.
+The New Tai Lue script is used by approximately 300,000 people who speak the Xishuangbanna Dai language in Yunnan, China. It is a simplification of the Tai Tham (Old Tai Lue) script as used for this language for hundreds of years.
 
 For more information on the visual characteristics of the font family see [Design](design.md).
 

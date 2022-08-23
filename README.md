@@ -1,6 +1,6 @@
 ## Dai Banna SIL [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_DaiBanna/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_DaiBanna&guest=1)
 
-This project is intended to provide a free and open font family for all current languages and writing systems that use the New Tai Lue (Xishuangbanna Dai) script.
+This project provides a free and open font family for the New Tai Lue (Xishuangbanna Dai) script.
 This project uses a UFO-based design and production workflow, with all sources in open formats and a completely open-source build toolkit.
 
 To download the fonts visit the [Dai Banna SIL downloads page](https://software.sil.org/daibanna/#downloads) or the [Github releases page](https://github.com/silnrsi/font-daibannasil/releases).

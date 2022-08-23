@@ -9,7 +9,7 @@ If you would like stay informed of updates to Dai Banna SIL and other SIL fonts,
 
 Our font announcements are also available through Twitter [@silfonts](http://twitter.com/silfonts).
 
-## Current versions
+## Current version
 
 The latest version of the fonts is always available from the [Dai Banna SIL download page](https://software.sil.org/daibanna/#downloads) as a .zip archive for all major platforms.
 
@@ -17,7 +17,7 @@ This font package is also available in the [SIL software repository for Ubuntu](
 
 ## Previous versions
 
-Previous versions remain available from our [Previous Versions archive](https://software.sil.org/daibanna/#downloads).
+Previous versions remain available from the [Dai Banna SIL download page](https://software.sil.org/daibanna/#downloads).
 
 ## Change history
 

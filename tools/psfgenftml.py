@@ -131,7 +131,6 @@ def doit(args):
             ftml.closeTest()
 
     if test.lower().startswith("matras"):
-        # Combinations with matras:
         ftml.startTestGroup('Consonants with matras')
         for c in consonants:
             for m in matras:
