@@ -1,6 +1,6 @@
 ---
 title: Dai Banna SIL - Character Set Support
-fontversion: 4.000
+fontversion: 4.001
 ---
 
 Dai Banna SIL includes a complete set of New Tai Lue consonants, vowels, tones and digits, along with punctuation and other useful symbols.

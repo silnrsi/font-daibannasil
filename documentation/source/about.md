@@ -1,6 +1,6 @@
 ---
 title: Dai Banna SIL - About
-fontversion: 4.000
+fontversion: 4.001
 ---
 
 ## About this project

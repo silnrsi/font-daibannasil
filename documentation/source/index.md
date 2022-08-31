@@ -1,6 +1,6 @@
 ---
 title: Dai Banna SIL - Documentation
-fontversion: 4.000
+fontversion: 4.001
 ---
 
 Thank you for your interest in the Dai Banna SIL fonts for the New Tai Lue (Xishuangbanna Dai) script.

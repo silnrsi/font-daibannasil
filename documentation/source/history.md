@@ -1,6 +1,6 @@
 ---
 title: Dai Banna SIL - Version History
-fontversion: 4.000
+fontversion: 4.001
 ---
 
 ### 23 Aug 2022 (SIL WSTech team) Dai Banna SIL version 4.000
