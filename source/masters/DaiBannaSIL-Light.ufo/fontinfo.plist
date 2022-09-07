@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Dai Banna SIL</string>
   <key>openTypeHeadCreated</key>
-  <string>2022/08/17 14:20:36</string>
+  <string>2022/09/07 09:37:43</string>
   <key>openTypeHheaAscender</key>
   <integer>1685</integer>
   <key>openTypeHheaDescender</key>
@@ -105,8 +105,8 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   </array>
   <key>openTypeOS2Selection</key>
   <array>
-    <integer>7</integer>
     <integer>8</integer>
+    <integer>7</integer>
   </array>
   <key>openTypeOS2StrikeoutPosition</key>
   <integer>530</integer>
