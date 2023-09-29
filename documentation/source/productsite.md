@@ -5,7 +5,6 @@ fontversion: 4.001
 
 ![Dai Banna SIL - Banner](assets/images/dbsil_banner.png){.fullsize}
 <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/wp/wp-content/uploads/2022/08/dbsil_banner.png -->
-<!-- <figcaption>Dai Banna SIL</figcaption> -->
 
 <h2 id="about">About</h2>
 

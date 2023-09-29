@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Dai Banna SIL</string>
   <key>openTypeHeadCreated</key>
-  <string>2022/09/07 09:37:43</string>
+  <string>2023/09/27 10:46:41</string>
   <key>openTypeHheaAscender</key>
   <integer>1685</integer>
   <key>openTypeHheaDescender</key>
@@ -25,12 +25,12 @@
   <key>openTypeNameDesigner</key>
   <string>Victor Gaultney</string>
   <key>openTypeNameDesignerURL</key>
-  <string>http://scripts.sil.org/</string>
+  <string>https://software.sil.org/wstech/</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 1998-2022 SIL International (http://www.sil.org/), with Reserved Font Name "SIL".
+  <string>Copyright (c) 1998-2022 SIL International (https://www.sil.org/), with Reserved Font Name "SIL".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+This license is copied below, and is also available with a FAQ at: https://scripts.sil.org/OFL
 
 
 -----------------------------------------------------------
@@ -72,17 +72,17 @@ This license becomes null and void if any of the above conditions are not met.
 DISCLAIMER
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.</string>
   <key>openTypeNameLicenseURL</key>
-  <string>http://scripts.sil.org/OFL</string>
+  <string>https://scripts.sil.org/OFL</string>
   <key>openTypeNameManufacturer</key>
   <string>SIL International</string>
   <key>openTypeNameManufacturerURL</key>
-  <string>http://www.sil.org/</string>
+  <string>https://software.sil.org/wstech/</string>
   <key>openTypeNamePreferredFamilyName</key>
   <string>Dai Banna SIL</string>
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Light</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Dai Banna SIL Light: 2022</string>
+  <string>SIL International: Dai Banna SIL Light: 2023</string>
   <key>openTypeNameVersion</key>
   <string>Version 4.001</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -105,8 +105,8 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   </array>
   <key>openTypeOS2Selection</key>
   <array>
-    <integer>8</integer>
     <integer>7</integer>
+    <integer>8</integer>
   </array>
   <key>openTypeOS2StrikeoutPosition</key>
   <integer>530</integer>

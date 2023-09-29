@@ -24,6 +24,6 @@ psfbuildcomp -i source/composites.txt -c -n source/masters/DaiBannaSIL-LightItal
 psfbuildcomp -i source/composites.txt -c -n source/masters/DaiBannaSIL-BoldItalic.ufo -p backup=False
 
 echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
-psfsyncmasters -q --complex source/DaiBannaSILUpright.designspace source/DaiBannaSILItalic.designspace
+psfsyncmasters -q source/DaiBannaSILUpright.designspace source/DaiBannaSILItalic.designspace
 
 echo "-----Preflight completed!"

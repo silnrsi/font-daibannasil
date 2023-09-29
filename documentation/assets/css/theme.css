@@ -1,6 +1,6 @@
 /*
 This file is from the Dai Banna SIL project (https://software.sil.org/daibanna/).
-Copyright (c) 1998-2022 SIL International (http://www.sil.org/),
+Copyright (c) 1998-2022 SIL International (https://www.sil.org/),
 with Reserved Font Name "SIL".
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 */
@@ -195,6 +195,7 @@ kbd{
 footer {
     margin-top: 2rem;
     margin-bottom: 1rem;
+    color: #999999;
 }
 
 .affects {
