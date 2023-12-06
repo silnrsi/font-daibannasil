@@ -14,12 +14,12 @@
       Dai Banna SIL is a Unicode font package that supports the New Tai Lue script.  The New Tai Lue script is used by approximately 300,000 people who speak the Xishuangbanna Dai language in Yunnan, China.  It is a simplification of the Tai Tham (Old Tai Lue) script as used for this language for hundreds of years.
     </text>
   </description>
-  <license url="https://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
+  <license url="https://openfontlicense.org" id="org.sil.ofl.1.1">
     <text lang="en">
       Copyright (c) 1998-2022 SIL International (https://www.sil.org/), with Reserved Font Name "SIL".
       
       This Font Software is licensed under the SIL Open Font License, Version 1.1.
-      This license is copied below, and is also available with a FAQ at: https://scripts.sil.org/OFL
+      This license is copied below, and is also available with a FAQ at: https://openfontlicense.org
       
       
       -----------------------------------------------------------

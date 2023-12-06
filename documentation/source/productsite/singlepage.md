@@ -32,7 +32,7 @@ More information on Graphite technology and related applications is available at
 
 ### License
 
-These fonts are licensed under the [SIL Open Font License (OFL)](https://scripts.sil.org/OFL)
+These fonts are licensed under the [SIL Open Font License (OFL)](https://openfontlicense.org)
 
 <img class='fullsize' alt='SIL Open Font License (OFL)' src='https://software.sil.org/wp/wp-content/uploads/2019/03/OFL_logo_rect_color.png' />
 
