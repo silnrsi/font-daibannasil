@@ -1,0 +1,13 @@
+sources:
+  - source/DaiBannaSIL-VF.designspace
+  # - source/DaiBannaSIL-Italic-VF.designspace
+axisOrder:
+  - wght
+  - ital
+familyName: Dai Banna SIL
+flattenComponents: false
+autohintTTF: false
+
+buildStatic: false
+buildWebfont: true
+outputDir: gf

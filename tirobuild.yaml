@@ -1,0 +1,7 @@
+vf-suffix: TB
+formats: [ttf, woff2]
+fonts:
+  DaiBannaSIL-TB:
+    source: source/DaiBannaSIL-VF.designspace
+  DaiBannaSIL-TB-Italic:
+    source: source/DaiBannaSIL-Italic-VF.designspace

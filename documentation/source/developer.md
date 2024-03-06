@@ -26,9 +26,9 @@ For building variable fonts (at this time, an experimental format for SIL fonts)
 - python3 -m venv variable
 - source variable/bin/activate
 - pip3 install gftools
-- fontmake -m source/DaiBannaSIL-VF.designspace -o variable
+- gftools builder googlefonts.yaml
 
-The output will be in the `variable_ttf` directory.
+The output will be in the `gf/variable` directory.
 
 ## Contributing to the project
 
