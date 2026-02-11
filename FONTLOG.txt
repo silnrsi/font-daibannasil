@@ -65,8 +65,8 @@ best submit your contributions.
 
 To enable us to accept contributions in a way that honors your contribution
 and respects your copyright while preserving long-term flexibility for open
-source licensing, you would also need to agree to the SIL International
-Contributor License Agreement for Font Software (v1.0) prior to sending us
+source licensing, you would also need to agree to the SIL Global
+Contributor License Agreement for Font Software (v1.1) prior to sending us
 your contribution. To read more about this requirement and find out how to
 submit the required form, please visit the CLA information page
 (https://software.sil.org/fontcla).
@@ -86,7 +86,7 @@ The original, non-Unicode font package (SIL Dai Banna) was developed with assist
 
 Subsequent, Unicode releases (Dai Banna SIL) were developed with valuable input from Ms. YU Kanglong, Chief Editor, Dai News Department, Xishuangbanna Daily. Xishuangbanna Daily, established since 1957, is the largest newspaper company in Yunnan, China that publishes in the New Tai Lue script.
 
-The Dai Banna SIL project is maintained by SIL International, a global,
+The Dai Banna SIL project is maintained by SIL Global, a global,
 faith-based nonprofit that works with local communities around the world
 to develop language solutions that expand possibilities for a better life.
 
