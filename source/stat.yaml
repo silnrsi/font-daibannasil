@@ -1,4 +1,4 @@
-DaiBannaSIL-SF.ttf:
+DaiBannaSIL.ttf:
 - name: Weight
   tag: wght
   values:
@@ -21,7 +21,7 @@ DaiBannaSIL-SF.ttf:
     value: 0
     linkedValue: 1
     flags: 2
-DaiBannaSIL-Italic-SF.ttf:
+DaiBannaSIL-Italic.ttf:
 - name: Weight
   tag: wght
   values:

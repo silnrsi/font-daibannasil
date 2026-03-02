@@ -1,10 +1,11 @@
 sources:
   - source/DaiBannaSIL-VF.designspace
-  # - source/DaiBannaSIL-Italic-VF.designspace
+  - source/DaiBannaSIL-Italic-VF.designspace
 axisOrder:
   - wght
   - ital
-familyName: Dai Banna SIL
+familyName: "Dai Banna SIL"
+includeSourceFixes: true
 flattenComponents: false
 autohintTTF: false
 

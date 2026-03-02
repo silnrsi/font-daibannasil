@@ -28,3 +28,25 @@ for dspace in ('Upright', 'Italic'):
         shortcircuit = False,
         pdf = fret(params='-oi')
     )
+
+variable = package(
+    appname = APPNAME + '-variable',
+    version = VERSION,
+    docdir = {'documentation': 'documentation', 'variable/web': 'web'}
+)
+
+for face in ('', '-Italic'):
+    stem = f'{APPNAME}{face}'
+    font(target = process(f'variable/{stem}.ttf',
+        cmd('gftools fix-font --include-source-fixes -o ${TGT} ${DEP}'),
+        cmd('../tools/genstat.sh ../source/stat.yaml ${DEP} ${TGT}')
+        ),
+        source = f'source/{stem}-VF.designspace',
+        params = '--feature-writer None --filter DecomposeTransformedComponentsFilter',
+        version = VERSION,
+        woff = woff(f'variable/web/{stem}.woff2', type='woff2',
+            metadata = f'../source/{APPNAME}-WOFF-metadata.xml',
+            dontship = True),
+        package = variable,
+        no_test = True
+    )
