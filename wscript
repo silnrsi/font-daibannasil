@@ -32,7 +32,7 @@ for dspace in ('Upright', 'Italic'):
 variable = package(
     appname = APPNAME + '-variable',
     version = VERSION,
-    docdir = {'documentation': 'documentation', 'variable/web': 'web'}
+    docdir = {'documentation': 'documentation', 'variable/web': 'variable/web'}
 )
 
 for face in ('', '-Italic'):
@@ -41,7 +41,7 @@ for face in ('', '-Italic'):
         cmd('gftools fix-font --include-source-fixes -o ${TGT} ${DEP}'),
         cmd('../tools/genstat.sh ../source/stat.yaml ${DEP} ${TGT}')
         ),
-        source = f'source/{stem}-VF.designspace',
+        source = f'source/variable/{stem}.designspace',
         params = '--feature-writer None --filter DecomposeTransformedComponentsFilter',
         version = VERSION,
         woff = woff(f'variable/web/{stem}.woff2', type='woff2',

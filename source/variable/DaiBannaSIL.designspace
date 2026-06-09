@@ -11,7 +11,7 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Dai Banna SIL" filename="masters/DaiBannaSIL-Light.ufo" name="Dai Banna SIL Light" stylename="Light">
+        <source familyname="Dai Banna SIL" filename="../masters/DaiBannaSIL-Light.ufo" name="Dai Banna SIL Light" stylename="Light">
             <lib copy="1" />
             <groups copy="1" />
             <features copy="1" />
@@ -20,7 +20,7 @@
                 <dimension name="weight" xvalue="300.000000" />
             </location>
         </source>
-        <source familyname="Dai Banna SIL" filename="masters/DaiBannaSIL-Bold.ufo" name="Dai Banna SIL Bold" stylename="Bold">
+        <source familyname="Dai Banna SIL" filename="../masters/DaiBannaSIL-Bold.ufo" name="Dai Banna SIL Bold" stylename="Bold">
             <location>
                 <dimension name="weight" xvalue="900.000000" />
             </location>
